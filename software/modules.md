@@ -15,10 +15,10 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-17 20:42:53._
+_The below information was automatically generated on 2017-06-17 20:53:50._
 
 
-### Modules: $MODULE_ROOT/repos/.modulefiles/repos-cbc
+### Modules: $MODULEPATH_ROOT/repos/.repos-cbc
 
 <table>
  <tr>
@@ -229,7 +229,7 @@ _The below information was automatically generated on 2017-06-17 20:42:53._
   2.1.1, 2.1.3
   </td>
   <td>
-  <strong></strong><br>
+  <strong>Git - distributed version control system</strong><br>
   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
   URL: https://git-scm.com/<br>
   </td>
