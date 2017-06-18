@@ -23,3 +23,7 @@ last_month: figures
 
 last_year: figures
 	wget --quiet -O figures/cpu_load_last_year.gif "http://cclc01.ucsf.edu/ganglia/graph.php?g=load_report&z=medium&c=cclc01&m=load_one&r=year"
+
+deploy:
+	git commit figures/ -m "STATUS: Updated figures"
+	git push
