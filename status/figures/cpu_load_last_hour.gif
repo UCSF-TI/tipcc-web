@@ -1,0 +1,11 @@
+--2017-06-17 22:47:55--  http://cclc01.ucsf.edu/ganglia/graph.php?g=load_report&z=medium&c=cclc01&m=load_one&r=hour
+Resolving cclc01.ucsf.edu... 169.230.134.141
+Connecting to cclc01.ucsf.edu|169.230.134.141|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/gif]
+Saving to: “graph.php?g=load_report&z=medium&c=cclc01&m=load_one&r=hour”
+
+     0K .......... ..                                           359M=0s
+
+2017-06-17 22:48:01 (359 MB/s) - “graph.php?g=load_report&z=medium&c=cclc01&m=load_one&r=hour” saved [13040]
+
