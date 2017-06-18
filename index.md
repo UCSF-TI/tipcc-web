@@ -1,4 +1,4 @@
-# Welcome to TIPCC
+# TIPCC - a High-Performance Compute Environment at UCSF
 
 At the UCSF Helen Diller Family Comprehensive Cancer Center we have a large Linux compute cluster that is available to anyone affiliated with the Cancer Center - feel free to [contact us] if you would like to [join] or have questions.
 
