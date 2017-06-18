@@ -1,31 +1,30 @@
+
 <div class="alert alert-warning" role="alert">
 Environment modules are currently in beta - to enable them, see Configuration / <a href="{{ '/configuration/lmod.html' | relative_url }}">Enable Software Modules</a>.
 </div>
 
-<h1>Available software</h1>
+# Software
 
-<p>
-To use one or more of the below software modules, use <code>module load &lt;name&gt;</code> or <code>module load &lt;name&gt;/&lt;version&gt;</code>.  Here a few examples:
-<pre>
+To use one or more of the below software modules, use `module load <name>` or `module load <name>/<version>`.  Here are a few examples:
+```sh
 module load bowtie2
 module load bowtie2/2.2.6
 module load python r bwa
-</pre>
-  
+```
 
-<h2>Available Modules</h2>
-<em>The below information was automatically generated on 2017-06-16 18:18:44</em>
 
-<h3>Modules: /home/shared/cbc/apps/modulefiles/Linux</h3>
+## Modules
+
+_The below information was automatically generated on 2017-06-17 18:49:34._
+
+
+### Modules: /home/shared/cbc/apps/modulefiles/Linux
 
 <table>
-<thead>
  <tr>
   <th>name &amp; versions</th>
   <th>description</th>
  </tr>
-</thead>
-<tbody>
  <tr>
   <td>
   <strong>anaconda</strong><br>
@@ -143,7 +142,7 @@ module load python r bwa
   </td>
   <td>
   <strong>CBC Tools</strong><br>
-  CBC Tools setup via modules.<br>
+  CBC Tools setup via modules. Version >= 0.2.0 does *not* load Anaconda.<br>
   URL: https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC<br>
   </td>
  </tr>
@@ -230,7 +229,7 @@ module load python r bwa
   2.1.1, 2.1.3
   </td>
   <td>
-  <strong>Git - distributed version control system</strong><br>
+  <strong></strong><br>
   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
   URL: https://git-scm.com/<br>
   </td>
@@ -521,5 +520,4 @@ module load python r bwa
   URL: http://cic.cs.wustl.edu/wordspy/dltemp.htm<br>
   </td>
  </tr>
-</tbody>
 </table>

@@ -1,4 +1,4 @@
-PAGE=modules-all
+PAGE=modules
 
 all: $(PAGE).md
 

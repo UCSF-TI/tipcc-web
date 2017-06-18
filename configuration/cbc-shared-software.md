@@ -1,5 +1,5 @@
 <div class="alert alert-warning" role="alert">
-The below configuration instructions will soon be deprecated in favor of using <code>module load cbc-shared</code>.  To make use of the latter, see <a href="{{ '/software/software-available-modules.html' | relative_url }}">software environment modules</a>.
+The below configuration instructions will soon be deprecated in favor of using <code>module load cbc-shared</code>.  To make use of the latter, see <a href="{{ '/software/modules.html' | relative_url }}">software environment modules</a>.
 </div>
 
 # Enable CBC-shared Software (instructions soon to become deprecated)

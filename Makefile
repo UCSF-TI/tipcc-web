@@ -1,3 +1,9 @@
+dynamic:
+	cd software; $(MAKE)
+
+dynamic-force:
+	cd software; $(MAKE) force
+
 init: .git/hooks/pre-commit
 
 .git/hooks/pre-commit:
