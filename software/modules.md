@@ -15,10 +15,10 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-17 18:49:34._
+_The below information was automatically generated on 2017-06-17 20:42:53._
 
 
-### Modules: /home/shared/cbc/apps/modulefiles/Linux
+### Modules: $MODULE_ROOT/repos/.modulefiles/repos-cbc
 
 <table>
  <tr>
@@ -138,11 +138,11 @@ _The below information was automatically generated on 2017-06-17 18:49:34._
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.2.0
+  0.1.0, 0.1.1
   </td>
   <td>
   <strong>CBC Tools</strong><br>
-  CBC Tools setup via modules. Version >= 0.2.0 does *not* load Anaconda.<br>
+  CBC Tools setup via modules.<br>
   URL: https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC<br>
   </td>
  </tr>

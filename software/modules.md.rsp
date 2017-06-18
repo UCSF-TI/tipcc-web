@@ -16,6 +16,7 @@ style <- cmdArg(style = FALSE)
 spider <- file.path(Sys.getenv("LMOD_DIR"), "spider")
 stopifnot(utils::file_test("-x", spider))
 modulepath <- "/home/shared/cbc/apps/modulefiles/Linux"
+modulepath <- "/home/shared/cbc/apps/modulefiles/repos/.modulefiles/repos-cbc"
 stopifnot(utils::file_test("-d", modulepath))
 json <- system2(spider, args = c("-o jsonSoftwarePage", modulepath), stdout = TRUE)
 x <- jsonlite::fromJSON(json)
@@ -75,7 +76,7 @@ module load python r bwa
 _The below information was automatically generated on <%= Sys.time() %>._
 
 
-### Modules: <%= modulepath %>
+### Modules: <%= gsub("/home/shared/cbc/apps/modulefiles", "$MODULE_ROOT", modulepath) %>
 
 <table>
  <tr>
