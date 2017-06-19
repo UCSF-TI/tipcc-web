@@ -1,6 +1,10 @@
+<div class="alert alert-warning" role="alert">
+It is only user's home directories under <code>/home/</code> are backed up - <em>no other directories on the cluster file system are backed up!</em>
+</div>
+
 # File Backups (/home/ only)
 
-All users' `/home/` directories are backed up regularly.  _Note that no other directories than `/home/` are backed up_.  Two types of parallel backups are performed:
+All users' `/home/` directories are backed up regularly.  _Note that no other directories than `/home/` are backed up_.  The below two types of backups are performed.
 
 ## DIY-recovery backups
 * **Weekly** backups to another disk (starting Fridays @ 11:00 PM)

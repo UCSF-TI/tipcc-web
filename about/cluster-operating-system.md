@@ -1,4 +1,4 @@
-## Operating System and Scheduler
+# Operating System and Scheduler
 
 * [Scyld ClusterWare] 6.6.0 (Red Hat Enterprise Linux 6.6; kernel 2.6.32) by Scyld Software (subsididary of [Penguin Computing])
   - User’s Guide, Scyld ClusterWare Release 6.6.4-664g0000, April 1, 2015 ([PDF](http://www.penguincomputing.com/wp-content/uploads/2015/04/UsersGuide.pdf))

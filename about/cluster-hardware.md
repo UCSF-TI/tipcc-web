@@ -1,4 +1,5 @@
-## Hardware
+# Cluster Hardware
+
 The cluster has 26 compute nodes:
 
 Node      | Nbr of cores | CPU (GHz) | RAM (GiB) | Local disk (TiB) | Notes                        | Priority
