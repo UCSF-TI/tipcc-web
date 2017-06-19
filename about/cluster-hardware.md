@@ -1,7 +1,5 @@
 # Cluster Hardware
 
-The cluster has 26 compute nodes:
-
 Node      | Nbr of cores | CPU (GHz) | RAM (GiB) | Local disk (TiB) | Notes                        | Priority
 ----------|-------------:|----------:|----------:|-----------------:|------------------------------|-----------
 n0        |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | `cbc`, `taylorlab`
@@ -37,11 +35,19 @@ n30       |           28 |      2.4  |       512 |              7.2 | InfiniBand
 
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.
 The local disk space is unique to each node and mounted as `/scratch/`.
-All nodes have AMD processors, except n14, n29 and n30 which has an Intel processor.
+All nodes have AMD processors, except n14, n29, and n30 which have Intel processors.
 Nodes n24 and n25 are being migrated to become "login" nodes. /February 2016  
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
-_Note 1_: Nodes n4-n11 (all communal) need to be rebooted on-site if they go down.  The others can be rebooted remotely.  
-_Note 2_: Occasionally there are (planned or non-planned) power outages in the building.  Our compute cluster is typically _not_ affected by these, because the cluster operators on a separate power grid from the house.  
-_Note 3_: The "communal" nodes has a [maximum walltime of 168 hours](https://github.com/UCSF-TI/TIPCC/issues/52#issuecomment-221402795) and will not take a job requesting more.  
- 
+_Notes_:
+1. The "communal" nodes has a [maximum walltime of 168 hours](https://github.com/UCSF-TI/TIPCC/issues/52#issuecomment-221402795) and will not take a job requesting more.
+2. Nodes n4-n11, which are all communal, need to be rebooted on-site if they go down.  The others can be rebooted remotely.
+2. Occasionally there are (planned or non-planned) power outages in the building.  Our compute cluster is typically _not_ affected by these, because the cluster operators on a separate power grid from the house.
+
+<style>
+table {
+  margin-top: 2ex;
+  margin-bottom: 2ex;
+}
+tr:last-child { border-top: 2px solid #000; }
+</style>
