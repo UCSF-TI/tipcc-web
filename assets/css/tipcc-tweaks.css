@@ -51,8 +51,10 @@ body {
  *--------------------------------------------------------------*/
 table {
     margin: auto;
+/*
     min-width: 60%;
     max-width: 100%;
+*/
 }
 tr:nth-child(even) {
     background-color: #f2f2f2;
