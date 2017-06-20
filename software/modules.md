@@ -15,10 +15,12 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-17 20:53:50._
+_The below information was automatically generated on 2017-06-20 11:31:42._
 
 
-### Modules: $MODULEPATH_ROOT/repos/.repos-cbc
+### Module Repository 'CBC'
+
+Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
 
 <table>
  <tr>
@@ -137,6 +139,17 @@ _The below information was automatically generated on 2017-06-17 20:53:50._
  </tr>
  <tr>
   <td>
+  <strong>cbc-devel</strong><br>
+  0.1.0
+  </td>
+  <td>
+  <strong>CBC-shared Developer's Environment</strong><br>
+  Setup for building and installing software inline with the CBC-shared setup.<br>
+  URL: https://cbc.ucsf.edu/<br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>cbc-shared</strong><br>
   0.1.0, 0.1.1
   </td>
@@ -229,7 +242,7 @@ _The below information was automatically generated on 2017-06-17 20:53:50._
   2.1.1, 2.1.3
   </td>
   <td>
-  <strong>Git - distributed version control system</strong><br>
+  <strong></strong><br>
   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
   URL: https://git-scm.com/<br>
   </td>
