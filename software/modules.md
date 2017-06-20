@@ -15,7 +15,7 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-20 11:43:30._
+_The below information was automatically generated on 2017-06-20 12:17:59._
 
 
 ### Module Repository 'CBC'
@@ -451,9 +451,9 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
   0.11.8-r3
   </td>
   <td>
-  <strong></strong><br>
-  NA<br>
-  URL: NA<br>
+  <strong>SNVMix2 - Detecting Single Nucleotide Variants from Next Generation Sequencing Data</strong><br>
+  SNVMix is designed to detect single nucleotide variants from next generation sequencing data. SNVMix is a post-alignment tool.<br>
+  URL: <a href="http://compbio.bccrc.ca/software/snvmix/">http://compbio.bccrc.ca/software/snvmix/</a><br>
   </td>
  </tr>
  <tr>
@@ -495,8 +495,8 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
   3.10.0, 3.8.1
   </td>
   <td>
-  <strong>Valgrind</strong><br>
-  Valgrind<br>
+  <strong>Valgrind - a programming tool for memory debugging, memory leak detection, and profiling</strong><br>
+  Valgrind is a programming tool for memory debugging, memory leak detection, and profiling.<br>
   URL: <a href="http://www.valgrind.org/">http://www.valgrind.org/</a><br>
   </td>
  </tr>
