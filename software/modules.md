@@ -15,7 +15,7 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-20 11:36:29._
+_The below information was automatically generated on 2017-06-20 11:39:38._
 
 
 ### Module Repository 'CBC'
@@ -132,8 +132,8 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
   0.1.0
   </td>
   <td>
-  <strong>CBC Tools binaries and scripts</strong><br>
-  Utilites of the UCSF CBC group.<br>
+  <strong>CBC-shared Scripts and Binaries</strong><br>
+  Utility scripts and binaries of the UCSF CBC group.<br>
   URL: https://cbc.ucsf.edu/<br>
   </td>
  </tr>
@@ -242,7 +242,7 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
   2.1.1, 2.1.3
   </td>
   <td>
-  <strong>Git - distributed version control system</strong><br>
+  <strong></strong><br>
   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
   URL: https://git-scm.com/<br>
   </td>
