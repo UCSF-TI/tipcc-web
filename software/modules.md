@@ -1,4 +1,8 @@
 
+---
+warning: do NOT update this file; it is automatically generated from modules.md.rsp and will be overwritten.
+---
+
 <div class="alert alert-warning" role="alert">
 Environment modules are currently in beta - to enable them, see Configuration / <a href="{{ '/configuration/lmod.html' | relative_url }}">Enable Software Modules</a>.
 </div>
@@ -15,7 +19,7 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-20 12:17:59._
+_The below information was automatically generated on 2017-06-20 12:37:40._
 
 
 ### Module Repository 'CBC'
