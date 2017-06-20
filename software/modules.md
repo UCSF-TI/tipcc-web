@@ -19,7 +19,7 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-20 12:41:28._
+_The below information was automatically generated on 2017-06-20 16:05:40._
 
 
 ### Module Repository 'CBC'
@@ -34,7 +34,7 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
  <tr>
   <td>
   <strong>anaconda</strong><br>
-  N/A
+  default
   </td>
   <td>
   <strong>Anaconda Package Manager w/ CBC-shared installations</strong><br>
@@ -187,17 +187,6 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
  </tr>
  <tr>
   <td>
-  <strong>example</strong><br>
-  0.1
-  </td>
-  <td>
-  <strong>"This is an example of a basic Lua Module files"</strong><br>
-  Example of Lua Module files<br>
-  URL: <a href="http://content.allinea.com/downloads/userguide.pdf">http://content.allinea.com/downloads/userguide.pdf</a><br>
-  </td>
- </tr>
- <tr>
-  <td>
   <strong>fastqc</strong><br>
   0.10.1, 0.11.2
   </td>
@@ -232,7 +221,7 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
  <tr>
   <td>
   <strong>genetorrent</strong><br>
-  3.8.5a-94
+  3.0.2, 3.8.5a-94
   </td>
   <td>
   <strong>GeneTorrent</strong><br>
@@ -397,7 +386,7 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
  <tr>
   <td>
   <strong>r</strong><br>
-  2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.3.3patched, 3.4.0, 3.4.0devel, 3.4.0patched, 3.5.0devel
+  2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.3.3patched, 3.4.0, 3.4.0devel, 3.4.0patched, 3.5.0devel, devel, oldrel, patched, release
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
