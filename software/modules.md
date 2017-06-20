@@ -1,7 +1,7 @@
 
----
-warning: do NOT update this file; it is automatically generated from modules.md.rsp and will be overwritten.
----
+<!--
+WARNING: do _not_ update this file; it is automatically generated from modules.md.rsp and will be overwritten.
+-->
 
 <div class="alert alert-warning" role="alert">
 Environment modules are currently in beta - to enable them, see Configuration / <a href="{{ '/configuration/lmod.html' | relative_url }}">Enable Software Modules</a>.
@@ -19,7 +19,7 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-20 12:37:40._
+_The below information was automatically generated on 2017-06-20 12:41:28._
 
 
 ### Module Repository 'CBC'
@@ -246,7 +246,7 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
   2.1.1, 2.1.3
   </td>
   <td>
-  <strong>Git - distributed version control system</strong><br>
+  <strong>Git - Distributed Version Control System</strong><br>
   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
   URL: <a href="https://git-scm.com/">https://git-scm.com/</a><br>
   </td>
