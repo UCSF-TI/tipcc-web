@@ -1,5 +1,10 @@
 all:  figures
 
+heartbeats: heartbeats_ping
+
+heartbeats_ping:
+	bash index.md.sh > index.md
+
 figures:
 	mkdir figures
 
