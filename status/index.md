@@ -1,6 +1,7 @@
-# Cluster Status
+# Cluster Heartbeats
 
-<img src="https://raw.githubusercontent.com/UCSF-TI/TIPCC-slash/master/TIPCC/docs/status/badges/TIPCC-status.svg" alt="Badge indicating whether TIPCC is up or down">
+<img src="https://img.shields.io/badge/master%3A%20ping-down-red.svg" alt="Master does not respond to ping!">
+<img src="https://img.shields.io/badge/master%3A%20ping-up-green.svg" alt="Master responds to ping">
 
 
 # Cluster Usage
