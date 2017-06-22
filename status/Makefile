@@ -1,9 +1,16 @@
 all:  figures
 
+pull:
+	git pull -s recursive -X theirs
+
 heartbeats: heartbeats_ping
 
 heartbeats_ping:
 	bash index.md.sh > index.md
+
+heartbeats_push:
+	git commit index.md -m "STATUS: Updated heartbeats"
+	git push
 
 figures:
 	mkdir figures
