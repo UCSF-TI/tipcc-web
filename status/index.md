@@ -1,3 +1,8 @@
+# Cluster Status
+
+<img src="https://raw.githubusercontent.com/UCSF-TI/TIPCC-slash/master/TIPCC/docs/status/badges/TIPCC-status.svg" alt="Badge indicating whether TIPCC is up or down">
+
+
 # Cluster Usage
 
 ## Total CPU Load
