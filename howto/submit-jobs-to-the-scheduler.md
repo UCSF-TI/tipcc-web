@@ -1,6 +1,6 @@
 Our compute cluster uses the TORQUE/PBS standard for submitting, listing and killing jobs.
 
-_If you have any tips, tricks or suggestions, please add them below._
+_If you have any tips, tricks or suggestions, please feel free to add them below._
 
 ## Submitting jobs
 
