@@ -4,7 +4,7 @@ WARNING: do _not_ update this file; it is automatically generated from index.md.
 
 # Cluster Heartbeats
 
-<img src="https://img.shields.io/badge/master%3A%20ping-up-green.svg" alt="Master responds to ping">
+<img src="https://img.shields.io/badge/master%3A%20ping-down-red.svg" alt="Master does not respond to ping!">
 
 # Cluster Usage
 
