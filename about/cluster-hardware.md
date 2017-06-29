@@ -40,9 +40,9 @@ Nodes n24 and n25 are being migrated to become "login" nodes. /February 2016
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
 _Notes_:
-1. The "communal" nodes has a [maximum walltime of 168 hours](https://github.com/UCSF-TI/TIPCC/issues/52#issuecomment-221402795) and will not take a job requesting more.
+1. The "communal" nodes have a [maximum walltime of 168 hours](https://github.com/UCSF-TI/TIPCC/issues/52#issuecomment-221402795) and will not take a job requesting more.
 2. Nodes n4-n11, which are all communal, need to be rebooted on-site if they go down.  The others can be rebooted remotely.
-2. Occasionally there are (planned or non-planned) power outages in the building.  Our compute cluster is typically _not_ affected by these, because the cluster operators on a separate power grid from the house.
+3. Occasionally there are (planned or non-planned) power outages in the building.  Our compute cluster is typically _not_ affected by these, because the cluster operates on a separate power grid with battery backup power.
 
 <style>
 table {
