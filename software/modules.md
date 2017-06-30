@@ -19,17 +19,26 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-29 20:51:53._
+_The below information was automatically generated on 2017-06-29 21:10:24._
 
 
-### Module Repository 'CBC'
 
-To get access to this set of modules and see what is available, use
+The modules are available from different _module repositories_, each providing multiple modules:
+
+* `CBC`
+* `Legacy-Scyld`
+
+To get access to one or more of these module repositories and see what modules they provide, load them as regular modules, e.g.
 ```sh
 module load CBC
 module avail
 ```
-_Technical details: Loading / unload CBC will append / drop `$MODULEPATH_ROOT/CBC` to / from your `$MODULEPATH`.
+
+_Technical details_: Loading a module repository will append its folder to the `$MODULEPATH`.  Unloading it will undo any changes.  For instance, `module load CBC` appends `$MODULEPATH_ROOT/CBC` to your `$MODULEPATH`.
+
+
+
+### Module Repository 'CBC'
 
 <table>
  <tr>
@@ -532,3 +541,201 @@ _Technical details: Loading / unload CBC will append / drop `$MODULEPATH_ROOT/CB
   </td>
  </tr>
 </table>
+
+
+### Module Repository 'Legacy-Scyld'
+
+<table>
+ <tr>
+  <th>name &amp; versions</th>
+  <th>description</th>
+ </tr>
+ <tr>
+  <td>
+  <strong>acml-5.1.0</strong><br>
+  open64_64, open64_64_fma4
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>gcc</strong><br>
+  5.1.0
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>maui</strong><br>
+  
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>misopy/0.5.3</strong><br>
+  python.2.7.10
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>mpich</strong><br>
+  .version.3.1.4
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>mpich2</strong><br>
+  .version.1.5
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>mvapich2</strong><br>
+  .version.2.0.0
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>mvapich2-psm</strong><br>
+  .version.2.0.0
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>net-snmp-scyld</strong><br>
+  
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>numpy/1.10.1</strong><br>
+  python.2.7.10
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>open64-4.5.1.1</strong><br>
+  
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>openmpi</strong><br>
+  .version.1.6, .version.1.7, .version.1.8.4
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>python</strong><br>
+  2.6.5, 2.7.10
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>samtools</strong><br>
+  0.1.18
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>scipy/0.16.1</strong><br>
+  python.2.7.10
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>telseq</strong><br>
+  102115
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>vcftools/0.1.13</strong><br>
+  gcc.4.4.7
+  </td>
+  <td>
+  <strong></strong><br>
+  <br>
+  URL: <br>
+  </td>
+ </tr>
+</table>
+
