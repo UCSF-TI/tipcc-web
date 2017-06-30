@@ -19,12 +19,17 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-29 20:47:05._
+_The below information was automatically generated on 2017-06-29 20:51:53._
 
 
 ### Module Repository 'CBC'
 
-Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
+To get access to this set of modules and see what is available, use
+```sh
+module load CBC
+module avail
+```
+_Technical details: Loading / unload CBC will append / drop `$MODULEPATH_ROOT/CBC` to / from your `$MODULEPATH`.
 
 <table>
  <tr>
