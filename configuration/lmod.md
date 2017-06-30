@@ -14,6 +14,7 @@ To enable the module system,
 ```sh
 MODULE_FRAMEWORK=lmod
 ```
+(use `lmod,quiet` to avoid seeing a "reminding" message at each login).
 
 2. Log in and out, or just start a new shell.
 
