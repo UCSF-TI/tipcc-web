@@ -7,7 +7,7 @@ To request access and get an account on the cluster, please [contact us] with th
 * First and Last name
 * UCSF email address
 * UCSF active directory user name (e.g. SOM\\..., CAMPUS\\...)
-* GitHub user name (to create an account go to https://github.com/join/)
+* GitHub user name (to create an account go to <a href="https://github.com/join/">https://github.com/join/</a>)
 * How is the person affiliated with the Cancer Center?
 * Other useful information
 
