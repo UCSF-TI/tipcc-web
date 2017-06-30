@@ -19,7 +19,7 @@ module load python r bwa
 
 ## Modules
 
-_The below information was automatically generated on 2017-06-20 16:05:40._
+_The below information was automatically generated on 2017-06-29 20:47:05._
 
 
 ### Module Repository 'CBC'
@@ -202,8 +202,8 @@ Location: `MODULEPATH=$MODULEPATH_ROOT/CBC`
   2.0.0-rc-54
   </td>
   <td>
-  <strong></strong><br>
-  Fiji is a distribution of ImageJ which includes many useful plugins contributed by the community.<br>
+  <strong>Fiji - an Image Processing Package</strong><br>
+  Fiji is a "batteries-included" distribution of ImageJ, bundling a lot of plugins which facilitate scientific image analysis.<br>
   URL: <a href="https://imagej.net/Fiji/Downloads">https://imagej.net/Fiji/Downloads</a><br>
   </td>
  </tr>
