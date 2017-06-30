@@ -14,9 +14,9 @@ This "queued" version of `gzip` takes the same options as `gzip`, so you can als
 qgzip -r -9 /path/to/
 ```
 
-Analogue to `qgzip` there is a queued version of `bzip2`, i.e. `qbzip2`.  
+Analogous to `qgzip` there is a queued version of `bzip2`, i.e. `qbzip2`.  
 
 These commands are available in `/home/shared/cbc/bin/`.
 
 ## Benchmarking
-Compression a 10 GiB FASTQ file on `/scratch/` using `gzip` took approximately 25 minutes and resulted in a 2.2 GiB FASTQ.gz file. 
+Compressing a 10 GiB FASTQ file on `/scratch/` using `gzip` took approximately 25 minutes and resulted in a 2.2 GiB FASTQ.gz file. 
