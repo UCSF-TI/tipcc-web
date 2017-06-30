@@ -19,11 +19,11 @@ MODULE_FRAMEWORK=lmod
 
 3. To confirm, type `module --version` and make sure it says:
 ```sh
-Modules based on Lua: Version 7.4  2017-03-20 16:49 -05:00
+Modules based on Lua: Version 7.5  2017-06-16 14:32 +02:00
     by Robert McLay mclay@tacc.utexas.edu
 ```
 	
-That's it!  You now have access to a large number of software tools.  See `make avail` and [software environment modules].
+That's it!  You now have access to a large number of software tools.  See `module avail` and [software environment modules].
 
 
 As an example, here is what `~/.bashrc` may look like after adding the above:
