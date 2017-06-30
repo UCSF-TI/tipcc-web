@@ -19,6 +19,7 @@ module load python r bwa
 These software modules are available from different _module repositories_, each providing multiple modules:
 
 * `CBC` - software maintained by [Computational Biology Core](http://cbc.ucsf.edu)
+* `Personal` - your own repository of modules in `~/modulefiles/`
 
 To get access to one or more of these module repositories and see what modules they provide (see below), load them as regular modules, e.g.
 ```sh
@@ -493,5 +494,6 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 
 
 
-_The above information was automatically generated on 2017-06-29 21:25:45._
-
+<p>
+_The above information was automatically generated on 2017-06-29 21:31:42._
+</p>
