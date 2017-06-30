@@ -4,7 +4,7 @@ To get access to the below software, see Configuration / <a href="{{ '/configura
 
 # CBC-shared Software
 
-Whenever we in the [Computational Biology Core (CBC)](http://cbc.ucsf.edu/) installs and/or update scientific software, we do it such that it can be shared with everyone.
+Whenever we in the [Computational Biology Core (CBC)](http://cbc.ucsf.edu/) install and/or update scientific software, we do it such that it can be shared with everyone.
 
 
 ## The `cbc` command-line tool (deprecated)

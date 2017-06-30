@@ -5,11 +5,10 @@ Anyone affiliated with the UCSF Helen Diller Family Comprehensive Cancer Center 
 To request access and get an account on the cluster, please [contact us] with the following information on the new user:
 
 * First and Last name
-* Email address
+* UCSF email address
 * UCSF active directory user name (e.g. SOM\\..., CAMPUS\\...)
-* GitHub user name.  To create an account, go to https://github.com/join/
-* How is the new user affiliated with the Cancer Center?
-* Should the user be added to a cluster Unix group?
+* GitHub user name (to create an account go to https://github.com/join/)
+* How is the person affiliated with the Cancer Center?
 * Other useful information
 
 

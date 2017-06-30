@@ -13,7 +13,7 @@ $ ls -l  ~/.ssh/authorized_keys
 ```
 where `-rw-------` says you (and only you) have read and write permissions to this file.   If you see any other letters where the dashes are, make sure to reset the file permissions to the above, which you can do by:
 ```sh
-$ chmod go-rw ~/.ssh/authorized_keys
+$ chmod 600 ~/.ssh/authorized_keys
 ```
 Try to log in to node n6 again, i.e. `ssh n6`.
 

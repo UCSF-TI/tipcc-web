@@ -4,7 +4,7 @@ The below configuration instructions will soon be deprecated in favor of using <
 
 # Enable CBC-shared Software (instructions soon to become deprecated)
 
-Whenever we in the [Computational Biology Core (CBC)](http://cbc.ucsf.edu/) installs and/or update scientific software, we do it such that it can be shared with everyone.  You can find them all under `/home/shared/cbc/software/`.
+Whenever we in the [Computational Biology Core (CBC)](http://cbc.ucsf.edu/) install and/or update scientific software, we do it such that it can be shared with everyone.  You can find them all under `/home/shared/cbc/software/`.
 
 To get access to the CBC-shared software tools and settings, add
 ```sh
@@ -21,4 +21,4 @@ source /home/shared/cbc/bashrc
 ```
 
 
-_Warning_: Do *not* put it `~/.bash_profile` because that is only sourced in interactive mode, i.e. it will not work for submitted jobs etc.
+_Warning_: Do *not* put it in `~/.bash_profile` because that is only sourced in interactive mode, i.e. it will not work for submitted jobs etc.

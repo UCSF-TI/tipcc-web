@@ -2,7 +2,7 @@
 
 ## Inspect head-node processes
 
-The `c4 head` command reports on (i) the five _non-user_ processes that consumes the most memory on the head node as well as (ii) any _user_ processes running on the head node (excluding basic ones such as `ls`, `more`, `cp` etc.)
+The `c4 head` command (you'll find it in `/home/shared/cbc/bin/`) reports on (i) the five _non-user_ processes that consumes the most memory on the head node as well as (ii) any _user_ processes running on the head node (excluding basic ones such as `ls`, `more`, `cp` etc.)
  
 ```sh
 $ c4 head
