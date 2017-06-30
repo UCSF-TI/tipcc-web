@@ -16,15 +16,11 @@ module load bowtie2/2.2.6
 module load python r bwa
 ```
 
+These software modules are available from different _module repositories_, each providing multiple modules:
 
-## Modules
+* `CBC` - software maintained by [Computational Biology Core](http://cbc.ucsf.edu)
 
-
-The modules are available from different _module repositories_, each providing multiple modules:
-
-* `CBC`
-
-To get access to one or more of these module repositories and see what modules they provide, load them as regular modules, e.g.
+To get access to one or more of these module repositories and see what modules they provide (see below), load them as regular modules, e.g.
 ```sh
 module load CBC
 module avail
@@ -35,6 +31,8 @@ _Technical details_: Loading a module repository will append its folder to the `
 
 
 ### Module Repository 'CBC'
+
+Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 
 <table>
  <tr>
@@ -495,5 +493,5 @@ _Technical details_: Loading a module repository will append its folder to the `
 
 
 
-_The above information was automatically generated on 2017-06-29 21:16:08._
+_The above information was automatically generated on 2017-06-29 21:25:45._
 
