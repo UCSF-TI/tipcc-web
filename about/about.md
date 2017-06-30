@@ -4,5 +4,5 @@ The TIPCC high-performance-compute cluster at the UCSF Helen Diller Family Compr
 
 ## Contact information
 
-System administrator: [Jason Jed](https://directory.ucsf.edu/people/search/id/131444)
+Systems Administrator: [Jason Jed](https://directory.ucsf.edu/people/search/id/131444)
 
