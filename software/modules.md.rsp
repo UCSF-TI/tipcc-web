@@ -146,7 +146,7 @@ vers <- sort(unique(versions$versionName))
   <td>
   <strong><%= as_html(help) %></strong><br>
   <%= as_html(m$description) %><br>
-  <% if (!is.null(m$url) && !nzchar(m$url)) { %>
+  <% if (!is.null(m$url)) { %>
   URL: <%= as_html(m$url) %><br>
   <% } %>
   </td>
