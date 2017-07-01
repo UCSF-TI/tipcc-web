@@ -64,7 +64,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 
 <table>
 <tr>
-  <th>name &amp; versions</th>
+  <th>module &amp; versions</th>
   <th>description</th>
  </tr>
  <tr>
@@ -568,4 +568,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-06-30 19:54:00._
+_The above information was automatically generated on 2017-06-30 19:56:25._
