@@ -74,10 +74,15 @@ th, td {
 }
 </style>
 <% } # if (style) %>
-<% table_of_modules <- function(x) { %>
+<% table_of_modules <- function(x, style = c("module", "repos")) { %>
+<% style <- match.arg(style) %>
 <table>
- <tr>
-  <th>name &amp; versions</th>
+<tr>
+<% if (style == "module") { %>
+  <th>module &amp; versions</th>
+<% } else if (style == "repos") { %>
+  <th>repository</th>
+<% } %>
   <th>description</th>
  </tr>
 <% for (ii in seq_len(nrow(x))) { %>
@@ -91,15 +96,18 @@ for (cc in seq_len(ncol(versions))) {
 m$versions[[1]] <- versions
 helps <- unique(versions$help)
 help <- helps[[1]]
-vers <- sort(unique(versions$versionName))
-if (length(vers) > 1L || vers != "default") {
-  idx <- match(m$defaultVersionName, table = vers)
-  if (length(idx) == 1) {
-    ## FIXME: spider seems to set 'defaultVersionName' randomly /HB 2017-06-30
-##    vers[idx] <- sprintf("<em>%s</em>", vers[idx])
+vers <- NULL
+if (!is.null(versions$versionName)) {
+  vers <- sort(unique(versions$versionName))
+  if (length(vers) > 1L || vers != "default") {
+    idx <- match(m$defaultVersionName, table = vers)
+    if (length(idx) == 1) {
+      ## FIXME: spider seems to set 'defaultVersionName' randomly /HB 2017-06-30
+  ##    vers[idx] <- sprintf("<em>%s</em>", vers[idx])
+    }
+  } else {
+    vers <- NULL
   }
-} else {
-  vers <- NULL
 }
 %>
  <tr>
@@ -137,13 +145,17 @@ module load bowtie2/2.2.6
 module load python r bwa
 ```
 
-These software modules are available from different _module repositories_, each providing multiple modules:
+These software modules are available from different _module repositories_, each providing several modules (more details below).  The available repositories are:
 
-<% for (module_repos in names(module_repositories)) { %>
-<% info <- module_repositories[[module_repos]] %>
-* `<%= module_repos %>` - software maintained by [<%= info$maintainer %>](<%= info$url %>)
-<% } %>
-* `Personal` - your own repository of modules in `~/modulefiles/`
+<%
+x <- module_avail("repos")
+keep <- which(sapply(x$versions, FUN = function(v) unique(basename(dirname(v$path)))) == "repos")
+x <- x[keep,]
+keep <- grep("^Legacy-", x$package, invert = TRUE)
+x <- x[keep,]
+table_of_modules(x, style = "repos")
+%>
+<br>
 
 To get access to one or more of these module repositories and see what modules they provide (see below), load them as regular modules, e.g.
 ```sh
