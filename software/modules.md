@@ -18,8 +18,56 @@ module load python r bwa
 
 These software modules are available from different _module repositories_, each providing multiple modules:
 
-* `CBC` - software maintained by [Computational Biology Core](http://cbc.ucsf.edu)
-* `Personal` - your own repository of modules in `~/modulefiles/`
+<table>
+ <tr>
+  <th>name &amp; versions</th>
+  <th>description</th>
+ </tr>
+ <tr>
+  <td>
+  <strong>CBC</strong><br>
+  
+  </td>
+  <td>
+  <strong>Module Repository by CBC (Computational Biology Core)</strong><br>
+  Repository of modules shared by the Computational Biology Core (<a href="http://cbc.ucsf.edu).">http://cbc.ucsf.edu).</a> When loading this module, your MODULEPATH will be extended and you will get access to a large number of additional modules. When unloading the module, the changes to MODULEPATH will be undone. Note that any modules from the CBC repository still loaded when you unload this repository module, will remain in your list of loaded modules but will be inactivate (i.e. behave as they never were loaded) until you reload this repository module again.<br>
+  URL: <a href="https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC">https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>Legacy-Scyld</strong><br>
+  
+  </td>
+  <td>
+  <strong>Modules for Scyld</strong><br>
+  Modules for Scyld.<br>
+  URL: NA<br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>Legacy-etc</strong><br>
+  
+  </td>
+  <td>
+  <strong>Modules under /etc/modulefiles/</strong><br>
+  Modules under /etc/modulefiles/<br>
+  URL: NA<br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>Personal</strong><br>
+  
+  </td>
+  <td>
+  <strong>Modules in ~/modulefiles/</strong><br>
+  Personal modules in ~/modulefiles/, if any.<br>
+  URL: NA<br>
+  </td>
+ </tr>
+</table>
 
 To get access to one or more of these module repositories and see what modules they provide (see below), load them as regular modules, e.g.
 ```sh
@@ -541,4 +589,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-06-30 19:25:35._
+_The above information was automatically generated on 2017-06-30 19:46:31._
