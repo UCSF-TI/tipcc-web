@@ -17,7 +17,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 ## Source CBC-shared setup
-## https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC
+## https://github.com/UCSF-TI/TIPCC-support/wiki/Software-shared-by-CBC
 source /home/shared/cbc/bashrc
 ```
 

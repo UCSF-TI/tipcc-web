@@ -2,7 +2,7 @@
 
 Since December 2016, we support [software environment modules](https://en.wikipedia.org/wiki/Environment_Modules_(software)), but since they are **currently in beta, users need to change their settings to be able to use them** - for instructions, see Section 'Enable Lmod modules' at the end.
 
-To see the set of available software, see Page [Software Available Modules](https://github.com/UCSF-TI/TIPCC/wiki/Software-Available-Modules).
+To see the set of available software, see Page [Software Available Modules](https://github.com/UCSF-TI/TIPCC-support/wiki/Software-Available-Modules).
 
 ## Introduction
 
@@ -70,7 +70,7 @@ No modules loaded
 
 ## Modules available on the cluster
 
-Page [Software Available Modules](https://github.com/UCSF-TI/TIPCC/wiki/Software-Available-Modules) gives detailed information (name, versions, and description) on the software modules available on the cluster.
+Page [Software Available Modules](https://github.com/UCSF-TI/TIPCC-support/wiki/Software-Available-Modules) gives detailed information (name, versions, and description) on the software modules available on the cluster.
 
 To see currently available modules from the command line, do:
 ```sh
