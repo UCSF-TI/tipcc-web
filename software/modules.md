@@ -16,11 +16,11 @@ module load bowtie2/2.2.6
 module load python r bwa
 ```
 
-These software modules are available from different _module repositories_, each providing multiple modules:
+These software modules are available from different _module repositories_, each providing several modules (more details below).  The available repositories are:
 
 <table>
- <tr>
-  <th>name &amp; versions</th>
+<tr>
+  <th>repository</th>
   <th>description</th>
  </tr>
  <tr>
@@ -36,28 +36,6 @@ These software modules are available from different _module repositories_, each 
  </tr>
  <tr>
   <td>
-  <strong>Legacy-Scyld</strong><br>
-  
-  </td>
-  <td>
-  <strong>Modules for Scyld</strong><br>
-  Modules for Scyld.<br>
-  URL: NA<br>
-  </td>
- </tr>
- <tr>
-  <td>
-  <strong>Legacy-etc</strong><br>
-  
-  </td>
-  <td>
-  <strong>Modules under /etc/modulefiles/</strong><br>
-  Modules under /etc/modulefiles/<br>
-  URL: NA<br>
-  </td>
- </tr>
- <tr>
-  <td>
   <strong>Personal</strong><br>
   
   </td>
@@ -68,6 +46,7 @@ These software modules are available from different _module repositories_, each 
   </td>
  </tr>
 </table>
+<br>
 
 To get access to one or more of these module repositories and see what modules they provide (see below), load them as regular modules, e.g.
 ```sh
@@ -84,7 +63,7 @@ _Technical details_: Loading a module repository will append its folder to the `
 Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 
 <table>
- <tr>
+<tr>
   <th>name &amp; versions</th>
   <th>description</th>
  </tr>
@@ -589,4 +568,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-06-30 19:46:31._
+_The above information was automatically generated on 2017-06-30 19:54:00._
