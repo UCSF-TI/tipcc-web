@@ -172,7 +172,7 @@ info <- module_repositories[[module_repos]]
 x <- module_avail(module_repos)
 %>
 
-### Module Repository '<%= module_repos %>'
+## Module Repository '<%= module_repos %>'
 
 Maintained by: [<%= info$maintainer %>](<%= info$url %>)
 

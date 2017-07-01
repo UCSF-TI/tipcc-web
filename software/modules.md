@@ -58,7 +58,7 @@ _Technical details_: Loading a module repository will append its folder to the `
 
 
 
-### Module Repository 'CBC'
+## Module Repository 'CBC'
 
 Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 
@@ -568,4 +568,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-06-30 19:56:25._
+_The above information was automatically generated on 2017-06-30 21:20:15._
