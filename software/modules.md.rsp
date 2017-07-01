@@ -140,7 +140,8 @@ vers <- sort(unique(versions$versionName))
 if (length(vers) > 1L || vers != "default") {
   idx <- match(m$defaultVersionName, table = vers)
   if (length(idx) == 1) {
-    vers[idx] <- sprintf("<em>%s</em>", vers[idx])
+    ## FIXME: spider seems to set 'defaultVersionName' randomly /HB 2017-06-30
+##    vers[idx] <- sprintf("<em>%s</em>", vers[idx])
   }
 } else {
   vers <- NULL
