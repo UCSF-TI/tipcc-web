@@ -30,7 +30,7 @@ These software modules are available from different _module repositories_, each 
   </td>
   <td>
   <strong>Module Repository by CBC (Computational Biology Core)</strong><br>
-  Repository of modules shared by the Computational Biology Core (<a href="http://cbc.ucsf.edu).">http://cbc.ucsf.edu).</a> When loading this module, your MODULEPATH will be extended and you will get access to a large number of additional modules. When unloading the module, the changes to MODULEPATH will be undone. Note that any modules from the CBC repository still loaded when you unload this repository module, will remain in your list of loaded modules but will be inactivate (i.e. behave as they never were loaded) until you reload this repository module again.<br>
+  Repository of modules shared by the Computational Biology Core (<a href="http://cbc.ucsf.edu">http://cbc.ucsf.edu</a>). When loading this module, your MODULEPATH will be extended and you will get access to a large number of additional modules. When unloading the module, the changes to MODULEPATH will be undone. Note that any modules from the CBC repository still loaded when you unload this repository module, will remain in your list of loaded modules but will be inactivate (i.e. behave as they never were loaded) until you reload this repository module again.<br>
   URL: <a href="http://cbc.ucsf.edu/">http://cbc.ucsf.edu/</a><br>
   </td>
  </tr>
@@ -568,4 +568,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-06-30 21:49:29._
+_The above information was automatically generated on 2017-07-03 15:56:29._
