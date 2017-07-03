@@ -9,7 +9,7 @@ as_html <- function(x) {
   if (!is.character(x)) return(x)
   x <- gsub("(\n|\n\r)", "\n<br>", x)
   ## URLs -> HTML anchors
-  x <- gsub("((ftp|http|https)://[^ \n]+)", '<a href="\\1">\\1</a>', x)
+  x <- gsub("((ftp|http|https)://[^ )\n]+)", '<a href="\\1">\\1</a>', x)
   x
 }
 
