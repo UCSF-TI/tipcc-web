@@ -95,7 +95,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   </td>
   <td>
   <strong>BamUtil - programs for working on SAM/BAM files</strong><br>
-  bamUtil is a repository that contains several programs that perform operations on SAM/BAM files. All of these programs are built into a single executable, bam.<br>
+  bamUtil is a repository that contains several programs that perform operations on SAM/BAM files. All of these programs are built into a single executable, <code>bam</code>.<br>
   URL: <a href="http://genome.sph.umich.edu/wiki/BamUtil">http://genome.sph.umich.edu/wiki/BamUtil</a><br>
   </td>
  </tr>
@@ -293,7 +293,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   </td>
   <td>
   <strong>htop - an interactive process viewer for Unix</strong><br>
-  htop is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.<br>
+  <code>htop</code> is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.<br>
   URL: <a href="http://hisham.hm/htop/">http://hisham.hm/htop/</a><br>
   </td>
  </tr>
@@ -566,4 +566,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-03 16:26:04._
+_The above information was automatically generated on 2017-07-03 16:31:45._
