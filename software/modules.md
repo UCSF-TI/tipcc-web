@@ -41,7 +41,7 @@ These software modules are available from different _module repositories_, each 
   </td>
   <td>
   <strong>Modules in ~/modulefiles/</strong><br>
-  Personal modules in ~/modulefiles/, if any.<br>
+  Personal modules in `~/modulefiles/`.  For instance, module definition file `~/modulefiles/foo/1.0.lua` provides module foo/1.0, which can be loaded using `module load foo/1.0`.<br>
   URL: NA<br>
   </td>
  </tr>
@@ -568,4 +568,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-03 15:56:29._
+_The above information was automatically generated on 2017-07-03 16:08:16._
