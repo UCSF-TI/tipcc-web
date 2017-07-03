@@ -118,7 +118,8 @@ if (!is.null(versions$versionName)) {
   <td>
   <strong><%= as_html(help) %></strong><br>
   <%= as_html(m$description) %><br>
-  <% if (!is.null(m$url)) { %>
+  <% if (!is.null(m$url) && !is.na(m$url)) { %>
+  <% R.utils::mstr(m$url) %>
   URL: <%= as_html(m$url) %><br>
   <% } %>
   </td>
