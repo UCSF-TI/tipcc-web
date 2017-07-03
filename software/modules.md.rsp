@@ -7,9 +7,8 @@ trim <- function(x) {
 }
 as_html <- function(x) {
   if (!is.character(x)) return(x)
-  x <- gsub("(\n|\n\r)", "\n<br>", x)
-  ## URLs -> HTML anchors
-  x <- gsub("((ftp|http|https)://[^ )\n]+)", '<a href="\\1">\\1</a>', x)
+  x <- commonmark::markdown_html(x, extensions = TRUE)
+  x <- gsub("(^<p>|</p>\n$)", "", x)
   x
 }
 
