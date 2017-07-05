@@ -102,7 +102,7 @@ if (!is.null(versions$versionName)) {
     idx <- match(m$defaultVersionName, table = vers)
     if (length(idx) == 1) {
       ## FIXME: spider seems to set 'defaultVersionName' randomly /HB 2017-06-30
-  ##    vers[idx] <- sprintf("<em>%s</em>", vers[idx])
+      vers[idx] <- sprintf("<em>%s</em>", vers[idx])
     }
   } else {
     vers <- NULL
