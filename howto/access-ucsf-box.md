@@ -3,7 +3,7 @@
 It is possible to access [UCSF Box](https://ucsf.app.box.com/) using FTP over a secure SSL connection ([FTPS](https://en.wikipedia.org/wiki/FTPS)).
 
 In order to do this, you need to setup a UCSF Box-specific password as 
-explained in <https://ucsf.app.box.com/services/box_ftp_server>.  Afterward, you can use, for instance, the `lftp` client to verify access your account;
+explained in <https://ucsf.app.box.com/services/box_ftp_server>.  Afterward, you can use, for instance, the `lftp` client to verify access to your account;
 ```sh
 $ lftp --user alice.aliceson@ucsf.edu ftps://ftp.box.com:990
 Password: XXXXXXXX
