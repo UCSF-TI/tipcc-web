@@ -80,7 +80,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>anaconda-python</strong><br>
-  2.7.13
+  <em>2.7.13</em>
   </td>
   <td>
   <strong>Anaconda: The Python Programming Language</strong><br>
@@ -91,7 +91,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>bamutil</strong><br>
-  1.0.14
+  <em>1.0.14</em>
   </td>
   <td>
   <strong>BamUtil - programs for working on SAM/BAM files</strong><br>
@@ -102,7 +102,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>bcftools</strong><br>
-  1.2, 1.3.1, 1.4
+  1.2, 1.3.1, <em>1.4</em>
   </td>
   <td>
   <strong>BCFtools: utilities for variant calling and manipulating VCFs and BCFs</strong><br>
@@ -113,7 +113,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>bedops</strong><br>
-  1.2.2c
+  <em>1.2.2c</em>
   </td>
   <td>
   <strong>BEDOPS: the fast, highly scalable and easily-parallelizable genome analysis toolkit</strong><br>
@@ -124,7 +124,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>bedtools2</strong><br>
-  2.13.4, 2.15.0, 2.16.2, 2.26.0
+  2.13.4, 2.15.0, 2.16.2, <em>2.26.0</em>
   </td>
   <td>
   <strong>Bedtools2</strong><br>
@@ -135,7 +135,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>blast</strong><br>
-  2.2.26
+  <em>2.2.26</em>
   </td>
   <td>
   <strong>BLAST: Basic Local Alignment Search Tool</strong><br>
@@ -146,7 +146,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>bowtie2</strong><br>
-  2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9
+  2.0.0-beta6, 2.1.0, 2.2.6, <em>2.2.9</em>
   </td>
   <td>
   <strong>Bowtie2</strong><br>
@@ -157,7 +157,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>bwa</strong><br>
-  0.5.10, 0.6.1, 0.7.5a, 0.7.12
+  0.5.10, 0.6.1, 0.7.5a, <em>0.7.12</em>
   </td>
   <td>
   <strong>Burrows-Wheeler Aligner (BWA)</strong><br>
@@ -168,7 +168,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  0.1.0
+  <em>0.1.0</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -179,7 +179,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-devel</strong><br>
-  0.1.0
+  <em>0.1.0</em>
   </td>
   <td>
   <strong>CBC-shared Developer's Environment</strong><br>
@@ -190,7 +190,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.2, 0.1.1
+  0.1.0, 0.1.2, <em>0.1.1</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -201,7 +201,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>control-freec</strong><br>
-  2.5, 7.2-3
+  2.5, <em>7.2-3</em>
   </td>
   <td>
   <strong>Control FREEC: Control-FREE Copy Number and Genotype Caller</strong><br>
@@ -212,7 +212,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cufflinks</strong><br>
-  1.0.3, 1.3.0
+  1.0.3, <em>1.3.0</em>
   </td>
   <td>
   <strong>Cufflinks: Transcriptome assembly and differential expression analysis for RNA-Seq</strong><br>
@@ -223,7 +223,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>fastqc</strong><br>
-  0.10.1, 0.11.2
+  0.10.1, <em>0.11.2</em>
   </td>
   <td>
   <strong>FastQC</strong><br>
@@ -234,7 +234,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>fiji</strong><br>
-  2.0.0-rc-54
+  <em>2.0.0-rc-54</em>
   </td>
   <td>
   <strong>Fiji - an Image Processing Package</strong><br>
@@ -245,7 +245,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>gdc-client</strong><br>
-  1.0.1
+  <em>1.0.1</em>
   </td>
   <td>
   <strong>GDC Data Transfer Tool</strong><br>
@@ -256,7 +256,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>genetorrent</strong><br>
-  3.0.2, 3.8.5a-94
+  3.0.2, <em>3.8.5a-94</em>
   </td>
   <td>
   <strong>GeneTorrent</strong><br>
@@ -267,7 +267,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>git</strong><br>
-  2.1.1, 2.1.3
+  2.1.1, <em>2.1.3</em>
   </td>
   <td>
   <strong>Git - Distributed Version Control System</strong><br>
@@ -278,7 +278,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>gitflow</strong><br>
-  0.4.2
+  <em>0.4.2</em>
   </td>
   <td>
   <strong>Git extension Git Flow</strong><br>
@@ -289,7 +289,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>htop</strong><br>
-  1.0.3
+  <em>1.0.3</em>
   </td>
   <td>
   <strong>htop - an interactive process viewer for Unix</strong><br>
@@ -300,7 +300,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>htseq</strong><br>
-  0.5.4p3, 0.6.1
+  0.5.4p3, <em>0.6.1</em>
   </td>
   <td>
   <strong>HTSeq: Analysing high-throughput sequencing data with Python</strong><br>
@@ -311,7 +311,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>htslib</strong><br>
-  1.3.2
+  <em>1.3.2</em>
   </td>
   <td>
   <strong>Samtools</strong><br>
@@ -322,7 +322,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>igv</strong><br>
-  2.1.2, 2.3.31, 2.3.68, 2.3.92
+  2.1.2, 2.3.31, 2.3.68, <em>2.3.92</em>
   </td>
   <td>
   <strong>IGV: The Integrative Genomics Viewer</strong><br>
@@ -333,7 +333,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>igvtools</strong><br>
-  2.3.68, 2.3.91
+  2.3.68, <em>2.3.91</em>
   </td>
   <td>
   <strong>IGVTools</strong><br>
@@ -344,7 +344,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>jdk</strong><br>
-  1.6.0, 1.7.0, 1.8.0
+  1.6.0, 1.7.0, <em>1.8.0</em>
   </td>
   <td>
   <strong>Java Development Kit (JDK)</strong><br>
@@ -355,7 +355,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>lua</strong><br>
-  5.1.4, 5.3.3
+  5.1.4, <em>5.3.3</em>
   </td>
   <td>
   <strong>The Lua Programming Language</strong><br>
@@ -366,7 +366,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>luarocks</strong><br>
-  2.4.2
+  <em>2.4.2</em>
   </td>
   <td>
   <strong>LuaRocks - the Lua package manager</strong><br>
@@ -377,7 +377,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>matlab</strong><br>
-  R2010b, R2012a
+  R2010b, <em>R2012a</em>
   </td>
   <td>
   <strong>The Matlab Programming Language</strong><br>
@@ -388,7 +388,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>pandoc</strong><br>
-  1.19.2-0
+  <em>1.19.2-0</em>
   </td>
   <td>
   <strong>Pandoc - a universal document converter</strong><br>
@@ -399,7 +399,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>pip</strong><br>
-  9.0.1
+  <em>9.0.1</em>
   </td>
   <td>
   <strong>pip - The PyPA recommended tool for installing Python packages</strong><br>
@@ -410,7 +410,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>python</strong><br>
-  2.7.3, 2.7.4, 2.7.9
+  2.7.3, 2.7.4, <em>2.7.9</em>
   </td>
   <td>
   <strong>The Python Programming Language</strong><br>
@@ -421,7 +421,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1patched, 3.5.0devel, 3.4.1
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1patched, 3.5.0devel, <em>3.4.1</em>
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
@@ -432,7 +432,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>r-extras</strong><br>
-  0.1.0
+  <em>0.1.0</em>
   </td>
   <td>
   <strong>R Extras: Additional software, libraries and include paths needed to build some R / Bioconductor packages</strong><br>
@@ -442,7 +442,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>s3cmd</strong><br>
-  1.5.0-alpha3
+  <em>1.5.0-alpha3</em>
   </td>
   <td>
   <strong>Amazon S3 Tools: Command Line S3 Client Software and S3 Backup</strong><br>
@@ -453,7 +453,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>samtools</strong><br>
-  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1
+  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, <em>1.3.1</em>
   </td>
   <td>
   <strong>Samtools</strong><br>
@@ -464,7 +464,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>snpeff</strong><br>
-  2_0_2
+  <em>2_0_2</em>
   </td>
   <td>
   <strong>SnpEff</strong><br>
@@ -475,7 +475,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>snvmix2</strong><br>
-  0.11.8-r3
+  <em>0.11.8-r3</em>
   </td>
   <td>
   <strong>SNVMix2 - Detecting Single Nucleotide Variants from Next Generation Sequencing Data</strong><br>
@@ -486,7 +486,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>sratoolkit</strong><br>
-  2.3.4-2, 2.4.1, 2.5.7, 2.8.2-1
+  2.3.4-2, 2.4.1, 2.5.7, <em>2.8.2-1</em>
   </td>
   <td>
   <strong>SRA Toolkit</strong><br>
@@ -497,7 +497,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>tophat</strong><br>
-  1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, 2.1.1
+  1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, <em>2.1.1</em>
   </td>
   <td>
   <strong>TopHat</strong><br>
@@ -508,7 +508,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>udocker</strong><br>
-  1.0.0
+  <em>1.0.0</em>
   </td>
   <td>
   <strong>udocker</strong><br>
@@ -519,7 +519,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>valgrind</strong><br>
-  3.10.0, 3.8.1
+  3.10.0, <em>3.8.1</em>
   </td>
   <td>
   <strong>Valgrind - a programming tool for memory debugging, memory leak detection, and profiling</strong><br>
@@ -530,7 +530,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>varscan</strong><br>
-  2.2.3, 2.3.9
+  2.2.3, <em>2.3.9</em>
   </td>
   <td>
   <strong>VarScan</strong><br>
@@ -541,7 +541,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>vcftools</strong><br>
-  0.1.13
+  <em>0.1.13</em>
   </td>
   <td>
   <strong>VCFtools</strong><br>
@@ -552,7 +552,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>wordspy</strong><br>
-  1.5
+  <em>1.5</em>
   </td>
   <td>
   <strong>WordSpy</strong><br>
@@ -566,4 +566,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-05 13:34:55._
+_The above information was automatically generated on 2017-07-05 13:40:13._
