@@ -288,6 +288,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>go</strong><br>
+  <em>1.8.3</em>
+  </td>
+  <td>
+  <strong>The Go Programming Language</strong><br>
+  Go is a cross-platform open-source programming language that makes it easy to build simple, reliable, and efficient software.<br>
+  URL: <a href="https://golang.org//">https://golang.org//</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>htop</strong><br>
   <em>1.0.3</em>
   </td>
@@ -566,4 +577,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-05 13:40:13._
+_The above information was automatically generated on 2017-07-06 12:11:34._
