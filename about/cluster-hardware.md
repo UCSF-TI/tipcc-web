@@ -8,7 +8,7 @@ n2        |           48 |      2.6  |       512 |              2.5 | InfiniBand
 n3        |           48 |      2.4  |       384 |              5.2 | InfiniBand (IB), FMA4        | Krummel Lab
 n4        |           12 |      2.4  |        32 |              1.8 |                              | (communal)
 n5        |           12 |      2.4  |        32 |              1.8 |                              | (communal)
-n6        |           12 |      2.4  |        32 |              1.8 | Allowed for interactive use  | (communal)
+n6        |           12 |      2.4  |        64 |              1.8 | Allowed for interactive use  | (communal)
 n7        |           12 |      2.3  |        64 |              1.8 |                              | (communal)
 n8        |           12 |      2.3  |        64 |              1.7 |                              | (communal)
 n9        |           12 |      2.3  |        64 |              1.8 |                              | (communal)
