@@ -475,11 +475,11 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>snpeff</strong><br>
-  <em>2_0_2</em>
+  <em>2.0.2</em>
   </td>
   <td>
-  <strong>SnpEff</strong><br>
-  Genetic variant annotation and effect prediction toolbox.<br>
+  <strong>SnpEff - Genetic Variant Annotation and Effect Prediction Toolbox</strong><br>
+  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes).<br>
   URL: <a href="http://snpeff.sourceforge.net/">http://snpeff.sourceforge.net/</a><br>
   </td>
  </tr>
@@ -577,4 +577,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-09 13:32:44._
+_The above information was automatically generated on 2017-07-09 13:40:32._
