@@ -72,7 +72,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   
   </td>
   <td>
-  <strong>Anaconda Package Manager w/ CBC-shared installations</strong><br>
+  <strong>[DEPRECATED] Anaconda Package Manager w/ CBC-shared installations</strong><br>
   Open Data Science Platform powered by Python<br>
   URL: <a href="https://www.continuum.io/anaconda-overview">https://www.continuum.io/anaconda-overview</a><br>
   </td>
@@ -83,7 +83,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <em>2.7.13</em>
   </td>
   <td>
-  <strong>Anaconda: The Python Programming Language</strong><br>
+  <strong>[DEPRECATED] Anaconda: The Python Programming Language</strong><br>
   The Python programming language (by Anaconda)<br>
   URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
   </td>
@@ -577,4 +577,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-06 12:11:34._
+_The above information was automatically generated on 2017-07-09 13:28:48._
