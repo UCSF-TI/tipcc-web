@@ -194,7 +194,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
-  When loaded, this module loads the default set of CBC-shared software.<br>
+  When loaded, this module loads the default set of CBC-shared software.  This replaces and is backward compatible with the deprecated usage of <code>source /home/shared/cbc/bashrc</code>.<br>
   URL: <a href="https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC">https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC</a><br>
   </td>
  </tr>
@@ -577,4 +577,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-09 13:28:48._
+_The above information was automatically generated on 2017-07-09 13:32:44._
