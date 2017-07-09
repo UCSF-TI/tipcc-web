@@ -24,19 +24,6 @@ qsub -l nodes=1:ppn=4 script.sh
 **NOTE**: Please do **not** use `-l procs=4` for this; it does _not_ work and will still allocate / give you a single core (which can be seen from `qstat -n -1`).
 
 
-### Request a specific node (avoid by all means)
-Request to work on a specific node (using a single core):
-```sh
-qsub -l nodes=n23 script.sh
-```
-
-**NOTE**: **Specifying a specific node and number of cores does NOT work correctly**.  If you try the following:
-```sh
-qsub -l nodes=n23:ppn=8 script.sh
-```
-it will _appear_ as you've requested eight cores on node n23.  However, if you look at `PBS_NUM_PPN` and `PBS_NP` you are actually only getting assigned a single core!
-
-
 ### Request total and maximum amount of memory to be used
 
 Request one node with one task consuming up to 8 GiB of RAM:
@@ -58,6 +45,19 @@ https://github.com/adaptivecomputing/torque/blob/f1a292619d9744d864411f8ad79f4da
 This messages says that PBS killed the job because it used 92,954,931,200 bytes (= 86.6 GiB), which is more than the requested 86,973,087,744 bytes (= 81 GiB; `vmem=81gb`).
 
 _Note_: We _highly recommend_ to specify `vmem` rather than `mem`.  Both will find a node that meets your memory requests, but it's only `vmem` that enforces it (which is a good thing in the end of the day).  
+
+
+### Request a specific node (avoid by all means)
+It is possible to request a job to run on a specific node, but it will only allow you to do so running a single core:
+```sh
+qsub -l nodes=n23 script.sh
+```
+
+**NOTE**: **Specifying a specific node and number of cores does NOT work correctly**.  If you try the following:
+```sh
+qsub -l nodes=n23:ppn=8 script.sh
+```
+it will _appear_ as you've requested eight cores on node n23 (e.g. `qstat -n -1 -t`).  However, if you look at `PBS_NUM_PPN` and `PBS_NP` you are actually only getting assigned a single core.  **It is very important that you do not override this single core by hard coding your script / software to use eight core!**.
 
 
 ## Listing jobs
