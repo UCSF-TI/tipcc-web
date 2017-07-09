@@ -15,12 +15,6 @@ qsub script.sh -F first second third
 Arguments are then passed as if you called the script as `script.sh first second third`.  Note that `-F` is consumed by `qsub` and is not seen by `script.sh`.
 
 
-### Request a specific node (rarely needed)
-Request to work on a specific node (using one core; the default):
-```sh
-qsub -l nodes=n23 script.sh
-```
-
 ### Request number of cores for parallel processing
 Request to get a single node (any one) with at least four cores available:
 ```sh
@@ -29,10 +23,19 @@ qsub -l nodes=1:ppn=4 script.sh
 
 **NOTE**: Please do **not** use `-l procs=4` for this; it does _not_ work and will still allocate / give you a single core (which can be seen from `qstat -n -1`).
 
-Request to work on a specific node using eight of its cores:
+
+### Request a specific node (avoid by all means)
+Request to work on a specific node (using a single core):
 ```sh
-qsub -l nodes=n26:ppn=8 script.sh
+qsub -l nodes=n23 script.sh
 ```
+
+**NOTE**: **Specifying a specific node and number of cores does NOT work correctly**.  If you try the following:
+```sh
+qsub -l nodes=n23:ppn=8 script.sh
+```
+it will _appear_ as you've requested eight cores on node n23.  However, if you look at `PBS_NUM_PPN` and `PBS_NP` you are actually only getting assigned a single core!
+
 
 ### Request total and maximum amount of memory to be used
 
