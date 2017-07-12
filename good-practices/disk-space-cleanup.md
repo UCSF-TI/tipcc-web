@@ -10,10 +10,4 @@ To inspect how much total temporary disk space are used (everyone's files), do:
 $ /home/shared/cbc/bin/clean_tmp --usage
 ```
 
-**TIPS**: It's recommended to set `$TMPDIR` to your own subdirectory.  If you're already using the [CBC-shared Software] setup, this is already done for you.  Otherwise, add the following to your `~/.bashrc/` startup script:
-```bash
-export TMPDIR=/tmp/$USER
-mkdir -p $TMPDIR
-```
-
-[CBC-shared Software]: {{ '/configuration/cbc-shared-software.html' | relative_url }}
+**TIPS**: The `TMPDIR` environment variable is set to `/tmp/$USER` for all users on the cluster and is provides a _personal_ temporary folder.  This folder is automatically created and available on all nodes on the cluster.
