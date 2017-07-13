@@ -1,0 +1,7 @@
+cd /home/henrik/repositories/TIPCC/docs/
+cd status/
+date
+make pull
+make heartbeats
+make heartbeats_push
+date
