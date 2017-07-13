@@ -8,6 +8,9 @@ WARNING: do _not_ update this file; it is automatically generated from index.md.
 
 # Cluster Usage
 
+For full details, see [Ganglia](http://cclc01.som.ucsf.edu/ganglia/?&hc=6) ([via UCSF Remote](http://cbc.ucsf.edu/vpn/http://cclc01.som.ucsf.edu/ganglia/?&hc=6)).
+
+
 ## Total CPU Load
 
 <img src="https://raw.githubusercontent.com/UCSF-TI/TIPCC-slash/master/TIPCC/docs/status/figures/cpu_load_last_year.gif" alt="Total CPU load the last 12 months">
