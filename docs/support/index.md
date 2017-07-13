@@ -2,8 +2,8 @@
 
 For questions and feature requests, please use either:
 
-*  the [TIPCC issue tracker](https://github.com/UCSF-TI/TIPCC/issues), or
-*  the [TIPCC mailing list](mailto:TIPCC@listsrv.ucsf.edu)
+1. the [TIPCC issue tracker](https://github.com/UCSF-TI/TIPCC/issues), or
+2. the [TIPCC mailing list](mailto:TIPCC@listsrv.ucsf.edu)
 
 These forums are monitored by the system administrator among others.
 
