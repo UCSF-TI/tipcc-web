@@ -27,7 +27,9 @@ Modules based on Lua: Version 7.5  2017-06-16 14:32 +02:00
 That's it!  You now have access to a large number of software tools.  See `module avail` and [software environment modules].
 
 
-As an example, here is what `~/.bashrc` may look like after adding the above:
+## Example
+
+Here is what `~/.bashrc` may look like after adding the above:
 ```sh
 MODULE_FRAMEWORK=lmod
 if [ -f /etc/bashrc ]; then
@@ -38,7 +40,8 @@ fi
 _Comment_: If you already use `source /home/shared/cbc/bashrc`, make sure it follows _after_ the if-statement that calls `/etc/bashrc`.
 
 
-_Technical details_: This new module framework is using the [Lmod Module Framework](https://lmod.readthedocs.io/en/latest/), which is a framework that supports both the classical modules written in the Tcl language as well as modules written in the Lua language.
+## Technical Details
+This module framework is using the [Lmod Module Framework](https://lmod.readthedocs.io/en/latest/), which is a framework that supports both the classical modules written in the Tcl language as well as modules written in the Lua language.
 
 
 [software environment modules]: {{ '/software/modules.html' | relative_url }}
