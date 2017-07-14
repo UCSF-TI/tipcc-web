@@ -11,7 +11,7 @@ Here is how you should use `/scratch/`:
 
 * **Don't leave files on `/scratch/` longer than necessary**.  For instance, have your jobs cleanup after themselves.
 
-* **Specify how much local storage your job will need**.  Local storage is limited to [0.84 - 10.7 TiB depending on node]({{ '/about/cluster-hardware.html' | relative_url }}).  If your job will use up to 400 GiB of disk space, you can specify this resource as `-l gres:scratch=400` (in units of GiB) when submitting the job.  A node with 2,000 GiB of scratch space will at most have five `-l gres:scratch=400` jobs running at the same time.
+* **Specify how much local storage your job will need**.  Local storage is limited to [0.84 - 10.7 TiB depending on node]({{ '/about/cluster-hardware.html' | relative_url }}).  If your job will use up to 400 GiB of disk space, you can specify this resource as `-l gres=scratch:400` (in units of GiB) when submitting the job.  A node with 2,000 GiB of scratch space will at most have five `-l gres=scratch:400` jobs running at the same time.
 
 * **All files on `/scratch/` are local to that node**.  Any files copied / written to a node's `/scratch/` space will only be accessible from that node and not from anywhere else.
 
@@ -45,7 +45,7 @@ rm -rf $SCRATCH_JOB
 
 Assume that the total amount of local scratch you need for your input files and your output files and whatever intermediate files `my_pipeline` needs is 300 GiB, and assume that the process requires up to 4 GiB of RAM to complete.  Moreover, let's say you wish to run in parallel using two cores.  Then you should submit this job script as:
 ```sh
-$ qsub -l gres:scratch=300 -l vmem=4gb -l nodes=1:ppn=2 ex-scratch.sh
+$ qsub -l gres=scratch:300 -l vmem=4gb -l nodes=1:ppn=2 ex-scratch.sh
 ```
 
 
