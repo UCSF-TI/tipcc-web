@@ -33,7 +33,7 @@ cp /data/$USER/reference.fa $SCRATCH_JOB/
 
 ## 2. Process input files
 cd $SCRATCH_JOB
-/data/$USER/my_pipeline --cores=$PBS_NUM_PPN reference.fa sample.fq > output.bam
+/path/to/my_pipeline --cores=$PBS_NUM_PPN reference.fa sample.fq > output.bam
 
 ## 3. Move output files back to global disk
 mv output.bam /data/$USER/
