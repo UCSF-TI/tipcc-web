@@ -32,7 +32,7 @@ $ ls -l ~/.netrc
 -rw------- 1 alice alice 72 Jul  3 15:10 /home/alice/.netrc
 ```
 
-To verify that the automatic authentication works, try to login again. You should no longer be prompted for your password - instead `lftp` gets it automatically from `~/.netrc`.  For example:
+To verify that the automatic authentication works, try to log in again. You should no longer be prompted for your password - instead `lftp` gets it automatically from `~/.netrc`.  For example:
 ```sh
 $ lftp --user alice.aliceson@ucsf.edu ftps://ftp.box.com:990
 lftp alice.aliceson@ucsf.edu@ftp.box.com:~> ls
