@@ -1,13 +1,13 @@
-### Find Files
+# Find Files
 
-### Find files of a certain type
+## Find files of a certain type
 
 To find all FASTQ or SAM files under $TMPDIR, do
 ```sh
 find $TMPDIR -type f -name '*.fastq' -o -name '*.fq' -o -name '*.sam'
 ```
 
-### Find large files of a certain type
+## Find large files of a certain type
 
 To find all FASTQ and SAM files larger than 50,000 KiB (~= 48.8 MiB) in your home directory, do
 ```sh
