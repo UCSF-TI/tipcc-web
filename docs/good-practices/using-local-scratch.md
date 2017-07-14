@@ -43,7 +43,7 @@ cd /scratch/$USER
 rm -rf $SCRATCH_JOB
 ```
 
-Assume that the total amount of local scratch you need for your input files and your output files and whatever intermediate files `my_pipeline` needs is 300 GiB and and assume that it requires 4 GiB of RAM.  Moreover, let's say you wish to run in parallel using two cores.  Then you you should submit this job script as:
+Assume that the total amount of local scratch you need for your input files and your output files and whatever intermediate files `my_pipeline` needs is 300 GiB, and assume that the process requires up to 4 GiB of RAM to complete.  Moreover, let's say you wish to run in parallel using two cores.  Then you should submit this job script as:
 ```sh
 $ qsub -l gres:scratch=300 -l vmem=4gb -l nodes=1:ppn=2 ex-scratch.sh
 ```
