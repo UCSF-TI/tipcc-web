@@ -15,6 +15,39 @@ Here is how you should use `/scratch/`:
 
 * **All files on `/scratch/` are local to that node**.  Any files copied / written to a node's `/scratch/` space will only be accessible from that node and not from anywhere else.
 
+## Example
+
+Here is a script called `ex-scratch.sh` that illustrates how to copy input files over from the NFS-mounted `/data` drive to the local scratch of whatever node the job ends up running on.  After processing of the input files is complete, the output files are moved from the local scratch to `/data`.  At the very end, the local scratch is cleaned up.
+
+```sh
+#!/bin/env bash
+#PBS -j oe
+
+## 0. Create job-specific scratch folder
+SCRATCH_JOB=/scratch/$USER/job/$PBS_JOBID
+mkdir -p $SCRATCH_JOB
+
+## 1. Copy input files from global disk to local scratch
+cp /data/$USER/sample.fq $SCRATCH_JOB/
+cp /data/$USER/reference.fa $SCRATCH_JOB/
+
+## 2. Process input files
+cd $SCRATCH_JOB
+/data/$USER/my_pipeline --cores=$PBS_NUM_PPN reference.fa sample.fq > output.bam
+
+## 3. Move output files back to global disk
+mv output.bam /data/$USER/
+
+## 4. Remove job-specific scratch folder
+cd /scratch/$USER
+rm -rf $SCRATCH_JOB
+```
+
+Assume that the total amount of local scratch you need for your input files and your output files and whatever intermediate files `my_pipeline` needs is 300 GiB and and assume that it requires 4 GiB of RAM.  Moreover, let's say you wish to run in parallel using two cores.  Then you you should submit this job script as:
+```sh
+$ qsub -l gres:scratch=300 -l vmem=4gb -l nodes=1:ppn=2 ex-scratch.sh
+```
+
 
 ## About the resource `gres:scratch`
 To clarify, the `gres:scratch` resource is just a bunch of tokens available per node that are handed out to jobs and recollected when those jobs are done.  The number of tokens available for a given node depends on how big it's `/scratch/` drive is.  What is not automatically accounted for is the actual _free_ disk space available on `/scratch/`.  Because of this, it is important that we all have our jobs clean up `/scratch/` usage after themselves so the next user / job can safely run.
