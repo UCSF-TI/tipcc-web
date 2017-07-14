@@ -8,11 +8,12 @@ explained in <https://ucsf.app.box.com/services/box_ftp_server>.  Afterward, you
 $ lftp --user alice.aliceson@ucsf.edu ftps://ftp.box.com:990
 Password: XXXXXXXX
 lftp alice.aliceson@ucsf.edu@ftp.box.com:~> ls
-drwx------  1 owner group     0 Jun 12  2014 Grant_R01
+drwx------  1 owner group     0 Jun 12  2014 Grant_R01.pdf
 drwx------  1 owner group     0 Sep 30  2016 Secure-alice.aliceson@ucsf.edu
 lftp alice.aliceson@ucsf.edu@ftp.box.com:~> exit
 $ 
 ```
+
 
 ## Automatic authentication
 
@@ -35,8 +36,19 @@ To verify that the automatic authentication works, try to login again. You shoul
 ```sh
 $ lftp --user alice.aliceson@ucsf.edu ftps://ftp.box.com:990
 lftp alice.aliceson@ucsf.edu@ftp.box.com:~> ls
-drwx------  1 owner group     0 Jun 12  2014 Grant_R01
+drwx------  1 owner group     0 Jun 12  2014 Grant_R01.pdf
 drwx------  1 owner group     0 Sep 30  2016 Secure-alice.aliceson@ucsf.edu
 lftp alice.aliceson@ucsf.edu@ftp.box.com:~> exit
 $ 
 ```
+
+Note that `curl` also recognizes `~/.netrc` credentials, e.g.
+```sh
+$ curl --netrc -O ftps://ftp.box.com:990/Grant_R01.pdf
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 15.6M  100 15.6M    0     0  1561k      0  0:00:10  0:00:10 --:--:-- 3918k
+$ ls -la Grant_R01.pdf
+-rw-r--r-- 1 alice cluster 16453180 Jul 10 21:13 Grant_R01.pdf
+```
+
