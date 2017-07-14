@@ -49,5 +49,5 @@ $ qsub -l gres:scratch=300 -l vmem=4gb -l nodes=1:ppn=2 ex-scratch.sh
 ```
 
 
-## About the resource `gres:scratch`
+## Technical details
 To clarify, the `gres:scratch` resource is just a bunch of tokens available per node that are handed out to jobs and recollected when those jobs are done.  The number of tokens available for a given node depends on how big it's `/scratch/` drive is.  What is not automatically accounted for is the actual _free_ disk space available on `/scratch/`.  Because of this, it is important that we all have our jobs clean up `/scratch/` usage after themselves so the next user / job can safely run.
