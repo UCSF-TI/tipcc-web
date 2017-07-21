@@ -47,7 +47,7 @@ Assume that the total amount of local scratch you need for your input files and 
 ```sh
 $ qsub -l nodes=1:ppn=2 -l gres=scratch:150 -l vmem=4gb ex-scratch.sh
 ```
-This will identify a node with 2 * 150 GiB = 300 GiB of scratch and 4 GiB of RAM available.
+This will identify a node with 2 cores, 2 * 150 GiB = 300 GiB of scratch, and 4 GiB of RAM available.
 
 
 ## Technical details
