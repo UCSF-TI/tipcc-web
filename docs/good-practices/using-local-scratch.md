@@ -45,9 +45,9 @@ rm -rf $SCRATCH_JOB
 
 Assume that the total amount of local scratch you need for your input files and your output files and whatever intermediate files `my_pipeline` needs is 300 GiB, and assume that the process requires up to 4 GiB of RAM to complete.  Moreover, let's say you wish to run in parallel using two cores.  Then you should submit this job script as:
 ```sh
-$ qsub -l gres=scratch:150 -l vmem=4gb -l nodes=1:ppn=2 ex-scratch.sh
+$ qsub -l nodes=1:ppn=2 -l gres=scratch:150 -l vmem=4gb ex-scratch.sh
 ```
-This will identify a node with 2 * 150 GiB = 300 GiB of scratch available.
+This will identify a node with 2 * 150 GiB = 300 GiB of scratch and 4 GiB of RAM available.
 
 
 ## Technical details
