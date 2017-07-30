@@ -2,6 +2,10 @@
 
 All nodes have their own locally storage mounted as `/scratch/`.  The `/scratch/` storage is fast - faster than system-wide storage such as `/home/` and `/work/` - which make it ideal for holding intermediate data files.  This will also lower the load on the system-wide storage and the local network.
 
+<div class="alert alert-warning" role="alert">
+Whenever you are using a nodes local <code>/scratch</code> space, it is <em>very important</em> that you clean up afterward.
+</div>
+
 
 Here is how you should use `/scratch/`:
 
@@ -51,4 +55,9 @@ This will identify a node with 2 cores, 2 * 150 GiB = 300 GiB of scratch, and 4 
 
 
 ## Technical details
-To clarify, the `gres:scratch` resource is just a bunch of tokens available per node that are handed out to jobs and recollected when those jobs are done.  The number of tokens available for a given node depends on how big it's `/scratch/` drive is.  What is not automatically accounted for is the actual _free_ disk space available on `/scratch/`.  Because of this, it is important that we all have our jobs clean up `/scratch/` usage after themselves so the next user / job can safely run.
+
+To clarify, the `gres:scratch` resource is just a bunch of tokens available per node that are handed out to jobs and recollected when those jobs are done.  The number of tokens available for a given node depends on how big it's `/scratch/` drive is.  What is _not_ automatically accounted for is the actual _free_ disk space available on `/scratch/`.  In other words, it is possible for a node's `/scratch` to become full although there are `gres:scratch` tokens available for that node.  When `/scratch` becomes full, any attempts to write to the drive will generate
+```sh
+write error: No space left on device
+```
+Because of this, it is _very important_ that we all have our jobs clean up `/scratch/` usage after themselves so the next user / job can safely run.
