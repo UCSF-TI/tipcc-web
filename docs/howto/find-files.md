@@ -26,7 +26,7 @@ To find all files under `/scratch/alice/` that have not been modified during the
 find /scratch/alice/ -type f -mtime +14
 ```
 
-To remove these files, do:
+To remove these files interactively (`rm -i`), do:
 ```sh
-find /scratch/alice/ -type f -mtime +14 -exec rm {} \;
+find /scratch/alice/ -type f -mtime +14 -exec rm -i {} \;
 ```
