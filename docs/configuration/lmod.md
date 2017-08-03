@@ -20,7 +20,7 @@ MODULE_FRAMEWORK=lmod
 
 3. To confirm, type `module --version` and make sure it says:
 ```sh
-Modules based on Lua: Version 7.5  2017-06-16 14:32 +02:00
+Modules based on Lua: Version 7.6  2017-07-24 14:07 -05:00
     by Robert McLay mclay@tacc.utexas.edu
 ```
 	
