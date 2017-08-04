@@ -409,17 +409,6 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
-  <strong>pip</strong><br>
-  <em>9.0.1</em>
-  </td>
-  <td>
-  <strong>pip - The PyPA recommended tool for installing Python packages</strong><br>
-  The PyPA recommended tool for installing Python packages.<br>
-  URL: <a href="https://pypi.python.org/pypi/pip">https://pypi.python.org/pypi/pip</a><br>
-  </td>
- </tr>
- <tr>
-  <td>
   <strong>python</strong><br>
   2.7.3, 2.7.4, <em>2.7.9</em>
   </td>
@@ -577,4 +566,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-13 17:55:08._
+_The above information was automatically generated on 2017-08-03 23:43:05._
