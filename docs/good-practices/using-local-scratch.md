@@ -52,7 +52,7 @@ $ qsub -l nodes=1:ppn=2 -l gres=scratch:150 -l vmem=4gb ex-scratch.sh
 This will identify a node with 2 cores, 2 * 150 GiB = 300 GiB of scratch, and 4 GiB of RAM available.
 
 <br>
-(*) The `trap` command is a built-in function of the Bourne Shell (aka Bash).  If you use a non-Bash shell, please consult that shells documentation for similar features, e.g. in Zsh you can use `TRAPEXIT`.  Other shells might not have signal trap mechanisms - in such cases, make sure to remove the files using `rm` at the end of the script.
+(*) The `trap` command is a built-in function of the Bourne Again Shell (aka Bash).  If you use a non-Bash shell, please consult that shells documentation for similar features, e.g. in Zsh you can use `TRAPEXIT`.  Other shells might not have signal trap mechanisms - in such cases, make sure to remove the files using `rm` at the end of the script.
 
 
 ## Technical details
