@@ -3,7 +3,7 @@
 All nodes have their own locally storage mounted as `/scratch/`.  The `/scratch/` storage is fast - faster than system-wide storage such as `/home/` and `/work/` - which make it ideal for holding intermediate data files.  This will also lower the load on the system-wide storage and the local network.
 
 <div class="alert alert-warning" role="alert">
-Whenever you are using a nodes local <code>/scratch</code> space, it is <em>very important</em> that you clean up afterward.
+Whenever you are using a nodes local <code>/scratch</code> space, it is <em>very important</em> that you clean up afterward.  The example at the end shows one way to do this automatically.
 </div>
 
 
@@ -21,15 +21,17 @@ Here is how you should use `/scratch/`:
 
 ## Example
 
-Here is a script called `ex-scratch.sh` that illustrates how to copy input files over from the NFS-mounted `/data` drive to the local scratch of whatever node the job ends up running on.  After processing of the input files is complete, the output files are moved from the local scratch to `/data`.  At the very end, the local scratch is cleaned up.
+Here is a script called `ex-scratch.sh` that illustrates how to set up a job-specific local scratch folder that will, using a so called signal trap(*), be automatically removed upon exit (regardless of error or not).  The script then copies input files over from the NFS-mounted `/data` drive to this local scratch folder.  After processing of the input files is complete, the output files are moved from the local scratch to `/data`.
 
 ```sh
 #!/bin/env bash
 #PBS -j oe
 
-## 0. Create job-specific scratch folder
+## 0. Create job-specific scratch folder ...
 SCRATCH_JOB=/scratch/$USER/job/$PBS_JOBID
 mkdir -p $SCRATCH_JOB
+##    ... that is automatically removed upon exit
+trap "{ cd /scratch/ ; rm -rf $SCRATCH_JOB/ ; }" EXIT
 
 ## 1. Copy input files from global disk to local scratch
 cp /data/$USER/sample.fq $SCRATCH_JOB/
@@ -41,10 +43,6 @@ cd $SCRATCH_JOB
 
 ## 3. Move output files back to global disk
 mv output.bam /data/$USER/
-
-## 4. Remove job-specific scratch folder
-cd /scratch/$USER
-rm -rf $SCRATCH_JOB
 ```
 
 Assume that the total amount of local scratch you need for your input files and your output files and whatever intermediate files `my_pipeline` needs is 300 GiB, and assume that the process requires up to 4 GiB of RAM to complete.  Moreover, let's say you wish to run in parallel using two cores.  Then you should submit this job script as:
@@ -52,6 +50,9 @@ Assume that the total amount of local scratch you need for your input files and 
 $ qsub -l nodes=1:ppn=2 -l gres=scratch:150 -l vmem=4gb ex-scratch.sh
 ```
 This will identify a node with 2 cores, 2 * 150 GiB = 300 GiB of scratch, and 4 GiB of RAM available.
+
+<br>
+(*) The `trap` command is a built-in function of the Bourne Shell (aka Bash).  If you use a non-Bash shell, please consult that shells documentation for similar features, e.g. in Zsh you can use `TRAPEXIT`.  Other shells might not have signal trap mechanisms - in such cases, make sure to remove the files using `rm` at the end of the script.
 
 
 ## Technical details
