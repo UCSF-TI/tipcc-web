@@ -17,8 +17,8 @@ n11       |           12 |      2.3  |        64 |              1.8 |           
 n12       |           48 |      2.3  |       384 |              1.7 | Tesla M2070 GPU w/ 448 cores | (communal)
 n13       |           48 |      2.3  |       512 |              1.6 | Tesla M2070 GPU w/ 448 cores | (communal)
 n14       |           12 |      3.47 |       128 |             0.84 | InfiniBand (IB), Intel       | Witte Lab
-n15       |           64 |      2.6  |       128 |              1.7 | InfiniBand (IB), FMA4        | Witte Lab
-n16       |           64 |      2.6  |       128 |             10.7 | InfiniBand (IB), FMA4        | Witte Lab
+n15       |           64 |      2.6  |       256 |              1.7 | InfiniBand (IB), FMA4        | Witte Lab
+n16       |           64 |      2.6  |       512 |             10.7 | InfiniBand (IB), FMA4        | Witte Lab
 n17       |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | CBC, Taylor Lab
 n18       |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n19       |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
