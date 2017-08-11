@@ -496,6 +496,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>star</strong><br>
+  <em>2.5.3a</em>
+  </td>
+  <td>
+  <strong>STAR - Spliced Transcripts Alignment to a Reference</strong><br>
+  STAR (Spliced Transcripts Alignment to a Reference) is a fast NGS read aligner for RNA-seq data.<br>
+  URL: <a href="https://github.com/alexdobin/STAR">https://github.com/alexdobin/STAR</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>tophat</strong><br>
   1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, <em>2.1.1</em>
   </td>
@@ -566,4 +577,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-08-03 23:43:05._
+_The above information was automatically generated on 2017-08-11 15:18:07._
