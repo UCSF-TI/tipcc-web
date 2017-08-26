@@ -41,7 +41,10 @@ _Comment_: If you already use `source /home/shared/cbc/bashrc`, make sure it fol
 
 
 ## Technical Details
+
 This module framework is using the [Lmod Module Framework](https://lmod.readthedocs.io/en/latest/), which is a framework that supports both the classical modules written in the Tcl language as well as modules written in the Lua language.
+
+The Lmod Module Framework (`MODULE_FRAMEWORK=lmod`) will eventually become the default.  If you for some reasons prefer to keep the Tcl Module Framework when this transition happens, you can for now set `MODULE_FRAMEWORK=tcl`.
 
 
 [software environment modules]: {{ '/software/modules.html' | relative_url }}
