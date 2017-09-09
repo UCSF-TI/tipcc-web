@@ -38,7 +38,6 @@ n30       |           28 |      2.4  |       512 |              7.2 | InfiniBand
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.
 The local disk space is unique to each node and mounted as `/scratch/`.
 All nodes have AMD processors, except n14, n29, and n30 which have Intel processors.
-Nodes n24 and n25 are being migrated to become "login" nodes. /February 2016  
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
 _Notes_:
