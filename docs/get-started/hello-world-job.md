@@ -21,7 +21,7 @@ The TIPCC cluster uses Torque/PBS as its scheduler. Torque/PBS provides command 
 
 
 <div class="alert alert-info" role="alert" style="margin-top: 3ex">
-Further information with detailed examples on job submissions can be found on separate pages under the 'Scheduler' menu.
+Further information with detailed examples on job submissions can be found on page 'Submit Jobs' under the 'How To' menu.
 </div>
 
 
@@ -91,5 +91,4 @@ There is of course nothing preventing us from submitting the same script multipl
 
 
 [compute nodes]: {{ '/about/specs.html' | relative_url }}
-[Submit Jobs]: {{ '/scheduler/submit-jobs.html' | relative_url }}
-
+[Submit Jobs]: {{ '/howto/submit-jobs-to-the-scheduler.html' | relative_url }}
