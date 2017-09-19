@@ -24,4 +24,4 @@ All users' `/home/` directories are backed up regularly.  _Note that no other di
 NOTE: Archival backups were temporarily disabled from 2017-04-25 to 2017-05-19  for purposes of troubleshooting why the master (the head node) kept crashing.  No backups are available during that period.
 
 
-[sysadm]: {{ '/about/about.html' | relative_url }}
+[sysadm]: {{ '/about/contact.html' | relative_url }}
