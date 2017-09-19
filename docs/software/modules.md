@@ -3,9 +3,10 @@
 WARNING: do _not_ update this file; it is automatically generated from modules.md.rsp and will be overwritten.
 -->
 
-<div class="alert alert-warning" role="alert">
-Environment modules are currently in beta - to enable them, see Configuration / <a href="{{ '/configuration/lmod.html' | relative_url }}">Enable Software Modules</a>.
+<div class="alert alert-info" role="alert">
+2017-09-19: Enabled the below for all cluster users. The cluster now uses Lua-based Environment Modules (Lmod) by default, which is 99.9% backward compatible with the traditional Tcl-based module framework previously used. To temporary revert to that old framework, add <code>MODULE_FRAMEWORK=tcl</code> to the top of your <code>~/.bashrc</code> file.
 </div>
+
 
 # Software
 
@@ -57,7 +58,7 @@ _Technical details_: Loading a module repository will append its folder to the `
 
 
 
-## Module Repository 'CBC'
+## Software Repository 'CBC'
 
 Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 
@@ -577,4 +578,4 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-08-11 15:18:07._
+_The above information was automatically generated on 2017-09-19 10:58:03._
