@@ -3,14 +3,10 @@
 WARNING: do _not_ update this file; it is automatically generated from modules.md.rsp and will be overwritten.
 -->
 
-# Software
+# Software Repositories and their Software
 
-To use one or more of the below software modules, use `module load <name>` or `module load <name>/<version>`.  Here are a few examples:
-```sh
-module load bowtie2
-module load bowtie2/2.2.6
-module load python r bwa
-```
+Below is a list of all available Software Repositories, which each provides a set of software tools that can be accessed using `module load <repos>` and then `module load <software>`.  For further instructions on how to use software modules, see the page on [Software Modules].
+
 
 These software modules are available from different _module repositories_, each providing several modules (more details below).  The available repositories are:
 
@@ -573,4 +569,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-09-19 11:08:03._
+_The above information was automatically generated on 2017-09-19 11:26:55._
+
+[Software Modules]: {{ '/software/software-modules.html' | relative_url }}
+
