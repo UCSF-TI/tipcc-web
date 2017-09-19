@@ -11,4 +11,7 @@ init: .git/hooks/pre-commit
 	ln -s ../../.githooks/pre-commit .
 
 serve:
-	bundle exec jekyll serve
+	bundle exec jekyll serve --port 4000 &
+
+stop:
+	pkill --echo --count "ruby2.3"
