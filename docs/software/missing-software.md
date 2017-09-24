@@ -1,9 +1,7 @@
 # Missing Software?
 
 Don't find the software you need for your analysis?
-<!--
 Did you make sure it is not in one of the [software repositories]({{ '/software/software-repositories.html' | relative_url }})?
--->
 If so, you have a few options:
 
 1. Install it yourself to your own account
@@ -18,4 +16,4 @@ If so, you have a few options:
    <br><br>
 
 3. Core software
-   - If a core software is missing, it may be that the [the system administrator]({{ '/about/contact.html' | relative_url }}) are willing to add it to the core installation
+   - If a core software is missing, it may be that the [the systems administrator]({{ '/about/contact.html' | relative_url }}) is willing to add it to the core installation
