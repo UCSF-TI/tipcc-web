@@ -16,7 +16,7 @@ All users' `/home/` directories are backed up regularly.  _Note that no other di
 
 ## Archival backups
 * **Nightly** backups to tape (full every weekend and incremental nightly)
-* Backup history: **~12 months**
+* Backup history: **~8 months**
 * Recovery: Contact [sysadm]
   - Modified files: Previous versions of a modified file can be recovered from the archive for up to 12 months
   - Deleted files: A deleted file can be recovered from the archive for up to 12 months
