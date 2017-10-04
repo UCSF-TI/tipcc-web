@@ -23,7 +23,7 @@ n17       |           64 |      2.6  |       512 |              5.2 | InfiniBand
 n18       |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n19       |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n20       |           64 |      2.6  |       512 |              5.2 | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
-n21       |           48 |      2.8  |       256 |              5.2 | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
+n21       |           64 |      2.8  |       256 |              5.3 | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
 n22       |           48 |      2.8  |       384 |              5.2 | InfiniBand (IB), FMA4        | Molinaro Lab
 n23       |           48 |      2.8  |       384 |              5.2 | InfiniBand (IB), FMA4        | Molinaro Lab
 n24       |           12 |      2.4  |        32 |              1.7 |                              | (communal)
@@ -32,7 +32,7 @@ n26       |           12 |      2.4  |        32 |              1.7 |           
 n27       |           48 |      1.4  |       384 |              5.2 | InfiniBand (IB), FMA4        | Costello Lab
 n28       |           64 |      2.3  |       512 |              2.6 | InfiniBand (IB), FMA4        | Shannon Lab
 n29       |           64 |      2.1  |       512 |              3.0 | InfiniBand (IB), Intel       | Krummel Lab
-**Total** |     **1152** |           |           |                  |                              |
+**Total** |     **1168** |           |           |                  |                              |
 
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.
 The local disk space is unique to each node and mounted as `/scratch/`.
