@@ -31,9 +31,8 @@ n25       |           12 |      2.4  |        32 |              1.7 |           
 n26       |           12 |      2.4  |        32 |              1.7 |                              | (communal)
 n27       |           48 |      1.4  |       384 |              5.2 | InfiniBand (IB), FMA4        | Costello Lab
 n28       |           64 |      2.3  |       512 |              2.6 | InfiniBand (IB), FMA4        | Shannon Lab
-n29       |           28 |      2.4  |       512 |              7.2 | InfiniBand (IB), Intel       | Sweet-Cordero Lab
-n30       |           28 |      2.4  |       512 |              7.2 | InfiniBand (IB), Intel       | Sweet-Cordero Lab
-**Total** |     **1072** |           |           |                  |                              |
+n29       |           64 |      2.1  |       512 |              3.0 | InfiniBand (IB), Intel       | Krummel Lab
+**Total** |     **1152** |           |           |                  |                              |
 
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.
 The local disk space is unique to each node and mounted as `/scratch/`.
