@@ -27,10 +27,11 @@ Here is a script called `ex-scratch.sh` that illustrates how to set up a job-spe
 #!/bin/env bash
 #PBS -j oe
 
-## 0. Create job-specific scratch folder ...
+## 0. Create job-specific scratch folder that ...
 SCRATCH_JOB=/scratch/$USER/job/$PBS_JOBID
 mkdir -p $SCRATCH_JOB
-##    ... that is automatically removed upon exit
+##    ... is automatically removed upon exit
+##    (regardless of success or failure)
 trap "{ cd /scratch/ ; rm -rf $SCRATCH_JOB/ ; }" EXIT
 
 ## 1. Copy input files from global disk to local scratch

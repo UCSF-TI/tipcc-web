@@ -3,18 +3,10 @@
 WARNING: do _not_ update this file; it is automatically generated from modules.md.rsp and will be overwritten.
 -->
 
-<div class="alert alert-warning" role="alert">
-Environment modules are currently in beta - to enable them, see Configuration / <a href="{{ '/configuration/lmod.html' | relative_url }}">Enable Software Modules</a>.
-</div>
+# Software Repositories and their Software
 
-# Software
+Below is a list of all available Software Repositories, which each provides a set of software tools that can be accessed using `module load <repos>` and then `module load <software>`.  For further instructions on how to use software modules, see the page on [Software Modules].
 
-To use one or more of the below software modules, use `module load <name>` or `module load <name>/<version>`.  Here are a few examples:
-```sh
-module load bowtie2
-module load bowtie2/2.2.6
-module load python r bwa
-```
 
 These software modules are available from different _module repositories_, each providing several modules (more details below).  The available repositories are:
 
