@@ -2,7 +2,7 @@
 
 For questions and feature requests, please use either:
 
-1. the [TIPCC issue tracker](https://github.com/UCSF-TI/TIPCC/issues), or
+1. the [TIPCC issue tracker](https://github.com/UCSF-TI/TIPCC/issues) (if you don't have access, please [send us](../about/contact.html) your [GitHub username](https://github.com/join)), or
 2. the [TIPCC mailing list](mailto:TIPCC@listsrv.ucsf.edu)
 
 These forums are monitored by the system administrator among others.
