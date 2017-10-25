@@ -1,4 +1,4 @@
-all:  figures
+all:  pull heartbeats_ping heartbeats_push
 
 pull:
 	git pull -s recursive -X theirs
