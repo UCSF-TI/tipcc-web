@@ -182,7 +182,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.3, <em>0.1.2</em>
+  0.1.0, 0.1.1, 0.1.2, 0.2.0, <em>0.1.3</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -413,7 +413,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>r</strong><br>
-  AR-2.5.3a, devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1patched, 3.4.1, 3.4.2patched, 3.5.0devel, <em>3.4.2</em>
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1patched, 3.4.1, 3.4.2patched, 3.5.0devel, <em>3.4.2</em>
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
@@ -429,6 +429,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <td>
   <strong>R Extras: Additional software, libraries and include paths needed to build some R / Bioconductor packages</strong><br>
   Additional software, libraries and include paths needed to build some R / Bioconductor packages<br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>ruby</strong><br>
+  <em>2.2.0p0</em>
+  </td>
+  <td>
+  <strong>Ruby - the Ruby Programming Language</strong><br>
+  Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.<br>
+  URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
   </td>
  </tr>
  <tr>
@@ -569,4 +580,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-10-23 18:27:06._
+_The above information was automatically generated on 2017-10-24 19:24:43._
+
+[Software Modules]: {{ '/software/software-modules.html' | relative_url }}
+
