@@ -12,4 +12,4 @@ To request access and get an account on the cluster, please [contact us] with th
 * Other useful information
 
 
-[contact us]: {{ '/about/about.html' | relative_url }}
+[contact us]: {{ '/about/contact.html' | relative_url }}

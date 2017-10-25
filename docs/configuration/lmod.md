@@ -20,14 +20,16 @@ MODULE_FRAMEWORK=lmod
 
 3. To confirm, type `module --version` and make sure it says:
 ```sh
-Modules based on Lua: Version 7.5  2017-06-16 14:32 +02:00
+Modules based on Lua: Version 7.6  2017-07-24 14:07 -05:00
     by Robert McLay mclay@tacc.utexas.edu
 ```
 	
 That's it!  You now have access to a large number of software tools.  See `module avail` and [software environment modules].
 
 
-As an example, here is what `~/.bashrc` may look like after adding the above:
+## Example
+
+Here is what `~/.bashrc` may look like after adding the above:
 ```sh
 MODULE_FRAMEWORK=lmod
 if [ -f /etc/bashrc ]; then
@@ -38,7 +40,11 @@ fi
 _Comment_: If you already use `source /home/shared/cbc/bashrc`, make sure it follows _after_ the if-statement that calls `/etc/bashrc`.
 
 
-_Technical details_: This new module framework is using the [Lmod Module Framework](https://lmod.readthedocs.io/en/latest/), which is a framework that supports both the classical modules written in the Tcl language as well as modules written in the Lua language.
+## Technical Details
+
+This module framework is using the [Lmod Module Framework](https://lmod.readthedocs.io/en/latest/), which is a framework that supports both the classical modules written in the Tcl language as well as modules written in the Lua language.
+
+The Lmod Module Framework (`MODULE_FRAMEWORK=lmod`) will eventually become the default.  If you for some reasons prefer to keep the Tcl Module Framework when this transition happens, you can for now set `MODULE_FRAMEWORK=tcl`.
 
 
 [software environment modules]: {{ '/software/modules.html' | relative_url }}

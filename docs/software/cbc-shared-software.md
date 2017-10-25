@@ -1,5 +1,5 @@
-<div class="alert alert-warning" role="alert">
-To get access to the below software, see Configuration / <a href="{{ '/configuration/cbc-shared-software.html' | relative_url }}">Enable CBC-shared Software</a>.
+<div class="alert alert-danger" role="alert">
+2017-09-19: The below instructions/tools are deprecated.  Instead use <code>module load CBC</code> to access the many tools in <a href="/software/modules.html">the CBC Software Repository</a>.
 </div>
 
 # CBC-shared Software

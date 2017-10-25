@@ -3,18 +3,10 @@
 WARNING: do _not_ update this file; it is automatically generated from modules.md.rsp and will be overwritten.
 -->
 
-<div class="alert alert-warning" role="alert">
-Environment modules are currently in beta - to enable them, see Configuration / <a href="{{ '/configuration/lmod.html' | relative_url }}">Enable Software Modules</a>.
-</div>
+# Software Repositories and their Software
 
-# Software
+Below is a list of all available Software Repositories, which each provides a set of software tools that can be accessed using `module load <repos>` and then `module load <software>`.  For further instructions on how to use software modules, see the page on [Software Modules].
 
-To use one or more of the below software modules, use `module load <name>` or `module load <name>/<version>`.  Here are a few examples:
-```sh
-module load bowtie2
-module load bowtie2/2.2.6
-module load python r bwa
-```
 
 These software modules are available from different _module repositories_, each providing several modules (more details below).  The available repositories are:
 
@@ -168,7 +160,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  <em>0.1.0</em>
+  0.1.0, <em>0.1.1</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -190,7 +182,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.2, <em>0.1.1</em>
+  0.1.0, 0.1.1, 0.1.2, 0.2.0, <em>0.1.3</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -333,7 +325,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>igv</strong><br>
-  2.1.2, 2.3.31, 2.3.68, <em>2.3.92</em>
+  2.1.2, 2.3.31, 2.3.68, 2.3.92, <em>2.4.0</em>
   </td>
   <td>
   <strong>IGV: The Integrative Genomics Viewer</strong><br>
@@ -344,7 +336,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>igvtools</strong><br>
-  2.3.68, <em>2.3.91</em>
+  2.3.68, 2.3.91, <em>2.3.98</em>
   </td>
   <td>
   <strong>IGVTools</strong><br>
@@ -409,17 +401,6 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
-  <strong>pip</strong><br>
-  <em>9.0.1</em>
-  </td>
-  <td>
-  <strong>pip - The PyPA recommended tool for installing Python packages</strong><br>
-  The PyPA recommended tool for installing Python packages.<br>
-  URL: <a href="https://pypi.python.org/pypi/pip">https://pypi.python.org/pypi/pip</a><br>
-  </td>
- </tr>
- <tr>
-  <td>
   <strong>python</strong><br>
   2.7.3, 2.7.4, <em>2.7.9</em>
   </td>
@@ -432,7 +413,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1patched, 3.5.0devel, <em>3.4.1</em>
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1patched, 3.4.1, 3.4.2patched, 3.5.0devel, <em>3.4.2</em>
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
@@ -448,6 +429,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <td>
   <strong>R Extras: Additional software, libraries and include paths needed to build some R / Bioconductor packages</strong><br>
   Additional software, libraries and include paths needed to build some R / Bioconductor packages<br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>ruby</strong><br>
+  <em>2.2.0p0</em>
+  </td>
+  <td>
+  <strong>Ruby - the Ruby Programming Language</strong><br>
+  Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.<br>
+  URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
   </td>
  </tr>
  <tr>
@@ -503,6 +495,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <strong>SRA Toolkit</strong><br>
   The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.<br>
   URL: <a href="http://ncbi.github.io/sra-tools/">http://ncbi.github.io/sra-tools/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>star</strong><br>
+  <em>2.5.3a</em>
+  </td>
+  <td>
+  <strong>STAR - Spliced Transcripts Alignment to a Reference</strong><br>
+  STAR (Spliced Transcripts Alignment to a Reference) is a fast NGS read aligner for RNA-seq data.<br>
+  URL: <a href="https://github.com/alexdobin/STAR">https://github.com/alexdobin/STAR</a><br>
   </td>
  </tr>
  <tr>
@@ -577,4 +580,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-07-10 10:21:16._
+_The above information was automatically generated on 2017-10-24 19:24:43._
+
+[Software Modules]: {{ '/software/software-modules.html' | relative_url }}
+

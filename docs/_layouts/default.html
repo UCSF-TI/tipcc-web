@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link href="{{ '/assets/css/ucsf-banners.css' | relative_url }}" rel="stylesheet">
     <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
-    <link href="{{ '/assets/css/tipcc-tweaks.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/tweaks.css' | relative_url }}" rel="stylesheet">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,15 +46,19 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-<!--	  
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Software <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="{{ '/get-started/access-cluster.html' | relative_url }}">1. Accessing Cluster</a></li>
-            <li><a href="{{ '/get-started/interactive-usage.html' | relative_url }}">2. Interactive Usage</a></li>
-            <li><a href="{{ '/get-started/submit-job.html' | relative_url }}">3. Submit a Script to Job Queue</a></li>
+            <li><a href="{{ '/software/core-software.html' | relative_url }}">Core software</a></li>
+            <li><a href="{{ '/software/software-modules.html' | relative_url }}">Software modules</a></li>
+            <li><a href="{{ '/software/software-repositories.html' | relative_url }}">Software repositories</a></li>
+            <li><a href="{{ '/software/missing-software.html' | relative_url }}">Missing software?</a></li>
           </ul>
         </li>
--->
+
+
+<!--	
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Configuration <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -62,7 +66,7 @@
             <li><a href="{{ '/configuration/cbc-shared-software.html' | relative_url }}">Enable CBC-shared Software (deprecated)</a></li>
           </ul>
         </li>
-
+-->
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Good Practices <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -84,14 +88,6 @@
         </li>
 	
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Software <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ '/software/modules.html' | relative_url }}">Software Modules</a></li>
-            <li><a href="{{ '/software/cbc-shared-software.html' | relative_url }}">CBC-shared Software</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Troubleshooting <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ '/troubleshoot/ssh-n6-gives-permission-denied-(publickey).html' | relative_url }}">SSH Permission Denied?</a></li>
@@ -101,18 +97,30 @@
           </ul>
         </li>
 	
+        <li><a href="{{ '/support/index.html' | relative_url }}">Support</a></li>
         <li><a href="{{ '/status/index.html' | relative_url }}">Status</a></li>
 	
         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Started <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ '/get-started/access-cluster.html' | relative_url }}">1. Login &amp; Logout</a></li>
+            <li><a href="{{ '/get-started/interactive-usage.html' | relative_url }}">2. Interactive usage</a></li>
+            <li><a href="{{ '/get-started/hello-world-job.html' | relative_url }}">3. 'Hello World' Job</a></li>
+<!--
+            <li><a href="{{ '/get-started/good-practices.html' | relative_url }}">4. Good Practices</a></li>
+-->
+          </ul>
+        </li>
+
+	<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="{{ '/about/cluster-hardware.html' | relative_url }}">Hardware</a></li>
-            <li><a href="{{ '/about/cluster-operating-system.html' | relative_url }}">Operating System &amp; Scheduler</a></li>
+            <li><a href="{{ '/about/specs.html' | relative_url }}">Specifications</a></li>
             <li><a href="{{ '/about/backups.html' | relative_url }}">File Backup</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="{{ '/about/how-to-join.html' | relative_url }}">Join <span class="glyphicon glyphicon-heart-empty"></span></a></li>
+            <li><a href="{{ '/about/join.html' | relative_url }}">Join <span class="glyphicon glyphicon-heart-empty"></span></a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="{{ '/about/about.html' | relative_url }}">About</a></li>
+            <li><a href="{{ '/about/contact.html' | relative_url }}">Contact</a></li>
           </ul>
         </li>
       </ul>
@@ -132,7 +140,12 @@
      {% if page_url == '/' %}
      {% assign page_url = '/index' %}
      {% endif %}     
-     <a href="{{ site.github.owner_url }}/{{ site.github.repository_name }}/tree/master/docs{{ page_url | append: '.md' | replace_first: '/.md', '/index.md' }}" id="edit" target="_blank"><span class="glyphicon glyphicon-edit" style="float: right;" title="Edit this page"></span></a>
+     <span style="float: right;">
+       <a href="{{ site.github.owner_url }}/{{ site.github.repository_name }}/commits/master/docs{{ page_url | append: '.md' | replace_first: '/.md', '/index.md' }}" id="edit" target="_blank"><span class="glyphicon glyphicon-time" title="Change log for this page"></span
+></a>
+       :
+       <a href="{{ site.github.owner_url }}/{{ site.github.repository_name }}/tree/master/docs{{ page_url | append: '.md' | replace_first: '/.md', '/index.md' }}" id="edit" target="_blank"><span class="glyphicon glyphicon-edit" title="Contribute to this page"></span></a>
+     </span>
 
 <p class="muted credit" style="font-size: inherits;">
 <a href="{{ '/' | relative_url }}">TIPCC</a>

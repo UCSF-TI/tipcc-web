@@ -1,22 +1,11 @@
 # Head Node Troubleshooting
 
-## Inspect head-node processes
+## Inspect processes on master (head node)
 
-The `c4 head` command (you'll find it in `/home/shared/cbc/bin/`) reports on (i) the five _non-user_ processes that consumes the most memory on the head node as well as (ii) any _user_ processes running on the head node (excluding basic ones such as `ls`, `more`, `cp` etc.)
+The `tipcc master` command reports on (i) the five _non-user_ processes that consumes the most memory on the head node as well as (ii) any _user_ processes running on the head node (excluding basic ones such as `ls`, `more`, `cp` etc.)
  
 ```sh
-$ c4 head
-# Head-Node Status
-
-## High-memory non-user processes
-USER	PID	%CPU	%MEM	PROCESS
-root	381362	21.3	44.9	/opt/moab/sbin/moab
-root	5682	2.4	1.7	/usr/sbin/pbs_server
-tomcat	3984	52.7	1.2	/usr/java/jdk1.7.0_72/bin/java
-root	3455	0.0	0.1	java
-mysql	3730	24.0	0.1	/usr/libexec/mysqld
-
-## User processes (excl. white-listed ones)
+$ tipcc master
 alice [Alice Aliceson (alice@honeypot.ucsf.edu)]:
 PIDs (on the head node): 87013
 USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
