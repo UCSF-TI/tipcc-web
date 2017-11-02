@@ -554,6 +554,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>vcf-validator</strong><br>
+  <em>0.6</em>
+  </td>
+  <td>
+  <strong>vcf-validator - Validation suite for Variant Call Format (VCF) files</strong><br>
+  Validator for the Variant Call Format (VCF) implemented using C++11. It includes all the checks from the vcftools suite, and some more that involve lexical, syntactic and semantic analysis of the VCF input.<br>
+  URL: <a href="https://github.com/EBIvariation/vcf-validator">https://github.com/EBIvariation/vcf-validator</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>vcftools</strong><br>
   <em>0.1.13</em>
   </td>
@@ -580,7 +591,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-10-24 19:24:43._
+_The above information was automatically generated on 2017-11-01 20:35:39._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
