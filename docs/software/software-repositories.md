@@ -286,7 +286,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <td>
   <strong>The Go Programming Language</strong><br>
   Go is a cross-platform open-source programming language that makes it easy to build simple, reliable, and efficient software.<br>
-  URL: <a href="https://golang.org//">https://golang.org//</a><br>
+  URL: <a href="https://golang.org/">https://golang.org/</a><br>
   </td>
  </tr>
  <tr>
@@ -419,16 +419,6 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <strong>The R Programming Language</strong><br>
   The R programming language<br>
   URL: <a href="https://www.r-project.org/">https://www.r-project.org/</a><br>
-  </td>
- </tr>
- <tr>
-  <td>
-  <strong>r-extras</strong><br>
-  <em>0.1.0</em>
-  </td>
-  <td>
-  <strong>R Extras: Additional software, libraries and include paths needed to build some R / Bioconductor packages</strong><br>
-  Additional software, libraries and include paths needed to build some R / Bioconductor packages<br>
   </td>
  </tr>
  <tr>
@@ -591,7 +581,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-01 20:35:39._
+_The above information was automatically generated on 2017-11-01 20:49:04._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
