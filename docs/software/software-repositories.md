@@ -182,7 +182,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.2.0, <em>0.1.3</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.2.0, <em>0.1.4</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -581,7 +581,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-01 21:07:38._
+_The above information was automatically generated on 2017-11-03 16:59:38._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
