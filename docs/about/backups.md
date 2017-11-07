@@ -1,5 +1,5 @@
 <div class="alert alert-warning" role="alert">
-It is only user's home directories under <code>/home/</code> are backed up - <em>no other directories on the cluster file system are backed up!</em>
+Only user's home directories under <code>/home/</code> are backed up - <em>no other directories on the cluster file system are backed up!</em>
 </div>
 
 # File Backups (/home/ only)
