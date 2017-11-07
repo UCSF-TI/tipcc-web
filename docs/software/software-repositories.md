@@ -88,6 +88,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   <td>
   <strong>ASCIIGenome - Text Only Genome Viewer!</strong><br>
   ASCIIGenome is a genome browser based on command line interface and designed for running from console terminals. Since ASCIIGenome does not require a graphical interface it is particularly useful for quickly visualizing genomic data on remote servers while offering flexibility similar to popular GUI viewers like IGV.<br>
+  URL: <a href="https://github.com/dariober/ASCIIGenome">https://github.com/dariober/ASCIIGenome</a><br>
   </td>
  </tr>
  <tr>
@@ -591,7 +592,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-07 09:58:47._
+_The above information was automatically generated on 2017-11-07 10:01:37._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
