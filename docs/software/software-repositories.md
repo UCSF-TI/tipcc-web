@@ -527,9 +527,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   </td>
   <td>
   <strong>udocker</strong><br>
-  A basic user tool to execute simple docker containers in user space without requiring root privileges. Enables basic download and execution of docker containers by non-privileged users in Linux systems where docker is not available. It can be used to access and execute the content of docker containers in Linux batch systems and interactive clusters that are managed by other entities such as grid infrastructures or externally managed batch or interactive systems.</p>
-<p>The INDIGO udocker does not require any type of privileges nor the deployment of services by system administrators. It can be downloaded and executed entirely by the end user.</p>
-<p>udocker is a wrapper around several tools to mimic a subset of the docker capabilities including pulling images and running them with minimal functionality.<br>
+  A basic user tool to execute simple docker containers in user space without requiring root privileges. Enables basic download and execution of docker containers by non-privileged users in Linux systems where docker is not available. It can be used to access and execute the content of docker containers in Linux batch systems and interactive clusters that are managed by other entities such as grid infrastructures or externally managed batch or interactive systems.  The INDIGO udocker does not require any type of privileges nor the deployment of services by system administrators. It can be downloaded and executed entirely by the end user.  udocker is a wrapper around several tools to mimic a subset of the docker capabilities including pulling images and running them with minimal functionality.<br>
   URL: <a href="https://github.com/indigo-dc/udocker">https://github.com/indigo-dc/udocker</a><br>
   </td>
  </tr>
@@ -594,7 +592,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-14 13:45:29._
+_The above information was automatically generated on 2017-11-14 13:51:58._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
