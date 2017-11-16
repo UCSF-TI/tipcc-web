@@ -401,6 +401,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>nextflow</strong><br>
+  <em>0.26.0.4715</em>
+  </td>
+  <td>
+  <strong>nextflow - Data-driven computational pipelines</strong><br>
+  extflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages. Its fluent DSL simplifies the implementation and the deployment of complex parallel and reactive workflows on clouds and clusters.<br>
+  URL: <a href="https://www.nextflow.io/">https://www.nextflow.io/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>pandoc</strong><br>
   <em>1.19.2-0</em>
   </td>
@@ -592,7 +603,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-14 13:51:58._
+_The above information was automatically generated on 2017-11-16 12:27:04._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
