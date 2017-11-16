@@ -3,7 +3,7 @@
 ## Software environment
 
 All nodes on the cluster runs [Scyld ClusterWare] 6.6 (Red Hat Enterprise Linux 6.6) by Scyld Software (subsididary of [Penguin Computing]).
-The job scheduler is Torque/PBS 4.2.9 which run together with the Moab workload manager.
+The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload manager.
 
 
 ## Hardware
