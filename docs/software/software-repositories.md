@@ -33,7 +33,7 @@ These software modules are available from different _module repositories_, each 
   </td>
   <td>
   <strong>Modules in ~/modulefiles/</strong><br>
-  Personal modules in <code>~/modulefiles/</code>.  For instance, module definition file <code>~/modulefiles/foo/1.0.lua</code> provides module foo/1.0, which can be loaded using <code>module load foo/1.0</code>.<br>
+  Personal modules in <code>~/modulefiles/</code> (created if missing).  For instance, module definition file <code>~/modulefiles/foo/1.0.lua</code> provides module foo/1.0, which can be loaded using <code>module load foo/1.0</code>.  For example of module files, see the many modules under /home/shared/cbc/apps/modulefiles/CBC/.<br>
   </td>
  </tr>
 </table>
@@ -603,7 +603,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-16 12:29:42._
+_The above information was automatically generated on 2017-11-17 16:59:25._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
