@@ -138,11 +138,11 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>blast</strong><br>
-  <em>2.2.26</em>
+  2.2.26, <em>2.7.1</em>
   </td>
   <td>
   <strong>BLAST: Basic Local Alignment Search Tool</strong><br>
-  BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein	sequences to sequence databases and calculates the statistical significance.<br>
+  BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein	sequences to sequence databases and calculates the statistical significance. Example: <code>blastx -version</code><br>
   URL: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">https://blast.ncbi.nlm.nih.gov/Blast.cgi</a><br>
   </td>
  </tr>
@@ -303,11 +303,11 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>htop</strong><br>
-  <em>1.0.3</em>
+  1.0.3, <em>2.0.2</em>
   </td>
   <td>
   <strong>htop - an interactive process viewer for Unix</strong><br>
-  <code>htop</code> is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.<br>
+  <code>htop</code> is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses. Example: <code>htop</code><br>
   URL: <a href="http://hisham.hm/htop/">http://hisham.hm/htop/</a><br>
   </td>
  </tr>
@@ -603,7 +603,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-20 13:51:18._
+_The above information was automatically generated on 2017-11-26 12:43:08._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
