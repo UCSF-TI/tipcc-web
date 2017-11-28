@@ -247,6 +247,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>gatk</strong><br>
+  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, <em>3.8.0</em>
+  </td>
+  <td>
+  <strong>Genome Analysis Toolkit (GATK) - Variant Discovery in High-Throughput Sequencing Data</strong><br>
+  Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>java -jar $GATK_HOME/GenomeAnalysisTK.jar -version</code>.<br>
+  URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gdc-client</strong><br>
   <em>1.0.1</em>
   </td>
@@ -603,7 +614,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-26 13:07:23._
+_The above information was automatically generated on 2017-11-27 17:49:54._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
