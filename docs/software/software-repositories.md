@@ -148,6 +148,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>blat</strong><br>
+  34, <em>36</em>
+  </td>
+  <td>
+  <strong>BLAT: Standalone BLAT - fast sequence search command line tool</strong><br>
+  BLAT - client and server combined into a single program, first building the index, then using the index, and then exiting. Example: <code>blat</code><br>
+  URL: <a href="http://genome.ucsc.edu/goldenPath/help/blatSpec.html">http://genome.ucsc.edu/goldenPath/help/blatSpec.html</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>bowtie2</strong><br>
   2.0.0-beta6, 2.1.0, 2.2.6, <em>2.2.9</em>
   </td>
@@ -614,7 +625,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-27 17:49:54._
+_The above information was automatically generated on 2017-11-27 18:19:11._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
