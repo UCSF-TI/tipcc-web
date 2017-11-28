@@ -435,11 +435,11 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>pandoc</strong><br>
-  <em>1.19.2-0</em>
+  1.19.2-0, <em>2.0.3</em>
   </td>
   <td>
   <strong>Pandoc - a universal document converter</strong><br>
-  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.<br>
+  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.  Example: <code>pandoc --version</code><br>
   URL: <a href="http://pandoc.org/">http://pandoc.org/</a><br>
   </td>
  </tr>
@@ -625,7 +625,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-27 18:19:11._
+_The above information was automatically generated on 2017-11-27 19:45:32._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
