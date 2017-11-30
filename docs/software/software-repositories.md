@@ -461,7 +461,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
-  The R programming language<br>
+  The R programming language. Example: <code>R --version</code>.<br>
   URL: <a href="https://www.r-project.org/">https://www.r-project.org/</a><br>
   </td>
  </tr>
@@ -625,7 +625,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-27 19:45:32._
+_The above information was automatically generated on 2017-11-30 12:45:38._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
