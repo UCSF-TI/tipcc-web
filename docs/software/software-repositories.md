@@ -186,8 +186,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
-  Utility scripts and binaries of the UCSF CBC group.<br>
-  URL: <a href="https://cbc.ucsf.edu/">https://cbc.ucsf.edu/</a><br>
+  Utility scripts and binaries shared by UCSF CBI (formerly CBC).<br>
+  URL: <a href="http://cbi.ucsf.edu/">http://cbi.ucsf.edu/</a><br>
   </td>
  </tr>
  <tr>
@@ -197,19 +197,19 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>CBC-shared Developer's Environment</strong><br>
-  Setup for building and installing software inline with the CBC-shared setup.<br>
-  URL: <a href="https://cbc.ucsf.edu/">https://cbc.ucsf.edu/</a><br>
+  Setup for building and installing software inline with the CBI-shared setup (formerly CBC-shared setup).<br>
+  URL: <a href="http://cbi.ucsf.edu/">http://cbi.ucsf.edu/</a><br>
   </td>
  </tr>
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.2.0, <em>0.1.4</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, <em>0.1.4</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
   When loaded, this module loads the default set of CBC-shared software.  This replaces and is backward compatible with the deprecated usage of <code>source /home/shared/cbc/bashrc</code>.<br>
-  URL: <a href="https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC">https://github.com/UCSF-TI/TIPCC/wiki/Software-shared-by-CBC</a><br>
+  URL: <a href="https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html">https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html</a><br>
   </td>
  </tr>
  <tr>
@@ -625,7 +625,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-30 18:30:36._
+_The above information was automatically generated on 2017-11-30 18:38:17._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
