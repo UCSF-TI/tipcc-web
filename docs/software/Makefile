@@ -3,6 +3,7 @@ PAGE=software-repositories
 all: $(PAGE).md
 
 force:
+	git pull
 	touch $(PAGE).md.rsp
 	make all
 
