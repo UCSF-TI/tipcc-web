@@ -38,8 +38,8 @@ module_avail <- function(module_repos) {
 module_repositories <- list(
   CBC = list(
     name       = "CBC",
-    maintainer = "Computational Biology Core",
-    url        = "http://cbc.ucsf.edu"
+    maintainer = "Computational Biology and Informatics (CBI - formerly CBC)",
+    url        = "http://cbi.ucsf.edu/"
   )
 )
 %>
