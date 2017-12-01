@@ -105,11 +105,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bcftools</strong><br>
-  1.2, 1.3.1, <em>1.4</em>
+  1.2, 1.3.1, 1.4, <em>1.6</em>
   </td>
   <td>
   <strong>BCFtools: utilities for variant calling and manipulating VCFs and BCFs</strong><br>
-  BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed.<br>
+  BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed.  Example: <code>bcftools --version</code><br>
   URL: <a href="https://samtools.github.io/bcftools/bcftools.html">https://samtools.github.io/bcftools/bcftools.html</a><br>
   </td>
  </tr>
@@ -193,7 +193,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-devel</strong><br>
-  <em>0.1.0</em>
+  0.1.0, <em>0.1.1</em>
   </td>
   <td>
   <strong>CBC-shared Developer's Environment</strong><br>
@@ -625,7 +625,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-30 18:43:09._
+_The above information was automatically generated on 2017-11-30 19:25:45._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
