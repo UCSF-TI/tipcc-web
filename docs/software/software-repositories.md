@@ -208,7 +208,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
-  When loaded, this module loads the default set of CBC-shared software.  This replaces and is backward compatible with the deprecated usage of <code>source /home/shared/cbc/bashrc</code>.<br>
+  When loaded, this module loads the default set of CBC-shared software.  See <code>module show cbc-shared</code> for details.<br>
   URL: <a href="https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html">https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html</a><br>
   </td>
  </tr>
@@ -625,7 +625,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-30 18:38:17._
+_The above information was automatically generated on 2017-11-30 18:43:09._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
