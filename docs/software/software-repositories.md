@@ -33,7 +33,7 @@ These software modules are available from different _module repositories_, each 
   </td>
   <td>
   <strong>Modules in ~/modulefiles/</strong><br>
-  Personal modules in <code>~/modulefiles/</code>.  For instance, module definition file <code>~/modulefiles/foo/1.0.lua</code> provides module foo/1.0, which can be loaded using <code>module load foo/1.0</code>.<br>
+  Personal modules in <code>~/modulefiles/</code> (created if missing).  For instance, module definition file <code>~/modulefiles/foo/1.0.lua</code> provides module foo/1.0, which can be loaded using <code>module load foo/1.0</code>.  For example of module files, see the many modules under /home/shared/cbc/apps/modulefiles/CBC/.<br>
   </td>
  </tr>
 </table>
@@ -138,12 +138,23 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>blast</strong><br>
-  <em>2.2.26</em>
+  2.2.26, <em>2.7.1</em>
   </td>
   <td>
   <strong>BLAST: Basic Local Alignment Search Tool</strong><br>
-  BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein	sequences to sequence databases and calculates the statistical significance.<br>
+  BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein	sequences to sequence databases and calculates the statistical significance. Example: <code>blastx -version</code><br>
   URL: <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">https://blast.ncbi.nlm.nih.gov/Blast.cgi</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>blat</strong><br>
+  34, <em>36</em>
+  </td>
+  <td>
+  <strong>BLAT: Standalone BLAT - fast sequence search command line tool</strong><br>
+  BLAT - client and server combined into a single program, first building the index, then using the index, and then exiting. Example: <code>blat</code><br>
+  URL: <a href="http://genome.ucsc.edu/goldenPath/help/blatSpec.html">http://genome.ucsc.edu/goldenPath/help/blatSpec.html</a><br>
   </td>
  </tr>
  <tr>
@@ -247,6 +258,17 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>gatk</strong><br>
+  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, <em>3.8.0</em>
+  </td>
+  <td>
+  <strong>Genome Analysis Toolkit (GATK) - Variant Discovery in High-Throughput Sequencing Data</strong><br>
+  Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>java -jar $GATK_HOME/GenomeAnalysisTK.jar -version</code>.<br>
+  URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gdc-client</strong><br>
   <em>1.0.1</em>
   </td>
@@ -292,22 +314,22 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>go</strong><br>
-  <em>1.8.3</em>
+  1.8.3, <em>1.9.2</em>
   </td>
   <td>
   <strong>The Go Programming Language</strong><br>
-  Go is a cross-platform open-source programming language that makes it easy to build simple, reliable, and efficient software.<br>
+  Go is a cross-platform open-source programming language that makes it easy to build simple, reliable, and efficient software. Example: <code>go version</code><br>
   URL: <a href="https://golang.org/">https://golang.org/</a><br>
   </td>
  </tr>
  <tr>
   <td>
   <strong>htop</strong><br>
-  <em>1.0.3</em>
+  1.0.3, <em>2.0.2</em>
   </td>
   <td>
   <strong>htop - an interactive process viewer for Unix</strong><br>
-  <code>htop</code> is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses.<br>
+  <code>htop</code> is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses. Example: <code>htop</code><br>
   URL: <a href="http://hisham.hm/htop/">http://hisham.hm/htop/</a><br>
   </td>
  </tr>
@@ -401,12 +423,23 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  </tr>
  <tr>
   <td>
+  <strong>nextflow</strong><br>
+  <em>0.26.0.4715</em>
+  </td>
+  <td>
+  <strong>Nextflow - Data-driven computational pipelines</strong><br>
+  Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages. Its fluent DSL simplifies the implementation and the deployment of complex parallel and reactive workflows on clouds and clusters.<br>
+  URL: <a href="https://www.nextflow.io/">https://www.nextflow.io/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>pandoc</strong><br>
-  <em>1.19.2-0</em>
+  1.19.2-0, <em>2.0.3</em>
   </td>
   <td>
   <strong>Pandoc - a universal document converter</strong><br>
-  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.<br>
+  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.  Example: <code>pandoc --version</code><br>
   URL: <a href="http://pandoc.org/">http://pandoc.org/</a><br>
   </td>
  </tr>
@@ -424,11 +457,11 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2patched, 3.5.0devel, <em>3.4.2</em>
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2patched, 3.4.2, 3.5.0devel, <em>3.4.3</em>
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
-  The R programming language<br>
+  The R programming language. Example: <code>R --version</code>.<br>
   URL: <a href="https://www.r-project.org/">https://www.r-project.org/</a><br>
   </td>
  </tr>
@@ -567,11 +600,11 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
  <tr>
   <td>
   <strong>vcftools</strong><br>
-  <em>0.1.13</em>
+  0.1.13, <em>0.1.15</em>
   </td>
   <td>
-  <strong>VCFtools</strong><br>
-  VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.<br>
+  <strong>VCFtools - A set of tools written in Perl and C++ for working with VCF files, such as those generated by the 1000 Genomes Project.</strong><br>
+  VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files. Example: <code>vcftools --version</code>.<br>
   URL: <a href="https://vcftools.github.io/">https://vcftools.github.io/</a><br>
   </td>
  </tr>
@@ -592,7 +625,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-14 13:51:58._
+_The above information was automatically generated on 2017-11-30 13:13:01._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
