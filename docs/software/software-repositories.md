@@ -21,8 +21,8 @@ These software modules are available from different _module repositories_, each 
   
   </td>
   <td>
-  <strong>Module Repository by CBI (Computational Biology and Informatics - formerly CBC)</strong><br>
-  Repository of modules shared by the Computational Biology and Informatics (<a href="http://cbi.ucsf.edu/">http://cbi.ucsf.edu/</a>) which was named Computational Biology Core (CBC) until 2017. When loading this module, you will get access to a large number of software modules.  When unloading the module, any software modules from this CBC repository still loaded when you unload this repository module, will remain in your list of loaded modules but will be inactivate (i.e. behave as they never were loaded) until you reload this repository module again.  Example: <code>module load CBC</code> and then <code>module avail</code>.<br>
+  <strong>Module Repository by Computational Biology and Informatics (CBI - formerly CBC)</strong><br>
+  Repository of modules shared by Computational Biology and Informatics (<a href="http://cbi.ucsf.edu/">http://cbi.ucsf.edu/</a>) which was named Computational Biology Core (CBC) until 2017. When loading this module, you will get access to a large number of software modules.  When unloading the module, any software modules from this CBC repository still loaded when you unload this repository module, will remain in your list of loaded modules but will be inactivate (i.e. behave as they never were loaded) until you reload this repository module again.  Example: <code>module load CBC</code> and then <code>module avail</code>.<br>
   URL: <a href="http://cbi.ucsf.edu/">http://cbi.ucsf.edu/</a><br>
   </td>
  </tr>
@@ -51,7 +51,7 @@ _Technical details_: Loading a module repository will append its folder to the `
 
 ## Module Repository 'CBC'
 
-Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
+Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http://cbi.ucsf.edu/)
 
 <table>
 <tr>
@@ -625,7 +625,7 @@ Maintained by: [Computational Biology Core](http://cbc.ucsf.edu)
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-11-30 18:01:03._
+_The above information was automatically generated on 2017-11-30 18:30:36._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
