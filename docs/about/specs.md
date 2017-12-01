@@ -12,7 +12,7 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 
 Node      | Nbr of cores |      CPU  |       RAM | Local `/scratch/` | Notes                        | Priority
 ----------|-------------:|----------:|----------:|-----------------:|------------------------------|-----------
-n0        |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBC, Taylor Lab
+n0        |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
 n1        |           48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n2        |           48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n3        |           48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
@@ -28,7 +28,7 @@ n13       |           48 |   2.3 GHz |   512 GiB |           1.6 TiB | Tesla M20
 n14       |           12 |   3.5 GHz |   128 GiB |          0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
 n15       |           64 |   2.6 GHz |   256 GiB |           1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n16       |           64 |   2.6 GHz |   512 GiB |          10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
-n17       |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBC, Taylor Lab
+n17       |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
 n18       |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n19       |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n20       |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
