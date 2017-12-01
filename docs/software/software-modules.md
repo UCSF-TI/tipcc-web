@@ -18,8 +18,8 @@ In addition to the core software tools that are available by default, additional
   
   </td>
   <td>
-  <strong>The Computational Biology Core (CBC) Software Repository</strong><br>
-  Repository of software shared by the Computational Biology Core (<a href="http://cbc.ucsf.edu">http://cbc.ucsf.edu</a>) at the UCSF Helen Diller Family Comprehensive Cancer Center.
+  <strong>The Computational Biology and Informatics (CBI - formerly CBC) Software Repository</strong><br>
+  Repository of software shared by Computational Biology and Informatics (<a href="http://cbi.ucsf.edu">http://cbi.ucsf.edu</a>) at the UCSF Helen Diller Family Comprehensive Cancer Center.
   See the <a href="{{ '/software/software-repositories.html' | relative_url }}">Software Repositories</a> page for further details.
   </td>
  </tr>
