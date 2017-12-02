@@ -483,8 +483,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>Ruby - the Ruby Programming Language</strong><br>
-  Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.<br>
-  URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
+  Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.  Example: <code>ruby --version</code><br>
+  URL: <a href="https://www.ruby-lang.org/en/">https://www.ruby-lang.org/en/</a><br>
   </td>
  </tr>
  <tr>
@@ -636,7 +636,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-01 19:39:51._
+_The above information was automatically generated on 2017-12-02 11:09:53._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
