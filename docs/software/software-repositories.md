@@ -171,11 +171,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bowtie2</strong><br>
-  2.0.0-beta6, 2.1.0, 2.2.6, <em>2.2.9</em>
+  2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9, <em>2.3.3.1</em>
   </td>
   <td>
-  <strong>Bowtie2</strong><br>
-  Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.<br>
+  <strong>Bowtie 2 - A Fast and Sensitive Gapped Read Aligner</strong><br>
+  Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.  Example: <code>bowtie2 --version</code><br>
   URL: <a href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml">http://bowtie-bio.sourceforge.net/bowtie2/index.shtml</a><br>
   </td>
  </tr>
@@ -636,7 +636,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-01 19:14:07._
+_The above information was automatically generated on 2017-12-01 19:39:51._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
