@@ -457,11 +457,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>python</strong><br>
-  2.7.3, 2.7.4, <em>2.7.9</em>
+  2.6.5, 2.7.3, 2.7.4, 2.7.10, <em>2.7.9</em>
   </td>
   <td>
-  <strong>The Python Programming Language</strong><br>
-  The Python programming language<br>
+  <strong>Python - The Python Programming Language</strong><br>
+  Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python --version</code>.<br>
   URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
   </td>
  </tr>
@@ -636,7 +636,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-02 11:09:53._
+_The above information was automatically generated on 2017-12-02 12:25:33._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
