@@ -182,11 +182,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bwa</strong><br>
-  0.5.10, 0.6.1, 0.7.5a, <em>0.7.12</em>
+  0.5.10, 0.6.1, 0.7.5a, 0.7.12, <em>0.7.17</em>
   </td>
   <td>
   <strong>Burrows-Wheeler Aligner (BWA)</strong><br>
-  Burrows-Wheeler Aligner (BWA) is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome.<br>
+  Burrows-Wheeler Aligner (BWA) is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome.  Example: <code>bwa</code><br>
   URL: <a href="http://bio-bwa.sourceforge.net/">http://bio-bwa.sourceforge.net/</a><br>
   </td>
  </tr>
@@ -636,7 +636,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-02 12:36:43._
+_The above information was automatically generated on 2017-12-03 22:45:27._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
