@@ -225,6 +225,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>cellranger</strong><br>
+  <em>1.3.1</em>
+  </td>
+  <td>
+  <strong>Cell Ranger: 10x Genomics Pipeline for Single-Cell Data Analysis</strong><br>
+  Cell Ranger is a set of analysis pipelines that process Chromium Single Cell 3' RNA-seq output to align reads, generate gene-cell matrices and perform clustering and gene expression analysis.  Example: <code>cellranger</code><br>
+  URL: <a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger">https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>control-freec</strong><br>
   2.5, <em>7.2-3</em>
   </td>
@@ -636,7 +647,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-03 22:45:27._
+_The above information was automatically generated on 2017-12-04 14:38:39._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
