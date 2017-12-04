@@ -512,11 +512,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>samtools</strong><br>
-  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, <em>1.3.1</em>
+  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1, <em>1.6</em>
   </td>
   <td>
-  <strong>Samtools</strong><br>
-  Samtools is a suite of programs for interacting with high-throughput sequencing data. It consists of three separate repositories.<br>
+  <strong>SAMtools: Tools (written in C using htslib) for Manipulating Next-Generation Sequencing Data</strong><br>
+  SAMtools is a suite of programs for interacting with high-throughput sequencing data.  Example: <code>samtools --version</code><br>
   URL: <a href="http://www.htslib.org/">http://www.htslib.org/</a><br>
   </td>
  </tr>
@@ -647,7 +647,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-04 15:14:18._
+_The above information was automatically generated on 2017-12-04 15:43:12._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
