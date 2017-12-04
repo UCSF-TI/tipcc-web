@@ -369,11 +369,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>htslib</strong><br>
-  <em>1.3.2</em>
+  1.3.2, <em>1.6</em>
   </td>
   <td>
-  <strong>Samtools</strong><br>
-  Samtools is a suite of programs for interacting with high-throughput sequencing data. It consists of three separate repositories: Samtools, BCFtools, and HTSlib.<br>
+  <strong>HTSlib: C Library for High-Throughput Sequencing Data Formats</strong><br>
+  HTSlib is an implementation of a unified C library for accessing common file formats, such as SAM, CRAM and VCF, used for high-throughput sequencing data, and is the core library used by samtools and bcftools. HTSlib also provides the bgzip, htsfile, and tabix utilities.  Example: <code>bgzip --version</code>, <code>htsfile --version</code>, and <code>tabix --version</code>.<br>
   URL: <a href="http://www.htslib.org/">http://www.htslib.org/</a><br>
   </td>
  </tr>
@@ -647,7 +647,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-04 14:38:39._
+_The above information was automatically generated on 2017-12-04 15:14:18._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
