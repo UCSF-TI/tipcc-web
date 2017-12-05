@@ -570,8 +570,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, <em>2.1.1</em>
   </td>
   <td>
-  <strong>TopHat</strong><br>
-  TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.<br>
+  <strong>TopHat: A spliced read mapper for RNA-Seq</strong><br>
+  TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.  Example: <code>tophat --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a><br>
   </td>
  </tr>
@@ -647,7 +647,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-04 15:43:12._
+_The above information was automatically generated on 2017-12-04 17:20:42._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
