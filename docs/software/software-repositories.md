@@ -346,6 +346,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>hisat2</strong><br>
+  <em>2.1.0</em>
+  </td>
+  <td>
+  <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>htop</strong><br>
   1.0.3, <em>2.0.2</em>
   </td>
@@ -647,7 +658,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-04 17:20:42._
+_The above information was automatically generated on 2017-12-04 17:37:40._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
