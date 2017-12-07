@@ -423,6 +423,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>links</strong><br>
+  <em>2.14</em>
+  </td>
+  <td>
+  <strong>Links: A Lynx-like Alternative Character Mode WWW Browser</strong><br>
+  Links runs in text mode (mouse optional) on UN*X console, ssh/telnet virtual terminal, vt100 terminal, xterm, and virtually any other text terminal. Mouse is supported for GPM, xterm, and OS/2. Links supports colors on terminal. Example: <code>links https://www.google.com/</code>.<br>
+  URL: <a href="http://links.twibright.com/features.php">http://links.twibright.com/features.php</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>lua</strong><br>
   5.1.4, <em>5.3.3</em>
   </td>
@@ -658,7 +669,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-04 17:37:40._
+_The above information was automatically generated on 2017-12-06 23:26:36._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
