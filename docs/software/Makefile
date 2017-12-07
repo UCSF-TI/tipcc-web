@@ -6,6 +6,7 @@ force:
 	git pull
 	touch $(PAGE).md.rsp
 	make all
+	git diff
 
 $(PAGE).md: $(PAGE).md.rsp
 	Rscript -e R.rsp::rfile $< --postprocess=FALSE
