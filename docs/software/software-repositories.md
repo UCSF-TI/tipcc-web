@@ -549,7 +549,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>ShellCheck - A shell script static analysis tool</strong><br>
-  ShellCheck finds bugs in your shell scripts.  Example: <code>shellcheck --version</code> and <code>shellcheck ~/.bashrc</code><br>
+  ShellCheck finds bugs in your shell scripts.  Example: <code>shellcheck --version</code> and <code>shellcheck -x ~/.bashrc</code><br>
   URL: <a href="https://www.shellcheck.net/">https://www.shellcheck.net/</a><br>
   </td>
  </tr>
@@ -680,7 +680,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-11 22:29:10._
+_The above information was automatically generated on 2017-12-11 22:33:07._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
