@@ -467,6 +467,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>mysql</strong><br>
+  <em>5.1.73</em>
+  </td>
+  <td>
+  <strong>MySQL: An Open-source Relational Database Management System (RDBMS)</strong><br>
+  MySQL is an open-source relational database management system (RDBMS). Example: <code>mysql --version</code><br>
+  URL: <a href="https://www.mysql.com/">https://www.mysql.com/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>nextflow</strong><br>
   <em>0.26.0.4715</em>
   </td>
@@ -680,7 +691,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-11 22:33:07._
+_The above information was automatically generated on 2017-12-15 12:29:40._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
