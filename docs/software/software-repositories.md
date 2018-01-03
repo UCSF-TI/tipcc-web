@@ -215,7 +215,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, <em>0.1.4</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.5, <em>0.1.4</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -512,7 +512,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3patched, 3.5.0devel, <em>3.4.3</em>
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3patched, 3.5.0devel, <em>3.4.3</em>
   </td>
   <td>
   <strong>The R Programming Language</strong><br>
@@ -691,7 +691,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-15 12:29:40._
+_The above information was automatically generated on 2018-01-03 14:13:14._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
