@@ -500,6 +500,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>picard</strong><br>
+  <em>2.17.1</em>
+  </td>
+  <td>
+  <strong>Picard: Command-line tools for Manipulating High-throughput Sequencing Data and Formats</strong><br>
+  Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.  Example: <code>java -jar $PICARD -h</code><br>
+  URL: <a href="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>python</strong><br>
   2.6.5, 2.7.3, 2.7.4, 2.7.10, <em>2.7.9</em>
   </td>
@@ -691,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-03 14:13:14._
+_The above information was automatically generated on 2018-01-03 14:32:53._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
