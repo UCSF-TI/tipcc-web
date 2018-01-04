@@ -248,11 +248,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cufflinks</strong><br>
-  1.0.3, <em>1.3.0</em>
+  1.0.3, 1.3.0, <em>2.2.1</em>
   </td>
   <td>
-  <strong>Cufflinks: Transcriptome assembly and differential expression analysis for RNA-Seq</strong><br>
-  Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols.<br>
+  <strong>Cufflinks: Transcriptome Assembly and Differential Expression Analysis for RNA-Seq</strong><br>
+  Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols. Example: <code>cufflinks</code>.<br>
   URL: <a href="http://cole-trapnell-lab.github.io/cufflinks/">http://cole-trapnell-lab.github.io/cufflinks/</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-03 22:40:09._
+_The above information was automatically generated on 2018-01-04 09:40:14._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
