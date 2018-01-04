@@ -658,9 +658,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.2.3, <em>2.3.9</em>
   </td>
   <td>
-  <strong>VarScan</strong><br>
-  Variant detection in massively parallel sequencing data<br>
-  URL: <a href="http://dkoboldt.github.io/varscan/">http://dkoboldt.github.io/varscan/</a><br>
+  <strong>VarScan: Variant Detection in Massively Parallel Sequencing Data</strong><br>
+  VarScan is a platform-independent mutation caller for targeted, exome, and whole-genome resequencing data generated on Illumina, SOLiD, Life/PGM, Roche/454, and similar instruments. Example: <code>java -jar $VARSCAN</code>.<br>
+  URL: <a href="https://dkoboldt.github.io/varscan/">https://dkoboldt.github.io/varscan/</a><br>
   </td>
  </tr>
  <tr>
@@ -691,9 +691,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.5</em>
   </td>
   <td>
-  <strong>WordSpy</strong><br>
-  A steganalysis-based approach to comprehensive identification and characterization of functional regulatory elements.<br>
-  URL: <a href="http://cic.cs.wustl.edu/wordspy/dltemp.htm">http://cic.cs.wustl.edu/wordspy/dltemp.htm</a><br>
+  <strong>WordSpy: A Steganalysis-based, Genome Scale Motif Finding Method</strong><br>
+  A steganalysis-based approach to comprehensive identification and characterization of functional regulatory elements. Example: <code>wordspy</code>.<br>
+  URL: <a href="http://www.cs.wustl.edu/%7Ezhang/">http://www.cs.wustl.edu/~zhang/</a><br>
   </td>
  </tr>
 </table>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 10:05:55._
+_The above information was automatically generated on 2018-01-04 10:19:35._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
