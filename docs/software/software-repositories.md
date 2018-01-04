@@ -435,11 +435,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lua</strong><br>
-  5.1.4, <em>5.3.3</em>
+  5.1.4, 5.3.3, <em>5.3.4</em>
   </td>
   <td>
-  <strong>The Lua Programming Language</strong><br>
-  The Lua programming language<br>
+  <strong>Lua: The Lua Programming Language</strong><br>
+  The Lua programming language. Example: <code>lua -v</code>.<br>
   URL: <a href="https://www.lua.org/">https://www.lua.org/</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 10:42:31._
+_The above information was automatically generated on 2018-01-04 14:35:27._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
