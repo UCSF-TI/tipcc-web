@@ -457,11 +457,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>matlab</strong><br>
-  R2010b, <em>R2012a</em>
+  7.11.0.584, <em>7.14.0.739</em>
   </td>
   <td>
-  <strong>The Matlab Programming Language</strong><br>
-  The Matlab programming language<br>
+  <strong>MATLAB: The MATLAB Programming Language</strong><br>
+  MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment. Example: <code>matlab -nosplash -nodisplay -r 'quit'</code>.<br>
   URL: <a href="https://www.mathworks.com/products/matlab.html">https://www.mathworks.com/products/matlab.html</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-03 14:32:53._
+_The above information was automatically generated on 2018-01-03 20:16:40._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
