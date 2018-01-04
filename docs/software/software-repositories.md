@@ -296,7 +296,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>GDC Data Transfer Tool: NCI Genome Data Commons Data Transfer Tools</strong><br>
-  The GDC Data Transfer Tool Client provides a command-line interface supporting both GDC data downloads and submissions.<br>
+  The GDC Data Transfer Tool Client provides a command-line interface supporting both GDC data downloads and submissions. Example: <code>gdc-client --version</code>.<br>
   URL: <a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool">https://gdc.cancer.gov/access-data/gdc-data-transfer-tool</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-03 22:37:24._
+_The above information was automatically generated on 2018-01-03 22:40:09._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
