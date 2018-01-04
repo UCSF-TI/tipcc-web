@@ -416,8 +416,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.6.0, 1.7.0, <em>1.8.0</em>
   </td>
   <td>
-  <strong>Java Development Kit (JDK)</strong><br>
-  The Java programming language<br>
+  <strong>JDK: Java Development Kit</strong><br>
+  The Java programming language. Examples: <code>java -version</code> and <code>javac -version</code>.<br>
   URL: <a href="https://www.java.com/">https://www.java.com/</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 14:35:27._
+_The above information was automatically generated on 2018-01-04 14:50:09._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
