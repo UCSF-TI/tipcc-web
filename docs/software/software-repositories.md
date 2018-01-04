@@ -655,7 +655,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>varscan</strong><br>
-  2.2.3, <em>2.3.9</em>
+  2.2.3, 2.3.9, <em>2.4.2</em>
   </td>
   <td>
   <strong>VarScan: Variant Detection in Massively Parallel Sequencing Data</strong><br>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 10:19:35._
+_The above information was automatically generated on 2018-01-04 10:30:13._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
