@@ -592,9 +592,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.11.8-r3</em>
   </td>
   <td>
-  <strong>SNVMix2 - Detecting Single Nucleotide Variants from Next Generation Sequencing Data</strong><br>
-  SNVMix is designed to detect single nucleotide variants from next generation sequencing data. SNVMix is a post-alignment tool.<br>
-  URL: <a href="http://compbio.bccrc.ca/software/snvmix/">http://compbio.bccrc.ca/software/snvmix/</a><br>
+  <strong>SNVMix2: Detecting Single Nucleotide Variants from Next Generation Sequencing Data</strong><br>
+  SNVMix is designed to detect single nucleotide variants from next generation sequencing data. SNVMix is a post-alignment tool. Example: <code>SNVMix2 -h</code>.<br>
+  URL: <a href="http://shahlab.ca/projects/snvmix/">http://shahlab.ca/projects/snvmix/</a><br>
   </td>
  </tr>
  <tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 09:59:44._
+_The above information was automatically generated on 2018-01-04 10:05:55._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
