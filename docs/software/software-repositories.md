@@ -317,8 +317,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.1.1, <em>2.1.3</em>
   </td>
   <td>
-  <strong>Git - Distributed Version Control System</strong><br>
-  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
+  <strong>Git: Distributed Version Control System</strong><br>
+  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Example: <code>git --version</code>.<br>
   URL: <a href="https://git-scm.com/">https://git-scm.com/</a><br>
   </td>
  </tr>
@@ -581,8 +581,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>2.0.2</em>
   </td>
   <td>
-  <strong>SnpEff - Genetic Variant Annotation and Effect Prediction Toolbox</strong><br>
-  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes).<br>
+  <strong>SnpEff: Genetic Variant Annotation and Effect Prediction Toolbox</strong><br>
+  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes). Example: <code>java -jar $SNPEFF -help</code><br>
   URL: <a href="http://snpeff.sourceforge.net/">http://snpeff.sourceforge.net/</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 09:40:14._
+_The above information was automatically generated on 2018-01-04 09:59:44._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
