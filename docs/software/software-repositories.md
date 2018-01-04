@@ -501,7 +501,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>picard</strong><br>
-  <em>2.17.1</em>
+  1.39, 1.51, 1.64, 1.67, <em>2.17.1</em>
   </td>
   <td>
   <strong>Picard: Command-line tools for Manipulating High-throughput Sequencing Data and Formats</strong><br>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 10:30:13._
+_The above information was automatically generated on 2018-01-04 10:42:31._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
