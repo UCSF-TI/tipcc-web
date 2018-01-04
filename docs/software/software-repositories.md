@@ -262,8 +262,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   0.10.1, <em>0.11.2</em>
   </td>
   <td>
-  <strong>FastQC</strong><br>
-  A quality control tool for high throughput sequence data.<br>
+  <strong>FastQC: A Quality Control Tool for High Throughput Sequence Data</strong><br>
+  A quality control tool for high throughput sequence data. Example: <code>fastqc --version</code>.<br>
   URL: <a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</a><br>
   </td>
  </tr>
@@ -295,8 +295,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.0.1</em>
   </td>
   <td>
-  <strong>GDC Data Transfer Tool</strong><br>
-  The GDC provides a standard client-based mechanism in support of high performance data downloads and submission.<br>
+  <strong>GDC Data Transfer Tool: NCI Genome Data Commons Data Transfer Tools</strong><br>
+  The GDC Data Transfer Tool Client provides a command-line interface supporting both GDC data downloads and submissions.<br>
   URL: <a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool">https://gdc.cancer.gov/access-data/gdc-data-transfer-tool</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-03 20:16:40._
+_The above information was automatically generated on 2018-01-03 22:37:24._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
