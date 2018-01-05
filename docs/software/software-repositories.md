@@ -141,8 +141,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.13.4, 2.15.0, 2.16.2, <em>2.26.0</em>
   </td>
   <td>
-  <strong>Bedtools2</strong><br>
-  Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF.<br>
+  <strong>Bedtools2: The Swiss Army Knife for Genome Arithmetic</strong><br>
+  Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. Example: <code>bedtools --version</code>.<br>
   URL: <a href="https://github.com/arq5x/bedtools2/">https://github.com/arq5x/bedtools2/</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 17:11:55._
+_The above information was automatically generated on 2018-01-04 17:19:16._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
