@@ -215,7 +215,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.5, <em>0.1.4</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, <em>0.2.0</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-04 17:19:16._
+_The above information was automatically generated on 2018-01-08 12:24:05._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
