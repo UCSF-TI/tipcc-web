@@ -526,8 +526,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3patched, 3.5.0devel, <em>3.4.3</em>
   </td>
   <td>
-  <strong>The R Programming Language</strong><br>
-  The R programming language. Example: <code>R --version</code>.<br>
+  <strong>R: The R Programming Language</strong><br>
+  The R programming language. Example: <code>R --version</code> and <code>Rscript --version</code>.<br>
   URL: <a href="https://www.r-project.org/">https://www.r-project.org/</a><br>
   </td>
  </tr>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-09 15:52:11._
+_The above information was automatically generated on 2018-01-09 15:56:38._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
