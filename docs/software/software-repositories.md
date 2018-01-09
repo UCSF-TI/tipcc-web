@@ -413,7 +413,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>jdk</strong><br>
-  1.6.0, 1.7.0, <em>1.8.0</em>
+  1.6.0, 1.7.0, 1.8.0, 6, 7, <em>8</em>
   </td>
   <td>
   <strong>JDK: Java Development Kit</strong><br>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-09 12:53:09._
+_The above information was automatically generated on 2018-01-09 15:52:11._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
