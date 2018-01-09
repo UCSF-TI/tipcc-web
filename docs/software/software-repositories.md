@@ -284,7 +284,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, <em>3.8.0</em>
   </td>
   <td>
-  <strong>Genome Analysis Toolkit (GATK) - Variant Discovery in High-Throughput Sequencing Data</strong><br>
+  <strong>Genome Analysis Toolkit (GATK): Variant Discovery in High-Throughput Sequencing Data</strong><br>
   Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>java -jar $GATK_HOME/GenomeAnalysisTK.jar -version</code>.<br>
   URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
   </td>
@@ -702,7 +702,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-08 12:24:05._
+_The above information was automatically generated on 2018-01-09 12:53:09._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
