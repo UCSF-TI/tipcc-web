@@ -97,8 +97,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.11.0</em>
   </td>
   <td>
-  <strong>ASCIIGenome - Text Only Genome Viewer!</strong><br>
-  ASCIIGenome is a genome browser based on command line interface and designed for running from console terminals. Since ASCIIGenome does not require a graphical interface it is particularly useful for quickly visualizing genomic data on remote servers while offering flexibility similar to popular GUI viewers like IGV.<br>
+  <strong>ASCIIGenome: Text Only Genome Viewer!</strong><br>
+  ASCIIGenome is a genome browser based on command line interface and designed for running from console terminals. Since ASCIIGenome does not require a graphical interface it is particularly useful for quickly visualizing genomic data on remote servers while offering flexibility similar to popular GUI viewers like IGV.  Example: <code>ASCIIGenome --help</code>.<br>
   URL: <a href="https://github.com/dariober/ASCIIGenome">https://github.com/dariober/ASCIIGenome</a><br>
   </td>
  </tr>
@@ -108,8 +108,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.0.14</em>
   </td>
   <td>
-  <strong>BamUtil - programs for working on SAM/BAM files</strong><br>
-  bamUtil is a repository that contains several programs that perform operations on SAM/BAM files. All of these programs are built into a single executable, <code>bam</code>.<br>
+  <strong>BamUtil: Programs for Working on SAM/BAM Files</strong><br>
+  bamUtil is a repository that contains several programs that perform operations on SAM/BAM files. All of these programs are built into a single executable, <code>bam</code>. Example: <code>bam help</code>.<br>
   URL: <a href="http://genome.sph.umich.edu/wiki/BamUtil">http://genome.sph.umich.edu/wiki/BamUtil</a><br>
   </td>
  </tr>
@@ -119,7 +119,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.2, 1.3.1, 1.4, <em>1.6</em>
   </td>
   <td>
-  <strong>BCFtools: utilities for variant calling and manipulating VCFs and BCFs</strong><br>
+  <strong>BCFtools: Utilities for Variant Calling and Manipulating VCFs and BCFs</strong><br>
   BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed.  Example: <code>bcftools --version</code><br>
   URL: <a href="https://samtools.github.io/bcftools/bcftools.html">https://samtools.github.io/bcftools/bcftools.html</a><br>
   </td>
@@ -141,7 +141,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.2.2c, <em>2.4.30</em>
   </td>
   <td>
-  <strong>BEDOPS: the fast, highly scalable and easily-parallelizable genome analysis toolkit</strong><br>
+  <strong>BEDOPS: The Fast, Highly Scalable and Easily-Parallelizable Genome Analysis Toolkit</strong><br>
   BEDOPS is an open-source command-line toolkit that performs highly efficient and scalable Boolean and other set operations, statistical calculations, archiving, conversion and other management of genomic data of arbitrary scale. Tasks can be easily split by chromosome for distributing whole-genome analyses across a computational cluster.  Example: <code>bedops --version</code><br>
   URL: <a href="https://bedops.readthedocs.io/">https://bedops.readthedocs.io/</a><br>
   </td>
@@ -174,7 +174,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   34, <em>36</em>
   </td>
   <td>
-  <strong>BLAT: Standalone BLAT - fast sequence search command line tool</strong><br>
+  <strong>BLAT: Standalone BLAT - Fast Sequence Search Command Line Tool</strong><br>
   BLAT - client and server combined into a single program, first building the index, then using the index, and then exiting. Example: <code>blat</code><br>
   URL: <a href="http://genome.ucsc.edu/goldenPath/help/blatSpec.html">http://genome.ucsc.edu/goldenPath/help/blatSpec.html</a><br>
   </td>
@@ -185,7 +185,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9, <em>2.3.3.1</em>
   </td>
   <td>
-  <strong>Bowtie 2 - A Fast and Sensitive Gapped Read Aligner</strong><br>
+  <strong>Bowtie 2: A Fast and Sensitive Gapped Read Aligner</strong><br>
   Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences.  Example: <code>bowtie2 --version</code><br>
   URL: <a href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml">http://bowtie-bio.sourceforge.net/bowtie2/index.shtml</a><br>
   </td>
@@ -252,7 +252,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>Control FREEC: Control-FREE Copy Number and Genotype Caller</strong><br>
-  Prediction of copy numbers and allelic content using deep-sequencing data.<br>
+  Prediction of copy numbers and allelic content using deep-sequencing data. Example: <code>freec</code>.<br>
   URL: <a href="http://boevalab.com/FREEC/">http://boevalab.com/FREEC/</a><br>
   </td>
  </tr>
@@ -284,8 +284,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>2.0.0-rc-54</em>
   </td>
   <td>
-  <strong>Fiji - an Image Processing Package</strong><br>
-  Fiji is a &quot;batteries-included&quot; distribution of ImageJ, bundling a lot of plugins which facilitate scientific image analysis.<br>
+  <strong>Fiji: an Image Processing Package</strong><br>
+  Fiji is a &quot;batteries-included&quot; distribution of ImageJ, bundling a lot of plugins which facilitate scientific image analysis. Example: <code>ImageJ-linux64 --help</code>.<br>
   URL: <a href="https://imagej.net/Fiji/Downloads">https://imagej.net/Fiji/Downloads</a><br>
   </td>
  </tr>
@@ -317,8 +317,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   3.0.2, <em>3.8.5a-94</em>
   </td>
   <td>
-  <strong>GeneTorrent</strong><br>
-  GeneTorrent is a set of executables for accessing data in the Cancer Genomics Hub (CGHub), a secure repository for storing, cataloging, and accessing cancer genome sequences, alignments, and mutation information from the Cancer Genome Atlas (TCGA) consortium and related projects.<br>
+  <strong>GeneTorrent: Tools for Accessing Data in the Cancer Genomics Hub (CGHub)</strong><br>
+  GeneTorrent is a set of executables for accessing data in the Cancer Genomics Hub (CGHub), a secure repository for storing, cataloging, and accessing cancer genome sequences, alignments, and mutation information from the Cancer Genome Atlas (TCGA) consortium and related projects. Example: <code>cgquery --help</code>.<br>
   URL: <a href="https://hpc.nih.gov/apps/GeneTorrent.html">https://hpc.nih.gov/apps/GeneTorrent.html</a><br>
   </td>
  </tr>
@@ -339,8 +339,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.4.2</em>
   </td>
   <td>
-  <strong>Git extension Git Flow</strong><br>
-  A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.<br>
+  <strong>git flow: Git extension Git Flow</strong><br>
+  A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. Example: <code>git flow</code>.<br>
   URL: <a href="https://github.com/nvie/gitflow">https://github.com/nvie/gitflow</a><br>
   </td>
  </tr>
@@ -350,7 +350,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.8.3, <em>1.9.2</em>
   </td>
   <td>
-  <strong>The Go Programming Language</strong><br>
+  <strong>Go: The Go Programming Language</strong><br>
   Go is a cross-platform open-source programming language that makes it easy to build simple, reliable, and efficient software. Example: <code>go version</code><br>
   URL: <a href="https://golang.org/">https://golang.org/</a><br>
   </td>
@@ -362,7 +362,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
-  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sir<c3><a9>n et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
   </td>
  </tr>
@@ -372,7 +372,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.0.3, <em>2.0.2</em>
   </td>
   <td>
-  <strong>htop - an interactive process viewer for Unix</strong><br>
+  <strong>htop: An Interactive Process Viewer for Unix</strong><br>
   <code>htop</code> is an interactive process viewer for Unix systems. It is a text-mode application (for console or X terminals) and requires ncurses. Example: <code>htop</code><br>
   URL: <a href="http://hisham.hm/htop/">http://hisham.hm/htop/</a><br>
   </td>
@@ -384,7 +384,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HTSeq: Analysing high-throughput sequencing data with Python</strong><br>
-  HTSeq is a Python package that provides infrastructure to process data from high-throughput sequencing assays.<br>
+  HTSeq is a Python package that provides infrastructure to process data from high-throughput sequencing assays. Example: <code>htseq-count</code> and <code>htseq-qa</code>.<br>
   URL: <a href="http://www-huber.embl.de/users/anders/HTSeq/">http://www-huber.embl.de/users/anders/HTSeq/</a><br>
   </td>
  </tr>
@@ -416,8 +416,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.3.68, 2.3.91, <em>2.3.98</em>
   </td>
   <td>
-  <strong>IGVTools</strong><br>
-  The igvtools utility provides a set of tools for pre-processing data files.<br>
+  <strong>IGVTools: Tools for Pre-processing HT-Seq Data Files</strong><br>
+  The igvtools utility provides a set of tools for pre-processing data files. Example: <code>igvtools help</code>.<br>
   URL: <a href="https://software.broadinstitute.org/software/igv/igvtools">https://software.broadinstitute.org/software/igv/igvtools</a><br>
   </td>
  </tr>
@@ -460,7 +460,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>2.4.2</em>
   </td>
   <td>
-  <strong>LuaRocks - the Lua package manager</strong><br>
+  <strong>LuaRocks: The Lua Package Manager</strong><br>
   LuaRocks is the package manager for Lua modules.<br>
   URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
   </td>
@@ -493,8 +493,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.26.0.4715</em>
   </td>
   <td>
-  <strong>Nextflow - Data-driven computational pipelines</strong><br>
-  Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages. Its fluent DSL simplifies the implementation and the deployment of complex parallel and reactive workflows on clouds and clusters.<br>
+  <strong>Nextflow:- Data-driven Computational Pipelines</strong><br>
+  Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages. Its fluent DSL simplifies the implementation and the deployment of complex parallel and reactive workflows on clouds and clusters. Example: <code>nextflow -version</code>.<br>
   URL: <a href="https://www.nextflow.io/">https://www.nextflow.io/</a><br>
   </td>
  </tr>
@@ -504,8 +504,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.19.2-0, <em>2.0.3</em>
   </td>
   <td>
-  <strong>Pandoc - a universal document converter</strong><br>
-  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.  Example: <code>pandoc --version</code><br>
+  <strong>Pandoc: A Universal Document Converter</strong><br>
+  Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library. Example: <code>pandoc --version</code>.<br>
   URL: <a href="http://pandoc.org/">http://pandoc.org/</a><br>
   </td>
  </tr>
@@ -526,7 +526,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.6.5, 2.7.3, 2.7.4, 2.7.10, <em>2.7.9</em>
   </td>
   <td>
-  <strong>Python - The Python Programming Language</strong><br>
+  <strong>Python: The Python Programming Language</strong><br>
   Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python --version</code> and <code>pip install --user {module}</code>.<br>
   URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
   </td>
@@ -713,7 +713,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-17 19:43:39._
+_The above information was automatically generated on 2018-01-19 11:33:06._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
