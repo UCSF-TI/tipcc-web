@@ -548,7 +548,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>2.2.0p0</em>
   </td>
   <td>
-  <strong>Ruby - the Ruby Programming Language</strong><br>
+  <strong>Ruby: The Ruby Programming Language</strong><br>
   Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.  Example: <code>ruby --version</code><br>
   URL: <a href="https://www.ruby-lang.org/en/">https://www.ruby-lang.org/en/</a><br>
   </td>
@@ -560,7 +560,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>Amazon S3 Tools: Command Line S3 Client Software and S3 Backup</strong><br>
-  ommand Line S3 Client and Backup for Linux and Mac<br>
+  ommand Line S3 Client and Backup for Linux and Mac. Example: <code>s3cmd --help</code>.<br>
   URL: <a href="http://s3tools.org/s3cmd">http://s3tools.org/s3cmd</a><br>
   </td>
  </tr>
@@ -571,7 +571,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>SAMtools: Tools (written in C using htslib) for Manipulating Next-Generation Sequencing Data</strong><br>
-  SAMtools is a suite of programs for interacting with high-throughput sequencing data.  Example: <code>samtools --version</code><br>
+  SAMtools is a suite of programs for interacting with high-throughput sequencing data.  Example: <code>samtools --version</code>.<br>
   URL: <a href="http://www.htslib.org/">http://www.htslib.org/</a><br>
   </td>
  </tr>
@@ -581,8 +581,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.4.6</em>
   </td>
   <td>
-  <strong>ShellCheck - A shell script static analysis tool</strong><br>
-  ShellCheck finds bugs in your shell scripts.  Example: <code>shellcheck --version</code> and <code>shellcheck -x ~/.bashrc</code><br>
+  <strong>ShellCheck: A Shell Script Static Analysis Tool</strong><br>
+  ShellCheck finds bugs in your shell scripts.  Example: <code>shellcheck --version</code> and <code>shellcheck -x ~/.bashrc</code>.<br>
   URL: <a href="https://www.shellcheck.net/">https://www.shellcheck.net/</a><br>
   </td>
  </tr>
@@ -593,7 +593,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>SnpEff: Genetic Variant Annotation and Effect Prediction Toolbox</strong><br>
-  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes). Example: <code>java -jar $SNPEFF -help</code><br>
+  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes). Example: <code>java -jar $SNPEFF -help</code>.<br>
   URL: <a href="http://snpeff.sourceforge.net/">http://snpeff.sourceforge.net/</a><br>
   </td>
  </tr>
@@ -615,7 +615,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>SRA Toolkit</strong><br>
-  The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.<br>
+  The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. Example: <code>fastq-dump --help</code>.<br>
   URL: <a href="http://ncbi.github.io/sra-tools/">http://ncbi.github.io/sra-tools/</a><br>
   </td>
  </tr>
@@ -625,8 +625,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>2.5.3a</em>
   </td>
   <td>
-  <strong>STAR - Spliced Transcripts Alignment to a Reference</strong><br>
-  STAR (Spliced Transcripts Alignment to a Reference) is a fast NGS read aligner for RNA-seq data.<br>
+  <strong>STAR: Spliced Transcripts Alignment to a Reference</strong><br>
+  STAR (Spliced Transcripts Alignment to a Reference) is a fast NGS read aligner for RNA-seq data. Example: <code>STAR --help</code>.<br>
   URL: <a href="https://github.com/alexdobin/STAR">https://github.com/alexdobin/STAR</a><br>
   </td>
  </tr>
@@ -636,7 +636,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, <em>2.1.1</em>
   </td>
   <td>
-  <strong>TopHat: A spliced read mapper for RNA-Seq</strong><br>
+  <strong>TopHat: A Spliced Read Mapper for RNA-Seq</strong><br>
   TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.  Example: <code>tophat --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a><br>
   </td>
@@ -647,8 +647,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.0.0, <em>1.1.0</em>
   </td>
   <td>
-  <strong>udocker</strong><br>
-  A basic user tool to execute simple docker containers in user space without requiring root privileges. Enables basic download and execution of docker containers by non-privileged users in Linux systems where docker is not available. It can be used to access and execute the content of docker containers in Linux batch systems and interactive clusters that are managed by other entities such as grid infrastructures or externally managed batch or interactive systems.  The INDIGO udocker does not require any type of privileges nor the deployment of services by system administrators. It can be downloaded and executed entirely by the end user.  udocker is a wrapper around several tools to mimic a subset of the docker capabilities including pulling images and running them with minimal functionality.<br>
+  <strong>udocker: Execute Simple Docker Containers Without Root Privileges</strong><br>
+  A basic user tool to execute simple docker containers in user space without requiring root privileges. Enables basic download and execution of docker containers by non-privileged users in Linux systems where docker is not available. It can be used to access and execute the content of docker containers in Linux batch systems and interactive clusters that are managed by other entities such as grid infrastructures or externally managed batch or interactive systems.  The INDIGO udocker does not require any type of privileges nor the deployment of services by system administrators. It can be downloaded and executed entirely by the end user.  udocker is a wrapper around several tools to mimic a subset of the docker capabilities including pulling images and running them with minimal functionality. Example: <code>udocker help</code>.<br>
   URL: <a href="https://github.com/indigo-dc/udocker">https://github.com/indigo-dc/udocker</a><br>
   </td>
  </tr>
@@ -658,8 +658,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   3.10.0, <em>3.8.1</em>
   </td>
   <td>
-  <strong>Valgrind - a programming tool for memory debugging, memory leak detection, and profiling</strong><br>
-  Valgrind is a programming tool for memory debugging, memory leak detection, and profiling.<br>
+  <strong>Valgrind: A Programming Tool for Memory Debugging, Memory Leak Detection, and Profiling</strong><br>
+  Valgrind is a programming tool for memory debugging, memory leak detection, and profiling. Example: <code>valgrind --help</code>.<br>
   URL: <a href="http://www.valgrind.org/">http://www.valgrind.org/</a><br>
   </td>
  </tr>
@@ -680,8 +680,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.6</em>
   </td>
   <td>
-  <strong>vcf-validator - Validation suite for Variant Call Format (VCF) files</strong><br>
-  Validator for the Variant Call Format (VCF) implemented using C++11. It includes all the checks from the vcftools suite, and some more that involve lexical, syntactic and semantic analysis of the VCF input.<br>
+  <strong>vcf-validator: Validation Suite for Variant Call Format (VCF) Files</strong><br>
+  Validator for the Variant Call Format (VCF) implemented using C++11. It includes all the checks from the vcftools suite, and some more that involve lexical, syntactic and semantic analysis of the VCF input. Example: <code>vcf-validator --help</code>.<br>
   URL: <a href="https://github.com/EBIvariation/vcf-validator">https://github.com/EBIvariation/vcf-validator</a><br>
   </td>
  </tr>
@@ -691,7 +691,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   0.1.13, <em>0.1.15</em>
   </td>
   <td>
-  <strong>VCFtools - A set of tools written in Perl and C++ for working with VCF files, such as those generated by the 1000 Genomes Project.</strong><br>
+  <strong>VCFtools: Tools Written in Perl and C++ for Working with VCF files</strong><br>
   VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files. Example: <code>vcftools --version</code>.<br>
   URL: <a href="https://vcftools.github.io/">https://vcftools.github.io/</a><br>
   </td>
@@ -713,7 +713,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-19 11:33:06._
+_The above information was automatically generated on 2018-01-19 12:00:25._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
