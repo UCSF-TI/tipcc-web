@@ -97,7 +97,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.11.0</em>
   </td>
   <td>
-  <strong>ASCIIGenome: Text Only Genome Viewer!</strong><br>
+  <strong>ASCIIGenome: Text Only Genome Viewer</strong><br>
   ASCIIGenome is a genome browser based on command line interface and designed for running from console terminals. Since ASCIIGenome does not require a graphical interface it is particularly useful for quickly visualizing genomic data on remote servers while offering flexibility similar to popular GUI viewers like IGV.  Example: <code>ASCIIGenome --help</code>.<br>
   URL: <a href="https://github.com/dariober/ASCIIGenome">https://github.com/dariober/ASCIIGenome</a><br>
   </td>
@@ -174,7 +174,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   34, <em>36</em>
   </td>
   <td>
-  <strong>BLAT: Standalone BLAT - Fast Sequence Search Command Line Tool</strong><br>
+  <strong>BLAT: Fast Sequence Search Command Line Tool</strong><br>
   BLAT - client and server combined into a single program, first building the index, then using the index, and then exiting. Example: <code>blat</code><br>
   URL: <a href="http://genome.ucsc.edu/goldenPath/help/blatSpec.html">http://genome.ucsc.edu/goldenPath/help/blatSpec.html</a><br>
   </td>
@@ -362,7 +362,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
-  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sir<c3><a9>n et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
   </td>
  </tr>
@@ -406,7 +406,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>IGV: The Integrative Genomics Viewer</strong><br>
-  The Integrative Genomics Viewer (IGV) is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets. It supports a wide variety of data types, including array-based and next-generation sequence data, and genomic annotations.<br>
+  The Integrative Genomics Viewer (IGV) is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets. It supports a wide variety of data types, including array-based and next-generation sequence data, and genomic annotations. Example: <code>igv</code>.<br>
   URL: <a href="https://software.broadinstitute.org/software/igv/">https://software.broadinstitute.org/software/igv/</a><br>
   </td>
  </tr>
@@ -493,7 +493,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.26.0.4715</em>
   </td>
   <td>
-  <strong>Nextflow:- Data-driven Computational Pipelines</strong><br>
+  <strong>Nextflow: Data-driven Computational Pipelines</strong><br>
   Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages. Its fluent DSL simplifies the implementation and the deployment of complex parallel and reactive workflows on clouds and clusters. Example: <code>nextflow -version</code>.<br>
   URL: <a href="https://www.nextflow.io/">https://www.nextflow.io/</a><br>
   </td>
@@ -614,7 +614,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.3.4-2, 2.4.1, 2.5.7, <em>2.8.2-1</em>
   </td>
   <td>
-  <strong>SRA Toolkit</strong><br>
+  <strong>SRA Toolkit: Tools and Libraries for Using Data in the INSDC Sequence Read Archives</strong><br>
   The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives. Example: <code>fastq-dump --help</code>.<br>
   URL: <a href="http://ncbi.github.io/sra-tools/">http://ncbi.github.io/sra-tools/</a><br>
   </td>
@@ -713,7 +713,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-19 12:00:25._
+_The above information was automatically generated on 2018-01-19 12:22:26._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
