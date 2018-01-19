@@ -14,6 +14,10 @@ lftp alice.aliceson@ucsf.edu@ftp.box.com:~> exit
 $ 
 ```
 
+<div class="alert alert-danger" role="alert" style="margin-top: 3ex">
+<strong>Do not specify your password via the command line!  If you do, it will be visible to all other users via commands such as <code>ps</code> and <code>htop</code>.</strong>
+</div>
+
 
 ## Automatic authentication
 
@@ -24,6 +28,10 @@ machine ftp.box.com
 	login alice.aliceson@ucsf.edu
 	password AliceSecretPwd2017
 ```
+
+<div class="alert alert-warning" role="alert" style="margin-top: 3ex">
+<strong>The <code>~/.netrc</code> file must be kept private, otherwise its content could be readable to other users.</strong>
+</div>
 
 **Since the password is fully visible in plain text, make sure to keep this file private at all times**, otherwise users on the system can see all your credentials, i.e.
 ```sh
