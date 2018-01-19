@@ -60,6 +60,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>ack</strong><br>
+  <em>2.22</em>
+  </td>
+  <td>
+  <strong>ack: A Tool Like Grep, Optimized for Programmers</strong><br>
+  Designed for programmers with large heterogeneous trees of source code, 'ack' is written purely in portable Perl 5 and takes advantage of the power of Perl's regular expressions. Examples: <code>ack --version</code> and <code>ack --man</code><br>
+  URL: <a href="https://beyondgrep.com/">https://beyondgrep.com/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>anaconda</strong><br>
   
   </td>
@@ -141,8 +152,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.13.4, 2.15.0, 2.16.2, <em>2.26.0</em>
   </td>
   <td>
-  <strong>Bedtools2</strong><br>
-  Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF.<br>
+  <strong>Bedtools2: The Swiss Army Knife for Genome Arithmetic</strong><br>
+  Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. Example: <code>bedtools --version</code>.<br>
   URL: <a href="https://github.com/arq5x/bedtools2/">https://github.com/arq5x/bedtools2/</a><br>
   </td>
  </tr>
@@ -182,11 +193,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bwa</strong><br>
-  0.5.10, 0.6.1, 0.7.5a, <em>0.7.12</em>
+  0.5.10, 0.6.1, 0.7.5a, 0.7.12, <em>0.7.17</em>
   </td>
   <td>
-  <strong>Burrows-Wheeler Aligner (BWA)</strong><br>
-  Burrows-Wheeler Aligner (BWA) is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome.<br>
+  <strong>BWA: Burrows-Wheeler Aligner</strong><br>
+  Burrows-Wheeler Aligner (BWA) is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome. Example: <code>bwa</code>.<br>
   URL: <a href="http://bio-bwa.sourceforge.net/">http://bio-bwa.sourceforge.net/</a><br>
   </td>
  </tr>
@@ -215,12 +226,23 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, <em>0.1.4</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, <em>0.2.0</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
   When loaded, this module loads the default set of CBC-shared software.  See <code>module show cbc-shared</code> for details.<br>
   URL: <a href="https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html">https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>cellranger</strong><br>
+  <em>1.3.1</em>
+  </td>
+  <td>
+  <strong>Cell Ranger: 10x Genomics Pipeline for Single-Cell Data Analysis</strong><br>
+  Cell Ranger is a set of analysis pipelines that process Chromium Single Cell 3' RNA-seq output to align reads, generate gene-cell matrices and perform clustering and gene expression analysis.  Example: <code>cellranger</code><br>
+  URL: <a href="https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger">https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger</a><br>
   </td>
  </tr>
  <tr>
@@ -237,11 +259,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cufflinks</strong><br>
-  1.0.3, <em>1.3.0</em>
+  1.0.3, 1.3.0, <em>2.2.1</em>
   </td>
   <td>
-  <strong>Cufflinks: Transcriptome assembly and differential expression analysis for RNA-Seq</strong><br>
-  Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols.<br>
+  <strong>Cufflinks: Transcriptome Assembly and Differential Expression Analysis for RNA-Seq</strong><br>
+  Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples. It accepts aligned RNA-Seq reads and assembles the alignments into a parsimonious set of transcripts. Cufflinks then estimates the relative abundances of these transcripts based on how many reads support each one, taking into account biases in library preparation protocols. Example: <code>cufflinks</code>.<br>
   URL: <a href="http://cole-trapnell-lab.github.io/cufflinks/">http://cole-trapnell-lab.github.io/cufflinks/</a><br>
   </td>
  </tr>
@@ -251,8 +273,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   0.10.1, <em>0.11.2</em>
   </td>
   <td>
-  <strong>FastQC</strong><br>
-  A quality control tool for high throughput sequence data.<br>
+  <strong>FastQC: A Quality Control Tool for High Throughput Sequence Data</strong><br>
+  A quality control tool for high throughput sequence data. Example: <code>fastqc --version</code>.<br>
   URL: <a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</a><br>
   </td>
  </tr>
@@ -273,7 +295,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, <em>3.8.0</em>
   </td>
   <td>
-  <strong>Genome Analysis Toolkit (GATK) - Variant Discovery in High-Throughput Sequencing Data</strong><br>
+  <strong>Genome Analysis Toolkit (GATK): Variant Discovery in High-Throughput Sequencing Data</strong><br>
   Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>java -jar $GATK_HOME/GenomeAnalysisTK.jar -version</code>.<br>
   URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
   </td>
@@ -284,8 +306,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.0.1</em>
   </td>
   <td>
-  <strong>GDC Data Transfer Tool</strong><br>
-  The GDC provides a standard client-based mechanism in support of high performance data downloads and submission.<br>
+  <strong>GDC Data Transfer Tool: NCI Genome Data Commons Data Transfer Tools</strong><br>
+  The GDC Data Transfer Tool Client provides a command-line interface supporting both GDC data downloads and submissions. Example: <code>gdc-client --version</code>.<br>
   URL: <a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool">https://gdc.cancer.gov/access-data/gdc-data-transfer-tool</a><br>
   </td>
  </tr>
@@ -306,8 +328,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   2.1.1, <em>2.1.3</em>
   </td>
   <td>
-  <strong>Git - Distributed Version Control System</strong><br>
-  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br>
+  <strong>Git: Distributed Version Control System</strong><br>
+  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Example: <code>git --version</code>.<br>
   URL: <a href="https://git-scm.com/">https://git-scm.com/</a><br>
   </td>
  </tr>
@@ -335,6 +357,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>hisat2</strong><br>
+  <em>2.1.0</em>
+  </td>
+  <td>
+  <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>htop</strong><br>
   1.0.3, <em>2.0.2</em>
   </td>
@@ -358,11 +391,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>htslib</strong><br>
-  <em>1.3.2</em>
+  1.3.2, <em>1.6</em>
   </td>
   <td>
-  <strong>Samtools</strong><br>
-  Samtools is a suite of programs for interacting with high-throughput sequencing data. It consists of three separate repositories: Samtools, BCFtools, and HTSlib.<br>
+  <strong>HTSlib: C Library for High-Throughput Sequencing Data Formats</strong><br>
+  HTSlib is an implementation of a unified C library for accessing common file formats, such as SAM, CRAM and VCF, used for high-throughput sequencing data, and is the core library used by samtools and bcftools. HTSlib also provides the bgzip, htsfile, and tabix utilities.  Example: <code>bgzip --version</code>, <code>htsfile --version</code>, and <code>tabix --version</code>.<br>
   URL: <a href="http://www.htslib.org/">http://www.htslib.org/</a><br>
   </td>
  </tr>
@@ -391,22 +424,33 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>jdk</strong><br>
-  1.6.0, 1.7.0, <em>1.8.0</em>
+  1.6.0, 1.7.0, 1.8.0, 6, 7, <em>8</em>
   </td>
   <td>
-  <strong>Java Development Kit (JDK)</strong><br>
-  The Java programming language<br>
+  <strong>JDK: Java Development Kit</strong><br>
+  The Java programming language. Examples: <code>java -version</code> and <code>javac -version</code>.<br>
   URL: <a href="https://www.java.com/">https://www.java.com/</a><br>
   </td>
  </tr>
  <tr>
   <td>
-  <strong>lua</strong><br>
-  5.1.4, <em>5.3.3</em>
+  <strong>links</strong><br>
+  <em>2.14</em>
   </td>
   <td>
-  <strong>The Lua Programming Language</strong><br>
-  The Lua programming language<br>
+  <strong>Links: A Lynx-like Alternative Character Mode WWW Browser</strong><br>
+  Links runs in text mode (mouse optional) on UN*X console, ssh/telnet virtual terminal, vt100 terminal, xterm, and virtually any other text terminal. Mouse is supported for GPM, xterm, and OS/2. Links supports colors on terminal. Example: <code>links https://www.google.com/</code>.<br>
+  URL: <a href="http://links.twibright.com/features.php">http://links.twibright.com/features.php</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>lua</strong><br>
+  5.1.4, 5.3.3, <em>5.3.4</em>
+  </td>
+  <td>
+  <strong>Lua: The Lua Programming Language</strong><br>
+  The Lua programming language. Example: <code>lua -v</code>.<br>
   URL: <a href="https://www.lua.org/">https://www.lua.org/</a><br>
   </td>
  </tr>
@@ -424,12 +468,23 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>matlab</strong><br>
-  R2010b, <em>R2012a</em>
+  7.11.0.584, <em>7.14.0.739</em>
   </td>
   <td>
-  <strong>The Matlab Programming Language</strong><br>
-  The Matlab programming language<br>
+  <strong>MATLAB: The MATLAB Programming Language</strong><br>
+  MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment. Example: <code>matlab -nosplash -nodisplay -r 'quit'</code>.<br>
   URL: <a href="https://www.mathworks.com/products/matlab.html">https://www.mathworks.com/products/matlab.html</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>mysql</strong><br>
+  <em>5.1.73</em>
+  </td>
+  <td>
+  <strong>MySQL: An Open-source Relational Database Management System (RDBMS)</strong><br>
+  MySQL is an open-source relational database management system (RDBMS). Example: <code>mysql --version</code><br>
+  URL: <a href="https://www.mysql.com/">https://www.mysql.com/</a><br>
   </td>
  </tr>
  <tr>
@@ -456,23 +511,34 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
-  <strong>python</strong><br>
-  2.7.3, 2.7.4, <em>2.7.9</em>
+  <strong>picard</strong><br>
+  1.39, 1.51, 1.64, 1.67, <em>2.17.1</em>
   </td>
   <td>
-  <strong>The Python Programming Language</strong><br>
-  The Python programming language<br>
+  <strong>Picard: Command-line tools for Manipulating High-throughput Sequencing Data and Formats</strong><br>
+  Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.  Example: <code>java -jar $PICARD -h</code><br>
+  URL: <a href="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>python</strong><br>
+  2.6.5, 2.7.3, 2.7.4, 2.7.10, <em>2.7.9</em>
+  </td>
+  <td>
+  <strong>Python - The Python Programming Language</strong><br>
+  Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python --version</code> and <code>pip install --user {module}</code>.<br>
   URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
   </td>
  </tr>
  <tr>
   <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2patched, 3.4.2, 3.5.0devel, <em>3.4.3</em>
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3patched, 3.5.0devel, <em>3.4.3</em>
   </td>
   <td>
-  <strong>The R Programming Language</strong><br>
-  The R programming language. Example: <code>R --version</code>.<br>
+  <strong>R: The R Programming Language</strong><br>
+  The R programming language. Example: <code>R --version</code> and <code>Rscript --version</code>.<br>
   URL: <a href="https://www.r-project.org/">https://www.r-project.org/</a><br>
   </td>
  </tr>
@@ -483,8 +549,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>Ruby - the Ruby Programming Language</strong><br>
-  Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.<br>
-  URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
+  Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro 'Matz' Matsumoto in Japan.  Example: <code>ruby --version</code><br>
+  URL: <a href="https://www.ruby-lang.org/en/">https://www.ruby-lang.org/en/</a><br>
   </td>
  </tr>
  <tr>
@@ -501,12 +567,23 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>samtools</strong><br>
-  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, <em>1.3.1</em>
+  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1, <em>1.6</em>
   </td>
   <td>
-  <strong>Samtools</strong><br>
-  Samtools is a suite of programs for interacting with high-throughput sequencing data. It consists of three separate repositories.<br>
+  <strong>SAMtools: Tools (written in C using htslib) for Manipulating Next-Generation Sequencing Data</strong><br>
+  SAMtools is a suite of programs for interacting with high-throughput sequencing data.  Example: <code>samtools --version</code><br>
   URL: <a href="http://www.htslib.org/">http://www.htslib.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>shellcheck</strong><br>
+  <em>0.4.6</em>
+  </td>
+  <td>
+  <strong>ShellCheck - A shell script static analysis tool</strong><br>
+  ShellCheck finds bugs in your shell scripts.  Example: <code>shellcheck --version</code> and <code>shellcheck -x ~/.bashrc</code><br>
+  URL: <a href="https://www.shellcheck.net/">https://www.shellcheck.net/</a><br>
   </td>
  </tr>
  <tr>
@@ -515,8 +592,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>2.0.2</em>
   </td>
   <td>
-  <strong>SnpEff - Genetic Variant Annotation and Effect Prediction Toolbox</strong><br>
-  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes).<br>
+  <strong>SnpEff: Genetic Variant Annotation and Effect Prediction Toolbox</strong><br>
+  SnpEff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes). Example: <code>java -jar $SNPEFF -help</code><br>
   URL: <a href="http://snpeff.sourceforge.net/">http://snpeff.sourceforge.net/</a><br>
   </td>
  </tr>
@@ -526,9 +603,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>0.11.8-r3</em>
   </td>
   <td>
-  <strong>SNVMix2 - Detecting Single Nucleotide Variants from Next Generation Sequencing Data</strong><br>
-  SNVMix is designed to detect single nucleotide variants from next generation sequencing data. SNVMix is a post-alignment tool.<br>
-  URL: <a href="http://compbio.bccrc.ca/software/snvmix/">http://compbio.bccrc.ca/software/snvmix/</a><br>
+  <strong>SNVMix2: Detecting Single Nucleotide Variants from Next Generation Sequencing Data</strong><br>
+  SNVMix is designed to detect single nucleotide variants from next generation sequencing data. SNVMix is a post-alignment tool. Example: <code>SNVMix2 -h</code>.<br>
+  URL: <a href="http://shahlab.ca/projects/snvmix/">http://shahlab.ca/projects/snvmix/</a><br>
   </td>
  </tr>
  <tr>
@@ -559,8 +636,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, <em>2.1.1</em>
   </td>
   <td>
-  <strong>TopHat</strong><br>
-  TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.<br>
+  <strong>TopHat: A spliced read mapper for RNA-Seq</strong><br>
+  TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.  Example: <code>tophat --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/tophat/index.shtml">https://ccb.jhu.edu/software/tophat/index.shtml</a><br>
   </td>
  </tr>
@@ -589,12 +666,12 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>varscan</strong><br>
-  2.2.3, <em>2.3.9</em>
+  2.2.3, 2.3.9, <em>2.4.2</em>
   </td>
   <td>
-  <strong>VarScan</strong><br>
-  Variant detection in massively parallel sequencing data<br>
-  URL: <a href="http://dkoboldt.github.io/varscan/">http://dkoboldt.github.io/varscan/</a><br>
+  <strong>VarScan: Variant Detection in Massively Parallel Sequencing Data</strong><br>
+  VarScan is a platform-independent mutation caller for targeted, exome, and whole-genome resequencing data generated on Illumina, SOLiD, Life/PGM, Roche/454, and similar instruments. Example: <code>java -jar $VARSCAN</code>.<br>
+  URL: <a href="https://dkoboldt.github.io/varscan/">https://dkoboldt.github.io/varscan/</a><br>
   </td>
  </tr>
  <tr>
@@ -625,9 +702,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <em>1.5</em>
   </td>
   <td>
-  <strong>WordSpy</strong><br>
-  A steganalysis-based approach to comprehensive identification and characterization of functional regulatory elements.<br>
-  URL: <a href="http://cic.cs.wustl.edu/wordspy/dltemp.htm">http://cic.cs.wustl.edu/wordspy/dltemp.htm</a><br>
+  <strong>WordSpy: A Steganalysis-based, Genome Scale Motif Finding Method</strong><br>
+  A steganalysis-based approach to comprehensive identification and characterization of functional regulatory elements. Example: <code>wordspy</code>.<br>
+  URL: <a href="http://www.cs.wustl.edu/%7Ezhang/">http://www.cs.wustl.edu/~zhang/</a><br>
   </td>
  </tr>
 </table>
@@ -636,7 +713,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2017-12-01 19:39:51._
+_The above information was automatically generated on 2018-01-17 19:43:39._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
