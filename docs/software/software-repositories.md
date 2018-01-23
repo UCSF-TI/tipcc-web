@@ -357,6 +357,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>git-flow</strong><br>
+  0.4.2, <em>1.11.0</em>
+  </td>
+  <td>
+  <strong>git-flow: Git Extension Git Flow</strong><br>
+  A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. Example: <code>git flow</code>.<br>
+  URL: <a href="https://github.com/petervanderdoes/gitflow-avh">https://github.com/petervanderdoes/gitflow-avh</a>, <a href="https://github.com/nvie/gitflow">https://github.com/nvie/gitflow</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>git-lfs</strong><br>
   <em>2.3.4</em>
   </td>
@@ -364,17 +375,6 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>Git LFS: An Open Source Git Extension for Versioning Large Files</strong><br>
   Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. Example: <code>git lfs</code>.<br>
   URL: <a href="https://git-lfs.github.com/">https://git-lfs.github.com/</a><br>
-  </td>
- </tr>
- <tr>
-  <td>
-  <strong>gitflow</strong><br>
-  <em>0.4.2</em>
-  </td>
-  <td>
-  <strong>git flow: Git extension Git Flow</strong><br>
-  A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model. Example: <code>git flow</code>.<br>
-  URL: <a href="https://github.com/nvie/gitflow">https://github.com/nvie/gitflow</a><br>
   </td>
  </tr>
  <tr>
@@ -757,7 +757,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 21:05:57._
+_The above information was automatically generated on 2018-01-22 21:32:38._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
