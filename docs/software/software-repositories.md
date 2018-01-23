@@ -314,7 +314,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>gatk</strong><br>
-  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, <em>3.8.0</em>
+  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 4.0.0.0, <em>3.8.0</em>
   </td>
   <td>
   <strong>Genome Analysis Toolkit (GATK): Variant Discovery in High-Throughput Sequencing Data</strong><br>
@@ -757,7 +757,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 20:36:51._
+_The above information was automatically generated on 2018-01-22 20:57:57._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
