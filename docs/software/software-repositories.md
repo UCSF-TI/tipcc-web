@@ -225,6 +225,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>byobu</strong><br>
+  <em>5.124</em>
+  </td>
+  <td>
+  <strong>byobu: Elegant Enhancement of the Otherwise Functional, Plain, Practical GNU Screen</strong><br>
+  Byobu is an elegant enhancement of the otherwise functional, plain, practical GNU Screen. Byobu includes an enhanced profile, configuration utilities, and system status notifications for the GNU screen window manager as well as the Tmux terminal multiplexer. Example: <code>byobu --version</code><br>
+  URL: <a href="http://byobu.org">http://byobu.org</a>, <a href="https://github.com/dustinkirkland/byobu">https://github.com/dustinkirkland/byobu</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>cbc-bin</strong><br>
   0.1.0, <em>0.1.1</em>
   </td>
@@ -768,7 +779,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-23 15:02:21._
+_The above information was automatically generated on 2018-01-23 15:31:46._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
