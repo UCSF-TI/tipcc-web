@@ -347,7 +347,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>git</strong><br>
-  2.1.1, <em>2.1.3</em>
+  2.1.1, 2.1.3, <em>2.16.1</em>
   </td>
   <td>
   <strong>Git: Distributed Version Control System</strong><br>
@@ -746,7 +746,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 20:11:51._
+_The above information was automatically generated on 2018-01-22 20:20:28._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
