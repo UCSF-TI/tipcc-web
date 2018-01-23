@@ -729,13 +729,24 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   URL: <a href="http://www.cs.wustl.edu/%7Ezhang/">http://www.cs.wustl.edu/~zhang/</a><br>
   </td>
  </tr>
+ <tr>
+  <td>
+  <strong>xmlto</strong><br>
+  <em>0.0.28</em>
+  </td>
+  <td>
+  <strong>xmlto: Converts an XML File into a Specified Format</strong><br>
+  'xmlto' converts an XML file (DocBook or XSL-FO) into a specified format (PS, PDF, HTML, man, ASCII, XSL-FO, etc.). It applies an appropriate XSL-T stylesheet and then performs whatever post-processing is necessary. Examples: <code>xmlto --version</code><br>
+  URL: <a href="https://directory.fsf.org/wiki/Xmlto">https://directory.fsf.org/wiki/Xmlto</a><br>
+  </td>
+ </tr>
 </table>
 
 
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 19:43:21._
+_The above information was automatically generated on 2018-01-22 20:11:51._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
