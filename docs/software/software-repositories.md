@@ -237,7 +237,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, <em>0.2.0</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, <em>0.2.1</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -314,11 +314,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>gatk</strong><br>
-  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 4.0.0.0, <em>3.8.0</em>
+  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 3.8.0, <em>4.0.0.0</em>
   </td>
   <td>
   <strong>Genome Analysis Toolkit (GATK): Variant Discovery in High-Throughput Sequencing Data</strong><br>
-  Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>java -jar $GATK_HOME/GenomeAnalysisTK.jar -version</code>.<br>
+  Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>gatk --help</code> and <code>gatk --list</code>.<br>
   URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
   </td>
  </tr>
@@ -757,7 +757,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 20:57:57._
+_The above information was automatically generated on 2018-01-22 21:05:57._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
