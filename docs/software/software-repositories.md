@@ -93,6 +93,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>asciidoc</strong><br>
+  <em>8.6.8</em>
+  </td>
+  <td>
+  <strong>AsciiDoc: Text Based Document Generation</strong><br>
+  AsciiDoc is a text document format for writing notes, documentation, articles, books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page. Examples: <code>asciidoc.py --version</code><br>
+  URL: <a href="http://asciidoc.org/">http://asciidoc.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>asciigenome</strong><br>
   <em>1.11.0</em>
   </td>
@@ -373,7 +384,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
-  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sir<c3><a9>n et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
   </td>
  </tr>
@@ -472,7 +483,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>LuaRocks: The Lua Package Manager</strong><br>
-  LuaRocks is the package manager for Lua modules.<br>
+  LuaRocks is the package manager for Lua modules. Example: <code>luarocks --help</code>.<br>
   URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
   </td>
  </tr>
@@ -724,7 +735,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-19 13:04:32._
+_The above information was automatically generated on 2018-01-22 19:43:21._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
