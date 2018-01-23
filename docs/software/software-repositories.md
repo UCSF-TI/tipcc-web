@@ -357,6 +357,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>git-lfs</strong><br>
+  <em>2.3.4</em>
+  </td>
+  <td>
+  <strong>Git LFS: An Open Source Git Extension for Versioning Large Files</strong><br>
+  Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise. Example: <code>git lfs</code>.<br>
+  URL: <a href="https://git-lfs.github.com/">https://git-lfs.github.com/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gitflow</strong><br>
   <em>0.4.2</em>
   </td>
@@ -746,7 +757,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 20:20:28._
+_The above information was automatically generated on 2018-01-22 20:36:51._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
