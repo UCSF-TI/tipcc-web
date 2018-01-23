@@ -170,6 +170,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>binutils</strong><br>
+  <em>2.29</em>
+  </td>
+  <td>
+  <strong>binutils: GNU Binutils</strong><br>
+  The GNU Binutils are a collection of binary tools. The main ones are: <code>ld</code> (the GNU linker) and <code>as</code> (the GNU assembler). Example: <code>ld -v</code>.<br>
+  URL: <a href="https://www.gnu.org/software/binutils/">https://www.gnu.org/software/binutils/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>blast</strong><br>
   2.2.26, <em>2.7.1</em>
   </td>
@@ -757,7 +768,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-22 21:32:38._
+_The above information was automatically generated on 2018-01-23 15:02:21._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
