@@ -115,6 +115,28 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>autoconf</strong><br>
+  <em>2.69</em>
+  </td>
+  <td>
+  <strong>autoconf: Tool for Producing Configure Scripts for Building, Installing and Packaging Software</strong><br>
+  Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. These scripts can adapt the packages to many kinds of UNIX-like systems without manual user intervention. Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, in the form of M4 macro calls. Example: <code>autoconf --version</code>.<br>
+  URL: <a href="https://www.gnu.org/software/autoconf/autoconf.html">https://www.gnu.org/software/autoconf/autoconf.html</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>automake</strong><br>
+  <em>1.15</em>
+  </td>
+  <td>
+  <strong>automake: Tool for Automatically Generating GNU-compliant Makefile.in Files</strong><br>
+  Automake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Example: <code>automake --version</code>.<br>
+  URL: <a href="https://www.gnu.org/software/automake/">https://www.gnu.org/software/automake/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>bamutil</strong><br>
   <em>1.0.14</em>
   </td>
@@ -801,7 +823,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-23 20:11:35._
+_The above information was automatically generated on 2018-01-23 20:45:10._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
