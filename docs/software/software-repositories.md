@@ -417,7 +417,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
-  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sir<c3><a9>n et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
   </td>
  </tr>
@@ -485,6 +485,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>JDK: Java Development Kit</strong><br>
   The Java programming language. Examples: <code>java -version</code> and <code>javac -version</code>.<br>
   URL: <a href="https://www.java.com/">https://www.java.com/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>libevent</strong><br>
+  <em>2.1.8</em>
+  </td>
+  <td>
+  <strong>libevent: An Event Notification Library</strong><br>
+  The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also support callbacks due to signals or regular timeouts. Example: <code>event_rpcgen.py</code>.<br>
+  URL: <a href="http://libevent.org/">http://libevent.org/</a>, <a href="https://github.com/libevent/libevent">https://github.com/libevent/libevent</a><br>
   </td>
  </tr>
  <tr>
@@ -687,6 +698,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>tmux</strong><br>
+  <em>2.6</em>
+  </td>
+  <td>
+  <strong>tmux: A Terminal Multiplexer</strong><br>
+  tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. And do a lot more.  Example: <code>tmux</code> and <code>man tmux</code>.<br>
+  URL: <a href="https://github.com/tmux/tmux/wiki">https://github.com/tmux/tmux/wiki</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>tophat</strong><br>
   1.3.0, 1.3.1, 1.4.0, 2.0.3, 2.0.9, 2.0.10, 2.1.0, <em>2.1.1</em>
   </td>
@@ -779,7 +801,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-23 15:31:46._
+_The above information was automatically generated on 2018-01-23 20:11:35._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
