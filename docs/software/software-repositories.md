@@ -439,7 +439,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
-  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sir<c3><a9>n et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
   </td>
  </tr>
@@ -496,6 +496,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>IGVTools: Tools for Pre-processing HT-Seq Data Files</strong><br>
   The igvtools utility provides a set of tools for pre-processing data files. Example: <code>igvtools help</code>.<br>
   URL: <a href="https://software.broadinstitute.org/software/igv/igvtools">https://software.broadinstitute.org/software/igv/igvtools</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>jags</strong><br>
+  <em>4.3.0</em>
+  </td>
+  <td>
+  <strong>JAGS: Just Another Gibbs Sampler</strong><br>
+  JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation  not wholly unlike BUGS.. Example: <code>jags</code> and <code>man jags</code>.<br>
+  URL: <a href="http://mcmc-jags.sourceforge.net/">http://mcmc-jags.sourceforge.net/</a><br>
   </td>
  </tr>
  <tr>
@@ -823,7 +834,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-23 20:45:10._
+_The above information was automatically generated on 2018-01-23 21:18:40._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
