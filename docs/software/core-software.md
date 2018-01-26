@@ -10,9 +10,16 @@ emacs, nano, vim
 
 <dt>File transfers</dt>
 <dd>
-scp, sftp, rsync<br>
+scp, sftp, lftp, rsync<br>
 curl, wget<br>
 </dd>
+
+<dt>Compression and Archiving</dt>
+<dd>
+bzip2, gzip, lzma/lzip, rar, zip, xz<br>
+cpio, tar<br>
+</dd>
+
 
 <dt>Communication</dt>
 <dd>
