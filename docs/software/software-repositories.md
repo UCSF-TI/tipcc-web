@@ -66,7 +66,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <td>
   <strong>ack: A Tool Like Grep, Optimized for Programmers</strong><br>
   Designed for programmers with large heterogeneous trees of source code, 'ack' is written purely in portable Perl 5 and takes advantage of the power of Perl's regular expressions. Examples: <code>ack --version</code> and <code>ack --man</code><br>
-  URL: <a href="https://beyondgrep.com/">https://beyondgrep.com/</a><br>
+  URL: <a href="https://beyondgrep.com/">https://beyondgrep.com/</a>, <a href="https://beyondgrep.com/feature-comparison/">https://beyondgrep.com/feature-comparison/</a><br>
   </td>
  </tr>
  <tr>
@@ -856,7 +856,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-01-26 17:36:38._
+_The above information was automatically generated on 2018-02-01 13:19:08._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
