@@ -45,7 +45,8 @@ n29       |           64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBan
 
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.  
 The local disk space is unique to each node and mounted as `/scratch/`.  
-All nodes have AMD processors, except n14, and n29 which have Intel processors.
+All nodes have AMD processors, except n14, and n29 which have Intel processors.  
+Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
