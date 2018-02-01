@@ -633,7 +633,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>plink</strong><br>
-  1.90-beta5.2, <em>1.07</em>
+  1.90b5.2, <em>1.07</em>
   </td>
   <td>
   <strong>PLINK: Whole Genome Association Analysis Toolset</strong><br>
@@ -867,7 +867,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-01 15:49:33._
+_The above information was automatically generated on 2018-02-01 15:56:36._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
