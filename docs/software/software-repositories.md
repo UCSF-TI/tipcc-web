@@ -258,6 +258,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>bzip2</strong><br>
+  <em>1.0.6</em>
+  </td>
+  <td>
+  <strong>bzip2: High-quality, Open-source Data Compressor</strong><br>
+  bzip2 is a free and open-source file compression program that uses the Burrows–Wheeler algorithm. It only compresses single files and is not a file archiver. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression. Example: <code>bzip2 --help</code> and <code>bzcat file.txt.bz2</code>.<br>
+  URL: <a href="http://www.bzip.org/">http://www.bzip.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>cbc-bin</strong><br>
   0.1.0, <em>0.1.1</em>
   </td>
@@ -878,7 +889,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-01 23:10:47._
+_The above information was automatically generated on 2018-02-01 23:49:31._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
