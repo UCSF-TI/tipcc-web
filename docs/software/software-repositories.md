@@ -633,7 +633,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pcre</strong><br>
-  <em>8.41</em>
+  8.35, <em>8.41</em>
   </td>
   <td>
   <strong>PCRE: Perl Compatible Regular Expressions</strong><br>
@@ -900,7 +900,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-02 12:17:20._
+_The above information was automatically generated on 2018-02-02 12:38:37._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
