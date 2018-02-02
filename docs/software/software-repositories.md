@@ -632,6 +632,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>pcre</strong><br>
+  <em>8.41</em>
+  </td>
+  <td>
+  <strong>PCRE: Perl Compatible Regular Expressions</strong><br>
+  The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API. Example: <code>pcregrep --help</code> and <code>pcre-config --version</code>.<br>
+  URL: <a href="http://pcre.org/">http://pcre.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>picard</strong><br>
   1.39, 1.51, 1.64, 1.67, <em>2.17.1</em>
   </td>
@@ -889,7 +900,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-01 23:49:31._
+_The above information was automatically generated on 2018-02-02 12:17:20._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
