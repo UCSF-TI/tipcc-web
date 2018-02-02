@@ -861,13 +861,24 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   URL: <a href="https://directory.fsf.org/wiki/Xmlto">https://directory.fsf.org/wiki/Xmlto</a><br>
   </td>
  </tr>
+ <tr>
+  <td>
+  <strong>xz</strong><br>
+  <em>5.2.3</em>
+  </td>
+  <td>
+  <strong>XZ Utils: General-purpose Data Compression Software</strong><br>
+  XZ Utils is free general-purpose data compression software with a high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils. The core of the XZ Utils compression code is based on LZMA SDK, but it has been modified quite a lot to be suitable for XZ Utils. The primary compression algorithm is currently LZMA2, which is used inside the .xz container format. With typical files, XZ Utils create 30 % smaller output than gzip and 15 % smaller output than bzip2. Example: <code>xz --version</code>.<br>
+  URL: <a href="https://tukaani.org/xz/">https://tukaani.org/xz/</a><br>
+  </td>
+ </tr>
 </table>
 
 
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-01 15:56:36._
+_The above information was automatically generated on 2018-02-01 23:05:47._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
