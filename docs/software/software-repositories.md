@@ -868,7 +868,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>XZ Utils: General-purpose Data Compression Software</strong><br>
-  XZ Utils is free general-purpose data compression software with a high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils. The core of the XZ Utils compression code is based on LZMA SDK, but it has been modified quite a lot to be suitable for XZ Utils. The primary compression algorithm is currently LZMA2, which is used inside the .xz container format. With typical files, XZ Utils create 30 % smaller output than gzip and 15 % smaller output than bzip2. Example: <code>xz --version</code>.<br>
+  XZ Utils is free general-purpose data compression software with a high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils. The core of the XZ Utils compression code is based on LZMA SDK, but it has been modified quite a lot to be suitable for XZ Utils. The primary compression algorithm is currently LZMA2, which is used inside the .xz container format. With typical files, XZ Utils create 30 % smaller output than gzip and 15 % smaller output than bzip2. Example: <code>xz --version</code> and <code>xzcat file.txt.xz</code>.<br>
   URL: <a href="https://tukaani.org/xz/">https://tukaani.org/xz/</a><br>
   </td>
  </tr>
@@ -878,7 +878,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-01 23:05:47._
+_The above information was automatically generated on 2018-02-01 23:10:47._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
