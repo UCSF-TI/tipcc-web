@@ -582,7 +582,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>libpng: The Official Portable Network Graphics Reference Library</strong><br>
-  libpng is the official PNG reference library. It supports almost all PNG features, is extensible, and has been extensively tested for over 22 years. Example: no executable; a library. Example: <code>libpng16-config --version</code>.<br>
+  libpng is the official PNG reference library. It supports almost all PNG features, is extensible, and has been extensively tested for over 22 years.  Example: <code>libpng16-config --version</code>.<br>
   URL: <a href="http://www.libpng.org/pub/png/libpng.html">http://www.libpng.org/pub/png/libpng.html</a><br>
   </td>
  </tr>
@@ -944,7 +944,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-05 19:56:51._
+_The above information was automatically generated on 2018-02-05 19:58:06._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
