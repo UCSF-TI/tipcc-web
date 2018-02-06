@@ -346,6 +346,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>curl</strong><br>
+  <em>7.58.0</em>
+  </td>
+  <td>
+  <strong>curl: Command Line Tool and Library for Transferring Data with URLs</strong><br>
+  cURL is a computer software project providing a library and command-line tool for transferring data using various protocols. The cURL project produces two products, libcurl and cURL. It was first released in 1997. The name originally stood for &quot;see URL&quot;.  Example: <code>curl --help</code>.<br>
+  URL: <a href="https://curl.haxx.se/">https://curl.haxx.se/</a>, <a href="https://github.com/curl/curl">https://github.com/curl/curl</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>egademoclient</strong><br>
   <em>2.2.2_0</em>
   </td>
@@ -633,7 +644,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pcre</strong><br>
-  8.35, <em>8.41</em>
+  8.35, 8.36, <em>8.41</em>
   </td>
   <td>
   <strong>PCRE: Perl Compatible Regular Expressions</strong><br>
@@ -900,7 +911,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-02 12:38:37._
+_The above information was automatically generated on 2018-02-05 18:38:22._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
