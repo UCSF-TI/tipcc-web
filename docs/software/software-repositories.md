@@ -368,6 +368,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>emacs</strong><br>
+  24.5, <em>25.3</em>
+  </td>
+  <td>
+  <strong>GNU Emacs: An Extensible, Customizable, Free/Libre Text Editor</strong><br>
+  At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing. Example: <code>emacs --version</code> and <code>emacs -nw</code>.<br>
+  URL: <a href="https://www.gnu.org/software/emacs/">https://www.gnu.org/software/emacs/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>fastqc</strong><br>
   0.10.1, <em>0.11.2</em>
   </td>
@@ -922,7 +933,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-05 19:12:44._
+_The above information was automatically generated on 2018-02-05 19:33:40._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
