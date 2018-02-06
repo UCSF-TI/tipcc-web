@@ -307,8 +307,8 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>cctools: Cooperative Computing Tools contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.</strong><br>
-  The Cooperative Computing Tools (cctools) contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.  Example: <code>parrot_run --version</code>, <code>parrot_run more /http/cbi.ucsf.edu</code>, and <code>parrot_run emacs .../chirp/server.nd.edu/file.txt</code>.<br>
-  URL: <a href="http://ccl.cse.nd.edu/software/">http://ccl.cse.nd.edu/software/</a>,<br>
+  The Cooperative Computing Tools (cctools) contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.  Example: <code>parrot_run --version</code>, <code>parrot_run more /http/cbi.ucsf.edu</code>, and <code>parrot_run emacs /chirp/server.nd.edu/file.txt</code>.<br>
+  URL: <a href="http://ccl.cse.nd.edu/software/">http://ccl.cse.nd.edu/software/</a><br>
   </td>
  </tr>
  <tr>
@@ -955,7 +955,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-06 10:57:59._
+_The above information was automatically generated on 2018-02-06 11:02:44._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
