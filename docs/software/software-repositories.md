@@ -270,7 +270,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  0.1.0, <em>0.1.1</em>
+  0.1.0, 0.1.9-9000, <em>0.1.1</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -298,6 +298,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>CBC-shared Software: Default Set</strong><br>
   When loaded, this module loads the default set of CBC-shared software.  See <code>module show cbc-shared</code> for details.<br>
   URL: <a href="https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html">https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>cctools</strong><br>
+  <em>6.2.4</em>
+  </td>
+  <td>
+  <strong>cctools: Cooperative Computing Tools contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.</strong><br>
+  The Cooperative Computing Tools (cctools) contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.  Example: <code>parrot_run --version</code>, <code>parrot_run more /http/cbi.ucsf.edu</code>, and <code>parrot_run emacs .../chirp/server.nd.edu/file.txt</code>.<br>
+  URL: <a href="http://ccl.cse.nd.edu/software/">http://ccl.cse.nd.edu/software/</a>,<br>
   </td>
  </tr>
  <tr>
@@ -944,7 +955,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-05 19:58:06._
+_The above information was automatically generated on 2018-02-06 10:57:59._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
