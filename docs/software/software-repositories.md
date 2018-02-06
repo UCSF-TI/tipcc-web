@@ -905,13 +905,24 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   URL: <a href="https://tukaani.org/xz/">https://tukaani.org/xz/</a><br>
   </td>
  </tr>
+ <tr>
+  <td>
+  <strong>zlib</strong><br>
+  <em>1.2.11</em>
+  </td>
+  <td>
+  <strong>zlib: A Massively Spiffy Yet Delicately Unobtrusive Compression Library</strong><br>
+  zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system. The zlib data format is itself portable across platforms.  Not related to the Linux zlibc compressing file-I/O library.  Example: No executable; only a library.<br>
+  URL: <a href="https://www.zlib.net/">https://www.zlib.net/</a><br>
+  </td>
+ </tr>
 </table>
 
 
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-05 18:38:22._
+_The above information was automatically generated on 2018-02-05 19:12:44._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
