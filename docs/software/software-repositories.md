@@ -423,6 +423,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>gcc</strong><br>
+  4.8.1, 4.8.4, 5.1.0, <em>4.9.2</em>
+  </td>
+  <td>
+  <strong>GCC, the GNU Compiler Collection</strong><br>
+  The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, and Go, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system. Example: <code>gcc --version</code>.<br>
+  URL: <a href="https://gcc.gnu.org/">https://gcc.gnu.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gdc-client</strong><br>
   <em>1.0.1</em>
   </td>
@@ -955,7 +966,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-06 11:02:44._
+_The above information was automatically generated on 2018-02-21 16:40:48._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
