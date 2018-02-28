@@ -263,7 +263,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>bzip2: High-quality, Open-source Data Compressor</strong><br>
-  bzip2 is a free and open-source file compression program that uses the Burrows–Wheeler algorithm. It only compresses single files and is not a file archiver. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression. Example: <code>bzip2 --help</code> and <code>bzcat file.txt.bz2</code>.<br>
+  bzip2 is a free and open-source file compression program that uses the Burrows<e2>&lt;80&gt;&lt;93&gt;Wheeler algorithm. It only compresses single files and is not a file archiver. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression. Example: <code>bzip2 --help</code> and <code>bzcat file.txt.bz2</code>.<br>
   URL: <a href="http://www.bzip.org/">http://www.bzip.org/</a><br>
   </td>
  </tr>
@@ -281,7 +281,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-devel</strong><br>
-  0.1.0, <em>0.1.1</em>
+  0.1.0, 0.1.1, <em>0.1.2</em>
   </td>
   <td>
   <strong>CBC-shared Developer's Environment</strong><br>
@@ -434,6 +434,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>gcta</strong><br>
+  1.91.2beta, <em>1.26.0</em>
+  </td>
+  <td>
+  <strong>GCTA: Genome-wide Complex Trait Analysis</strong><br>
+  A tool for Genome-wide Complex Trait Analysis (GCTA). Example: <code>gcta64</code>.<br>
+  URL: <a href="http://cnsgenomics.com/software/gcta/">http://cnsgenomics.com/software/gcta/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gdc-client</strong><br>
   <em>1.0.1</em>
   </td>
@@ -505,7 +516,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>HISAT2: Graph-based Alignment of Next Generation Sequencing Reads to a Population of Genomes</strong><br>
-  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sirén et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
+  HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes (as well as to a single reference genome). Based on an extension of BWT for graphs [Sir<c3><a9>n et al. 2014], we designed and implemented a graph FM index (GFM), an original approach and its first implementation to the best of our knowledge. In addition to using one global GFM index that represents a population of human genomes, HISAT2 uses a large set of small GFM indexes that collectively cover the whole genome (each index representing a genomic region of 56 Kbp, with 55,000 indexes needed to cover the human population). These small indexes (called local indexes), combined with several alignment strategies, enable rapid and accurate alignment of sequencing reads. This new indexing scheme is called a Hierarchical Graph FM index (HGFM).  Example: <code>hisat2 --version</code>.<br>
   URL: <a href="https://ccb.jhu.edu/software/hisat2/">https://ccb.jhu.edu/software/hisat2/</a><br>
   </td>
  </tr>
@@ -966,7 +977,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-21 16:40:48._
+_The above information was automatically generated on 2018-02-27 19:32:06._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
