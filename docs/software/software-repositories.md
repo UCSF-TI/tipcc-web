@@ -149,7 +149,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bcftools</strong><br>
-  1.2, 1.3.1, 1.4, <em>1.6</em>
+  1.2, 1.3.1, 1.4, 1.6, <em>1.7</em>
   </td>
   <td>
   <strong>BCFtools: Utilities for Variant Calling and Manipulating VCFs and BCFs</strong><br>
@@ -545,7 +545,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>htslib</strong><br>
-  1.3.2, <em>1.6</em>
+  1.3.2, 1.6, <em>1.7</em>
   </td>
   <td>
   <strong>HTSlib: C Library for High-Throughput Sequencing Data Formats</strong><br>
@@ -776,7 +776,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>samtools</strong><br>
-  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1, <em>1.6</em>
+  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1, 1.6, <em>1.7</em>
   </td>
   <td>
   <strong>SAMtools: Tools (written in C using htslib) for Manipulating Next-Generation Sequencing Data</strong><br>
@@ -977,7 +977,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-28 12:06:38._
+_The above information was automatically generated on 2018-03-05 13:53:39._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
