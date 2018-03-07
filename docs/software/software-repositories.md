@@ -105,7 +105,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>asciigenome</strong><br>
-  <em>1.11.0</em>
+  1.11.0, <em>1.12.0</em>
   </td>
   <td>
   <strong>ASCIIGenome: Text Only Genome Viewer</strong><br>
@@ -182,7 +182,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bedtools2</strong><br>
-  2.13.4, 2.15.0, 2.16.2, <em>2.26.0</em>
+  2.13.4, 2.15.0, 2.16.2, 2.26.0, <em>2.27.1</em>
   </td>
   <td>
   <strong>Bedtools2: The Swiss Army Knife for Genome Arithmetic</strong><br>
@@ -977,7 +977,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-03-05 13:53:39._
+_The above information was automatically generated on 2018-03-06 18:28:07._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
