@@ -226,7 +226,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bowtie2</strong><br>
-  2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9, <em>2.3.3.1</em>
+  2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9, 2.3.3.1, <em>2.3.4.1</em>
   </td>
   <td>
   <strong>Bowtie 2: A Fast and Sensitive Gapped Read Aligner</strong><br>
@@ -413,12 +413,12 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>gatk</strong><br>
-  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 3.8.0, <em>4.0.0.0</em>
+  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 3.8.0, 4.0.0.0, <em>4.0.2.1</em>
   </td>
   <td>
   <strong>Genome Analysis Toolkit (GATK): Variant Discovery in High-Throughput Sequencing Data</strong><br>
   Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>gatk --help</code> and <code>gatk --list</code>.<br>
-  URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
+  URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a>, <a href="https://github.com/broadinstitute/gatk/">https://github.com/broadinstitute/gatk/</a><br>
   </td>
  </tr>
  <tr>
@@ -977,7 +977,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-03-06 18:28:07._
+_The above information was automatically generated on 2018-03-06 19:28:25._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
