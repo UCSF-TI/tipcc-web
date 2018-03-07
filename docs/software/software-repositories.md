@@ -831,7 +831,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>star</strong><br>
-  <em>2.5.3a</em>
+  2.5.3a, <em>2.5.4b</em>
   </td>
   <td>
   <strong>STAR: Spliced Transcripts Alignment to a Reference</strong><br>
@@ -977,7 +977,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-03-06 22:45:10._
+_The above information was automatically generated on 2018-03-06 22:59:00._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
