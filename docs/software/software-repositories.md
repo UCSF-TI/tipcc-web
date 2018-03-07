@@ -688,7 +688,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pandoc</strong><br>
-  1.19.2-0, <em>2.0.3</em>
+  1.19.2-0, 2.0.3, <em>2.1.2</em>
   </td>
   <td>
   <strong>Pandoc: A Universal Document Converter</strong><br>
@@ -977,7 +977,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-03-06 19:28:25._
+_The above information was automatically generated on 2018-03-06 22:45:10._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
