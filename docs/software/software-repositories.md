@@ -599,6 +599,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>kallisto</strong><br>
+  <em>0.44.0</em>
+  </td>
+  <td>
+  <strong>kallisto: Near-optimal RNA-Seq Quantification</strong><br>
+  kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.  Example: <code>kallisto version</code>.<br>
+  URL: <a href="https://pachterlab.github.io/kallisto/about.html">https://pachterlab.github.io/kallisto/about.html</a>, <a href="https://github.com/pachterlab/kallisto">https://github.com/pachterlab/kallisto</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>libevent</strong><br>
   <em>2.1.8</em>
   </td>
@@ -977,7 +988,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-03-06 22:59:00._
+_The above information was automatically generated on 2018-03-07 20:41:48._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
