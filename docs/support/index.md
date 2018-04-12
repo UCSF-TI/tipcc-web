@@ -1,8 +1,8 @@
 # User Support
 
-For questions and feature requests, please use either:
+For questions and feature requests, please use either of:
 
-1. the [TIPCC issue tracker](https://github.com/UCSF-TI/TIPCC/issues) (if you don't have access, please [send us](../about/contact.html) your [GitHub username](https://github.com/join)), or
+1. the [TIPCC issue tracker](https://github.com/UCSF-TI/TIPCC/issues) - this is a _private_ repository which gives an "404 This is not the web page you are looking for" error if you are not logged in to GitHub or do not have been given access (if you don't have access, please [send us](../about/contact.html) your [GitHub username](https://github.com/join))
 2. the [TIPCC mailing list](mailto:TIPCC@listsrv.ucsf.edu)
 
 These forums are monitored by the system administrator among others.
