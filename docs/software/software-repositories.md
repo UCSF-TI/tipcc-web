@@ -534,7 +534,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>htop</strong><br>
-  1.0.3, 2.0.2, <em>2.1.0</em>
+  1.0.3, 2.0.2, 2.1.0, <em>2.2.0</em>
   </td>
   <td>
   <strong>htop: An Interactive Process Viewer for Unix</strong><br>
@@ -1010,7 +1010,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-04-19 13:49:39._
+_The above information was automatically generated on 2018-04-19 15:35:45._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
