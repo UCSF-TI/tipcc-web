@@ -698,6 +698,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>netcdf</strong><br>
+  <em>4.3.0</em>
+  </td>
+  <td>
+  <strong>NetCDF: Network Common Data Form</strong><br>
+  NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. Example: <code>nc-config --version</code> and <code>ncdump --version</code>.<br>
+  URL: <a href="https://www.unidata.ucar.edu/software/netcdf/">https://www.unidata.ucar.edu/software/netcdf/</a>, <a href="https://github.com/Unidata/netcdf-c">https://github.com/Unidata/netcdf-c</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>nextflow</strong><br>
   <em>0.26.0.4715</em>
   </td>
@@ -721,7 +732,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pcre</strong><br>
-  8.35, 8.36, <em>8.41</em>
+  8.35, 8.36, 8.41, <em>8.42</em>
   </td>
   <td>
   <strong>PCRE: Perl Compatible Regular Expressions</strong><br>
@@ -765,7 +776,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3patched, 3.4.3, 3.4.4patched, 3.5.0devel, 3.6.0devel, <em>3.4.4</em>
+  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3, 3.4.4patched, 3.5.0beta, 3.5.0rc, 3.5.0devel, 3.6.0devel, <em>3.4.4</em>
   </td>
   <td>
   <strong>R: The R Programming Language</strong><br>
@@ -999,7 +1010,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-04-13 12:03:16._
+_The above information was automatically generated on 2018-04-19 13:49:39._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
