@@ -281,7 +281,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  0.1.0, 0.1.9-9000, <em>0.1.1</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.9-9000, <em>0.2.0</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -303,7 +303,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, <em>0.2.1</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, <em>0.2.2</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -666,11 +666,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>luarocks</strong><br>
-  <em>2.4.2</em>
+  2.4.2, <em>2.4.4</em>
   </td>
   <td>
   <strong>LuaRocks: The Lua Package Manager</strong><br>
-  LuaRocks is the package manager for Lua modules. Example: <code>luarocks --help</code>.<br>
+  LuaRocks is the package manager for Lua modules. Example: <code>luarocks --help</code> and <code>luarocks install posix</code>.<br>
   URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
   </td>
  </tr>
@@ -1010,7 +1010,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-04-19 22:41:52._
+_The above information was automatically generated on 2018-04-20 14:39:21._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
