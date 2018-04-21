@@ -765,7 +765,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>python</strong><br>
-  2.6.5, 2.7.3, 2.7.4, 2.7.10, <em>2.7.9</em>
+  2.6.5, 2.7.3, 2.7.4, 2.7.10, 2.7.14, <em>2.7.9</em>
   </td>
   <td>
   <strong>Python: The Python Programming Language</strong><br>
@@ -1010,7 +1010,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-04-20 14:39:21._
+_The above information was automatically generated on 2018-04-20 21:57:41._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
