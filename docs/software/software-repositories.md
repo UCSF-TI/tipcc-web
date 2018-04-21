@@ -776,10 +776,10 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>python3</strong><br>
-  <em>3.6.5</em>
+  <em>3.6.5-fragile</em>
   </td>
   <td>
-  <strong>Python 3: The Python Programming Language</strong><br>
+  <strong>Python 3: The Python Programming Language (WARNING: Does NOT pass all tests!)</strong><br>
   Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python3 --version</code> as well as <code>virtualenv myproject</code>, <code>. myproject/bin/activate</code>, and <code>pip install cnvkit</code>.<br>
   URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
   </td>
@@ -1021,7 +1021,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-04-20 22:25:00._
+_The above information was automatically generated on 2018-04-20 22:47:27._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
