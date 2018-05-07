@@ -13,7 +13,6 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 Node      | Nbr of cores |      CPU  |       RAM | Local `/scratch/` | Notes                        | Priority
 ----------|-------------:|----------:|----------:|-----------------:|------------------------------|-----------
 n0        |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
-n1        |           48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n2        |           48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n3        |           48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
 n4        |           12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
@@ -41,7 +40,7 @@ n26       |           12 |   2.4 GHz |    32 GiB |           1.7 TiB |          
 n27       |           48 |   1.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Costello Lab
 n28       |           64 |   2.3 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
 n29       |           64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Krummel Lab
-**Total** |     **1168** |           |           |                   |                              |
+**Total** |     **1120** |           |           |                   |                              |
 
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.  
 The local disk space is unique to each node and mounted as `/scratch/`.  
