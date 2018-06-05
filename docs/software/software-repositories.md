@@ -105,7 +105,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>asciigenome</strong><br>
-  <em>1.11.0</em>
+  1.11.0, <em>1.12.0</em>
   </td>
   <td>
   <strong>ASCIIGenome: Text Only Genome Viewer</strong><br>
@@ -149,7 +149,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bcftools</strong><br>
-  1.2, 1.3.1, 1.4, <em>1.6</em>
+  1.2, 1.3.1, 1.4, 1.6, <em>1.7</em>
   </td>
   <td>
   <strong>BCFtools: Utilities for Variant Calling and Manipulating VCFs and BCFs</strong><br>
@@ -182,7 +182,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bedtools2</strong><br>
-  2.13.4, 2.15.0, 2.16.2, <em>2.26.0</em>
+  2.13.4, 2.15.0, 2.16.2, 2.26.0, <em>2.27.1</em>
   </td>
   <td>
   <strong>Bedtools2: The Swiss Army Knife for Genome Arithmetic</strong><br>
@@ -225,8 +225,19 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>bowtie</strong><br>
+  1.2.0, <em>1.2.2</em>
+  </td>
+  <td>
+  <strong>Bowtie: A Fast and Sensitive Gapped Read Aligner</strong><br>
+  Bowtie is an ultrafast, memory-efficient short read aligner. <em>NOTE: This is Bowtie v1 - not v2</em>.  Example: <code>bowtie --version</code><br>
+  URL: <a href="http://bowtie-bio.sourceforge.net/index.shtml">http://bowtie-bio.sourceforge.net/index.shtml</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>bowtie2</strong><br>
-  2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9, <em>2.3.3.1</em>
+  2.0.0-beta6, 2.1.0, 2.2.6, 2.2.9, 2.3.3.1, <em>2.3.4.1</em>
   </td>
   <td>
   <strong>Bowtie 2: A Fast and Sensitive Gapped Read Aligner</strong><br>
@@ -270,7 +281,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  0.1.0, <em>0.1.1</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.9-9000, <em>0.2.0</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -281,7 +292,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-devel</strong><br>
-  0.1.0, <em>0.1.1</em>
+  0.1.0, 0.1.1, <em>0.1.2</em>
   </td>
   <td>
   <strong>CBC-shared Developer's Environment</strong><br>
@@ -292,12 +303,23 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, <em>0.2.1</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, <em>0.2.2</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
   When loaded, this module loads the default set of CBC-shared software.  See <code>module show cbc-shared</code> for details.<br>
   URL: <a href="https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html">https://ucsf-ti.github.io/tipcc-web/software/software-repositories.html</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>cctools</strong><br>
+  <em>6.2.4</em>
+  </td>
+  <td>
+  <strong>cctools: Cooperative Computing Tools contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.</strong><br>
+  The Cooperative Computing Tools (cctools) contains Parrot, Chirp, Makeflow, Work Queue, SAND, and other software.  Example: <code>parrot_run --version</code>, <code>parrot_run more /http/cbi.ucsf.edu</code>, and <code>parrot_run emacs /chirp/server.nd.edu/file.txt</code>.<br>
+  URL: <a href="http://ccl.cse.nd.edu/software/">http://ccl.cse.nd.edu/software/</a><br>
   </td>
  </tr>
  <tr>
@@ -402,12 +424,34 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>gatk</strong><br>
-  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 3.8.0, <em>4.0.0.0</em>
+  1.6.2, 3.0.0, 3.4.46, 3.6.0, 3.7.0, 3.8.0, 4.0.0.0, <em>4.0.2.1</em>
   </td>
   <td>
   <strong>Genome Analysis Toolkit (GATK): Variant Discovery in High-Throughput Sequencing Data</strong><br>
   Developed in the Data Sciences Platform at the Broad Institute, the toolkit offers a wide variety of tools with a primary focus on variant discovery and genotyping. Its powerful processing engine and high-performance computing features make it capable of taking on projects of any size.  Example: <code>gatk --help</code> and <code>gatk --list</code>.<br>
-  URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a><br>
+  URL: <a href="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</a>, <a href="https://github.com/broadinstitute/gatk/">https://github.com/broadinstitute/gatk/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>gcc</strong><br>
+  4.8.1, 4.8.4, 5.1.0, <em>4.9.2</em>
+  </td>
+  <td>
+  <strong>GCC, the GNU Compiler Collection</strong><br>
+  The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, and Go, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system. Example: <code>gcc --version</code>.<br>
+  URL: <a href="https://gcc.gnu.org/">https://gcc.gnu.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>gcta</strong><br>
+  1.91.2beta, <em>1.26.0</em>
+  </td>
+  <td>
+  <strong>GCTA: Genome-wide Complex Trait Analysis</strong><br>
+  A tool for Genome-wide Complex Trait Analysis (GCTA). Example: <code>gcta64</code>.<br>
+  URL: <a href="http://cnsgenomics.com/software/gcta/">http://cnsgenomics.com/software/gcta/</a><br>
   </td>
  </tr>
  <tr>
@@ -490,7 +534,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>htop</strong><br>
-  1.0.3, <em>2.0.2</em>
+  1.0.3, 2.0.2, 2.1.0, <em>2.2.0</em>
   </td>
   <td>
   <strong>htop: An Interactive Process Viewer for Unix</strong><br>
@@ -512,7 +556,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>htslib</strong><br>
-  1.3.2, <em>1.6</em>
+  1.3.2, 1.6, <em>1.7</em>
   </td>
   <td>
   <strong>HTSlib: C Library for High-Throughput Sequencing Data Formats</strong><br>
@@ -566,6 +610,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>kallisto</strong><br>
+  <em>0.44.0</em>
+  </td>
+  <td>
+  <strong>kallisto: Near-optimal RNA-Seq Quantification</strong><br>
+  kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.  Example: <code>kallisto version</code>.<br>
+  URL: <a href="https://pachterlab.github.io/kallisto/about.html">https://pachterlab.github.io/kallisto/about.html</a>, <a href="https://github.com/pachterlab/kallisto">https://github.com/pachterlab/kallisto</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>libevent</strong><br>
   <em>2.1.8</em>
   </td>
@@ -582,7 +637,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>libpng: The Official Portable Network Graphics Reference Library</strong><br>
-  libpng is the official PNG reference library. It supports almost all PNG features, is extensible, and has been extensively tested for over 22 years.  Example: <code>libpng16-config --version</code>.<br>
+  libpng is the official PNG reference library. It supports almost all PNG features, is extensible, and has been extensively tested for over 22 years.  Example: <code>libpng-config --version</code>.<br>
   URL: <a href="http://www.libpng.org/pub/png/libpng.html">http://www.libpng.org/pub/png/libpng.html</a><br>
   </td>
  </tr>
@@ -611,11 +666,11 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>luarocks</strong><br>
-  <em>2.4.2</em>
+  2.4.2, <em>2.4.4</em>
   </td>
   <td>
   <strong>LuaRocks: The Lua Package Manager</strong><br>
-  LuaRocks is the package manager for Lua modules. Example: <code>luarocks --help</code>.<br>
+  LuaRocks is the package manager for Lua modules. Example: <code>luarocks --help</code> and <code>luarocks install posix</code>.<br>
   URL: <a href="https://luarocks.org/">https://luarocks.org/</a><br>
   </td>
  </tr>
@@ -643,6 +698,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>netcdf</strong><br>
+  <em>4.3.0</em>
+  </td>
+  <td>
+  <strong>NetCDF: Network Common Data Form</strong><br>
+  NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. Example: <code>nc-config --version</code> and <code>ncdump --version</code>.<br>
+  URL: <a href="https://www.unidata.ucar.edu/software/netcdf/">https://www.unidata.ucar.edu/software/netcdf/</a>, <a href="https://github.com/Unidata/netcdf-c">https://github.com/Unidata/netcdf-c</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>nextflow</strong><br>
   <em>0.26.0.4715</em>
   </td>
@@ -655,7 +721,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pandoc</strong><br>
-  1.19.2-0, <em>2.0.3</em>
+  1.19.2-0, 2.0.3, <em>2.1.2</em>
   </td>
   <td>
   <strong>Pandoc: A Universal Document Converter</strong><br>
@@ -666,7 +732,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pcre</strong><br>
-  8.35, 8.36, <em>8.41</em>
+  8.35, 8.36, 8.41, <em>8.42</em>
   </td>
   <td>
   <strong>PCRE: Perl Compatible Regular Expressions</strong><br>
@@ -699,7 +765,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>python</strong><br>
-  2.6.5, 2.7.3, 2.7.4, 2.7.10, <em>2.7.9</em>
+  2.6.5, 2.7.3, 2.7.4, 2.7.10, 2.7.14, <em>2.7.9</em>
   </td>
   <td>
   <strong>Python: The Python Programming Language</strong><br>
@@ -709,8 +775,19 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>python3</strong><br>
+  <em>3.6.5</em>
+  </td>
+  <td>
+  <strong>Python 3: The Python Programming Language (WARNING: Does NOT pass all tests!)</strong><br>
+  Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python3 --version</code> as well as <code>virtualenv myproject</code>, <code>. myproject/bin/activate</code>, and <code>pip install cnvkit</code>.<br>
+  URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>r</strong><br>
-  devel, oldrel, patched, release, 2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3patched, 3.5.0devel, <em>3.4.3</em>
+  2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3, 3.4.4, 3.5.0patched, 3.6.0devel, <em>3.5.0</em>
   </td>
   <td>
   <strong>R: The R Programming Language</strong><br>
@@ -743,7 +820,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>samtools</strong><br>
-  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1, <em>1.6</em>
+  0.1.12a, 0.1.17, 0.1.18, 0.1.19-patched, 0.1.19, 1.2, 1.3.1, 1.6, <em>1.7</em>
   </td>
   <td>
   <strong>SAMtools: Tools (written in C using htslib) for Manipulating Next-Generation Sequencing Data</strong><br>
@@ -798,7 +875,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>star</strong><br>
-  <em>2.5.3a</em>
+  2.5.3a, <em>2.5.4b</em>
   </td>
   <td>
   <strong>STAR: Spliced Transcripts Alignment to a Reference</strong><br>
@@ -944,7 +1021,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-02-05 19:58:06._
+_The above information was automatically generated on 2018-05-05 14:15:57._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 

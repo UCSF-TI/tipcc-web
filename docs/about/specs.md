@@ -13,7 +13,6 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 Node      | Nbr of cores |      CPU  |       RAM | Local `/scratch/` | Notes                        | Priority
 ----------|-------------:|----------:|----------:|-----------------:|------------------------------|-----------
 n0        |           64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
-n1        |           48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n2        |           48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n3        |           48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
 n4        |           12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
@@ -42,7 +41,7 @@ n27       |           48 |   1.4 GHz |   384 GiB |           5.2 TiB | InfiniBan
 n28       |           64 |   2.3 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
 n29       |           64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n30       |           64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
-**Total** |     **1232** |           |           |                   |                              |
+**Total** |     **1172** |           |           |                   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.
@@ -79,3 +78,5 @@ tr:last-child { border-top: 2px solid #000; }
 
 [Scyld ClusterWare]: http://www.penguincomputing.com/solutions/scyld-clusterware/
 [Penguin Computing]: https://en.wikipedia.org/wiki/Penguin_Computing
+
+
