@@ -44,7 +44,7 @@ n29       |           64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBan
 **Total** |     **1168** |           |           |                   |                              |
 
 The head node specs: 12 cores, 2.4 GHz CPU, 128 GiB RAM.  
-The local disk space is unique to each node and mounted as `/scratch/`.  
+The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.
 All nodes have AMD processors, except n14, and n29 which have Intel processors.  
 Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
 
@@ -58,7 +58,6 @@ The [cluster can be accessed]({{ '/get-started/access-cluster.html' | relative_u
 1. {{ site.login.name  }}: `{{ site.login.hostname }}`
 
 The login nodes can only be accessed from within the UCSF network.
-
 
 ### Interactive Nodes
 
