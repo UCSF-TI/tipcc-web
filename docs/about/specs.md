@@ -43,7 +43,7 @@ n29       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0
 n30       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
 **Total** |           **586** | **1172** |           |           |                   |                              |
 
-The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
+The head node specs: 48 cores (24 physical cores), 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
 All nodes have AMD processors, except n14, n29, and n30 which have Intel processors.  
 Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
@@ -63,9 +63,9 @@ The login nodes can only be accessed from within the UCSF network.
 
 The cluster has interactive nodes for the purpose of validating scripts, prototyping pipelines, compiling software, and more.  Interactive nodes [can be accessed using SSH]({{ '/get-started/interactive-usage.html' | relative_url }}) and only from the login nodes.
 
-Node      | Number of Cores |       CPU |       RAM |  Local `/scratch` |
-----------------------------|----------:|----------:|------------------:|
-n6        |              12 |   2.4 GHz |    64 GiB |           1.8 TiB |
+Node      | # Physical Cores | # Cores |       CPU |       RAM |  Local `/scratch` |
+----------|------------------|---------|----------:|----------:|------------------:|
+n6        |                6 |      12 |   2.4 GHz |    64 GiB |           1.8 TiB |
 
 
 <style>
