@@ -31,7 +31,7 @@ n17       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2
 n18       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n19       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n20       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
-n21       |                32 |       64 |   2.8 GHz |   256 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
+n21       |                32 |       48 |   2.8 GHz |   256 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
 n22       |                24 |       48 |   2.8 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n23       |                24 |       48 |   2.8 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n24       |                 6 |       12 |   2.4 GHz |    32 GiB |           1.7 TiB |                              | (communal)
