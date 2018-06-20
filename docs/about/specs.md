@@ -31,7 +31,7 @@ n17       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2
 n18       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n19       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n20       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
-n21       |                32 |       48 |   2.8 GHz |   256 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
+n21       |                24 |       48 |   2.8 GHz |   256 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
 n22       |                24 |       48 |   2.8 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n23       |                24 |       48 |   2.8 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n24       |                 6 |       12 |   2.4 GHz |    32 GiB |           1.7 TiB |                              | (communal)
@@ -42,7 +42,7 @@ n28       |                32 |       64 |   2.3 GHz |   512 GiB |           2.6
 n29       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n30       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
 n31       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Ziv Lab
-**Total** |           **618** | **1236** |           |           |                   |                              |
+**Total** |           **612** | **1220** |           |           |                   |                              |
 
 The head node specs: 48 cores (24 physical cores), 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
