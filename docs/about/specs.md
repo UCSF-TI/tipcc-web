@@ -24,7 +24,7 @@ n10       |                 6 |       12 |   2.3 GHz |    64 GiB |           1.7
 n11       |                 6 |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
 n12       |                24 |       48 |   2.3 GHz |   384 GiB |           1.7 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n13       |                24 |       48 |   2.3 GHz |   512 GiB |           1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
-n14       |                 6 |       12 |   3.5 GHz |   128 GiB |          0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
+n14       |                12 |       24 |   3.5 GHz |   128 GiB |          0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
 n15       |                32 |       64 |   2.6 GHz |   256 GiB |           1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n16       |                32 |       64 |   2.6 GHz |   512 GiB |          10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n17       |                32 |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
@@ -42,7 +42,7 @@ n28       |                32 |       64 |   2.3 GHz |   512 GiB |           2.6
 n29       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n30       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
 n31       |                32 |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Ziv Lab
-**Total** |           **612** | **1220** |           |           |                   |                              |
+**Total** |           **616** | **1232** |           |           |                   |                              |
 
 The head node specs: 48 cores (24 physical cores), 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
