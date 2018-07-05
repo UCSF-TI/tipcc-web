@@ -16,7 +16,8 @@ Arguments are then passed as if you called the script as `script.sh first second
 
 
 ### Request number of cores for parallel processing
-Request to get a single node (any one) with at least four cores available:
+
+Request a single node (any one) with at least four cores available:
 ```sh
 qsub -l nodes=1:ppn=4 script.sh
 ```
@@ -26,16 +27,20 @@ qsub -l nodes=1:ppn=4 script.sh
 
 ### Request total and maximum amount of memory to be used
 
-Request one node with one task consuming up to 8 GiB of RAM:
+Unless otherwise specified, each job gets allocated 2 GiB of memory by default.  To request more (or less), use the `vmem` resource parameter.  For instance, run a one task job consuming up to 8 GiB of RAM, use:
 ```sh
 qsub -l vmem=8gb script.sh
 ```
-Valid units are `kb`, `mb` and `gb`, which are specified in IEC units (multiples of 1024, e.g. 1 GiB = 1024 MiB = 1024^2 KiB = 1024^3 bytes).  It is _not_ possible specify memory sizes using decimal numbers - only integers.  For instance, `vmem=7.5gb` will give an error on submission.  Instead, one can use `vmem=7680mb` (because 7.5 GiB = 7.5*1024 MiB = 7680 MiB).
+Valid units are `kb`, `mb` and `gb`, which are specified in IEC units (multiples of 1024, e.g. 1 GiB = 1024 MiB = 1024^2 KiB = 1024^3 bytes).  It is _not_ possible to specify memory sizes using decimal numbers - only integers.  For instance, `vmem=7.5gb` will give an error on submission.  Instead, one can use `vmem=7680mb` (because 7.5 GiB = 7.5*1024 MiB = 7680 MiB).
 
 Request one node with 12 tasks together consuming up to 96 GiB of RAM (e.g. 11 tasks could use 1 GiB each and one task 85 GiB):
 ```sh
 qsub -l nodes=1:ppn=12 -l vmem=96gb script.sh
 ```
+
+<div class="alert alert-warning" role="alert">
+The default memory allocation is <code>-l vmem=2gb</code> per job.
+</div>
 
 If TORQUE (the scheduler) detects a job (one or more processes) that is using more memory than it requested (by `vmem`), it will [terminate the job process by signalling `SIGTERM` ("Ctrl-C") and write a message to standard error](
 https://github.com/adaptivecomputing/torque/blob/f1a292619d9744d864411f8ad79f4da1be78d0d7/src/resmom/mom_main.c#L5687-L5716), e.g.
