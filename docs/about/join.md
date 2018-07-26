@@ -8,7 +8,7 @@ To request access and get an account on the cluster, please [contact us] with th
 * UCSF email address
 * UCSF active directory username and domain (e.g. CAMPUS\\<i>username</i>)
 * UCSF affiliation (faculty, student, postdoc, etc.)
-* Cancer Center affiliation (name of Principle Investigator, if any)
+* UCSF Principle Investigator, if any
 * (optional) GitHub user name to access Issue Tracker (to create an account go to <https://github.com/join/>)
 
 
