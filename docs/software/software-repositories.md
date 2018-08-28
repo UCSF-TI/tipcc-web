@@ -548,8 +548,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   0.5.4p3, <em>0.6.1</em>
   </td>
   <td>
-  <strong>HTSeq: Analysing high-throughput sequencing data with Python</strong><br>
+  <strong>[DEPRECATED] HTSeq: Analysing high-throughput sequencing data with Python</strong><br>
   HTSeq is a Python package that provides infrastructure to process data from high-throughput sequencing assays. Example: <code>htseq-count</code> and <code>htseq-qa</code>.<br>
+Note: <strong>This module is deprecated</strong> - instead install this Python package using <code>pip install HTSeq</code> following the instruction at <a href="https://ucsf-ti.github.io/tipcc-web/howto/python.html">https://ucsf-ti.github.io/tipcc-web/howto/python.html</a><br>
   URL: <a href="http://www-huber.embl.de/users/anders/HTSeq/">http://www-huber.embl.de/users/anders/HTSeq/</a><br>
   </td>
  </tr>
@@ -1032,7 +1033,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-08-26 15:10:38._
+_The above information was automatically generated on 2018-08-28 12:55:13._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
