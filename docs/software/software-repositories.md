@@ -843,7 +843,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>shellcheck</strong><br>
-  <em>0.4.6</em>
+  0.4.6, <em>0.4.7</em>
   </td>
   <td>
   <strong>ShellCheck: A Shell Script Static Analysis Tool</strong><br>
@@ -1033,7 +1033,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-08-28 13:00:51._
+_The above information was automatically generated on 2018-08-29 10:13:24._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
