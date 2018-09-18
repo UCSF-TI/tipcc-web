@@ -281,7 +281,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.9-9000, <em>0.2.0</em>
+  0.1.0, 0.1.1, 0.1.2, <em>0.2.0</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -303,7 +303,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, <em>0.2.2</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, 0.2.2, 0.2.3, <em>0.2.4</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -629,6 +629,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>kallisto: Near-optimal RNA-Seq Quantification</strong><br>
   kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.  Example: <code>kallisto version</code>.<br>
   URL: <a href="https://pachterlab.github.io/kallisto/about.html">https://pachterlab.github.io/kallisto/about.html</a>, <a href="https://github.com/pachterlab/kallisto">https://github.com/pachterlab/kallisto</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>lg3</strong><br>
+  devel, 2018-08-28, <em>2018-09-17</em>
+  </td>
+  <td>
+  <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
+  This is the LG3 Pipeline developed by the UCSF Costello Lab.<br>
+  URL: <a href="https://github.com/UCSF-Costello-Lab/LG3_Pipeline">https://github.com/UCSF-Costello-Lab/LG3_Pipeline</a><br>
   </td>
  </tr>
  <tr>
@@ -1044,7 +1055,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-09-06 13:50:43._
+_The above information was automatically generated on 2018-09-17 21:25:22._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
