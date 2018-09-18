@@ -9,6 +9,7 @@ force:
 	git diff
 
 $(PAGE).md: $(PAGE).md.rsp
+	module load CBC r; \
 	Rscript -e R.rsp::rfile $< --postprocess=FALSE
 
 deploy: $(PAGE).md
