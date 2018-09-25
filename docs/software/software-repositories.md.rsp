@@ -10,6 +10,7 @@ as_html <- function(x) {
   if (!is.character(x)) return(x)
   x <- commonmark::markdown_html(x, extensions = TRUE)
   x <- gsub("(^<p>|</p>\n$)", "", x)
+  x <- gsub("\\n", "<br>\n", x)
   x
 }
 

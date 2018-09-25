@@ -281,7 +281,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-bin</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.9-9000, <em>0.2.0</em>
+  0.1.0, 0.1.1, 0.1.2, <em>0.2.0</em>
   </td>
   <td>
   <strong>CBC-shared Scripts and Binaries</strong><br>
@@ -303,7 +303,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, <em>0.2.2</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, 0.2.2, 0.2.3, <em>0.2.4</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -434,6 +434,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>gawk</strong><br>
+  <em>4.2.1</em>
+  </td>
+  <td>
+  <strong>gawk: Effective AWK Programming (GNU awk)</strong><br>
+  AWK is a programming language designed for text processing and typically used as a data extraction and reporting tool.  Example: <code>gawk --help</code>.<br>
+  URL: <a href="https://www.gnu.org/software/gawk/">https://www.gnu.org/software/gawk/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gcc</strong><br>
   4.8.1, 4.8.4, 5.1.0, <em>4.9.2</em>
   </td>
@@ -548,8 +559,9 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   0.5.4p3, <em>0.6.1</em>
   </td>
   <td>
-  <strong>HTSeq: Analysing high-throughput sequencing data with Python</strong><br>
+  <strong>[DEPRECATED] HTSeq: Analysing high-throughput sequencing data with Python</strong><br>
   HTSeq is a Python package that provides infrastructure to process data from high-throughput sequencing assays. Example: <code>htseq-count</code> and <code>htseq-qa</code>.<br>
+<strong>This module is deprecated</strong>: Instead, install this Python package using <code>pip install HTSeq</code> following the instruction at <a href="https://ucsf-ti.github.io/tipcc-web/howto/python.html">https://ucsf-ti.github.io/tipcc-web/howto/python.html</a><br>
   URL: <a href="http://www-huber.embl.de/users/anders/HTSeq/">http://www-huber.embl.de/users/anders/HTSeq/</a><br>
   </td>
  </tr>
@@ -617,6 +629,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>kallisto: Near-optimal RNA-Seq Quantification</strong><br>
   kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.  Example: <code>kallisto version</code>.<br>
   URL: <a href="https://pachterlab.github.io/kallisto/about.html">https://pachterlab.github.io/kallisto/about.html</a>, <a href="https://github.com/pachterlab/kallisto">https://github.com/pachterlab/kallisto</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>lg3</strong><br>
+  devel, 2018-08-28, 2018-09-17, <em>2018-09-19</em>
+  </td>
+  <td>
+  <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
+  This is the LG3 Pipeline developed by the UCSF Costello Lab.<br>
+  URL: <a href="https://github.com/UCSF-Costello-Lab/LG3_Pipeline">https://github.com/UCSF-Costello-Lab/LG3_Pipeline</a><br>
   </td>
  </tr>
  <tr>
@@ -842,7 +865,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>shellcheck</strong><br>
-  <em>0.4.6</em>
+  0.4.6, <em>0.4.7</em>
   </td>
   <td>
   <strong>ShellCheck: A Shell Script Static Analysis Tool</strong><br>
@@ -1032,7 +1055,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-08-26 15:10:38._
+_The above information was automatically generated on 2018-09-19 11:33:30._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
