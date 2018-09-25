@@ -1,8 +1,3 @@
-<div class="alert alert-info" role="alert">
-2017-09-19: Enabled the below for all cluster users. The cluster now uses Lua-based Environment Modules (Lmod) by default, which is 99.9% backward compatible with the traditional Tcl-based module framework previously used. To temporary revert to that old framework, add <code>MODULE_FRAMEWORK=tcl</code> to the top of your <code>~/.bashrc</code> file.
-</div>
-
-
 # Software Modules
 
 In addition to the core software tools that are available by default, additional software is available via different [Software Repositories].  Note that some of these software tools are installed and maintained by other users or research groups of the cluster who have kindly agreed on sharing their efforts with other cluster users. Currently known and publicly shared repositories are:
