@@ -303,7 +303,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cbc-shared</strong><br>
-  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, 0.2.2, 0.2.3, <em>0.2.4</em>
+  0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, <em>0.2.5</em>
   </td>
   <td>
   <strong>CBC-shared Software: Default Set</strong><br>
@@ -634,7 +634,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lg3</strong><br>
-  devel, 2018-08-28, 2018-09-17, <em>2018-09-19</em>
+  devel, next, 2018-08-28, 2018-09-17, 2018-09-19, <em>2018-09-28</em>
   </td>
   <td>
   <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
@@ -788,7 +788,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>python</strong><br>
-  2.6.5, 2.7.3, 2.7.4, 2.7.10, 2.7.15, <em>2.7.9</em>
+  2.6.5, 2.7.3, 2.7.4, 2.7.9, 2.7.10, <em>2.7.15</em>
   </td>
   <td>
   <strong>Python: The Python Programming Language</strong><br>
@@ -1013,7 +1013,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <td>
   <strong>WordSpy: A Steganalysis-based, Genome Scale Motif Finding Method</strong><br>
   A steganalysis-based approach to comprehensive identification and characterization of functional regulatory elements. Example: <code>wordspy</code>.<br>
-  URL: <a href="http://www.cs.wustl.edu/%7Ezhang/">http://www.cs.wustl.edu/~zhang/</a><br>
+  URL: <a href="http://www.cs.wustl.edu/~zhang/">http://www.cs.wustl.edu/~zhang/</a><br>
   </td>
  </tr>
  <tr>
@@ -1055,7 +1055,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-09-19 11:33:30._
+_The above information was automatically generated on 2018-10-07 22:42:38._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
