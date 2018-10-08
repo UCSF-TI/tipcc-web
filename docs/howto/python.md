@@ -22,23 +22,13 @@ Start by creating a folder specific to the project you are currently working on.
 ```sh
 [alice@{{ site.interactive.name }} ~]$ $ module load CBC python
 [alice@{{ site.interactive.name }} ~]$ $ python --version
-Python 2.7.9
+Python 2.7.15
 [alice@{{ site.interactive.name }} ~]$ $ virtualenv my_project
 New python executable in my_project/bin/python2.7
 Also creating executable in my_project/bin/python
-Installing setuptools, pip...done.
+Installing setuptools, pip, wheel...done.
 [alice@{{ site.interactive.name }} ~]$ cd my_project
 [alice@{{ site.interactive.name }} my_project]$ . bin/activate   ## IMPORTANT! Note period in front
-(my_project) [alice@{{ site.interactive.name }} my_project]$ pip install --upgrade pip
-You are using pip version 6.1.1, however version 18.0 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-Collecting pip
-  Using cached https://files.pythonhosted.org/packages/5f/25/e52d3f31441505a5f3af41213346e5b6c221c9e086a166f3703d2ddaf940/pip-18.0-py2.py3-none-any.whl
-Installing collected packages: pip
-  Found existing installation: pip 6.1.1
-    Uninstalling pip-6.1.1:
-      Successfully uninstalled pip-6.1.1
-Successfully installed pip-18.0
 (my_project) [alice@{{ site.interactive.name }} my_project]$ 
 ```
 
@@ -47,8 +37,9 @@ Note how `(my_project) ` is prepended to the shell prompt when the virtual envir
 (my_project) [alice@{{ site.interactive.name }} my_project]$ pip list
 Package    Version
 ---------- -------
-pip        18.0   
-setuptools 15.0
+pip        18.1   
+setuptools 40.4.3 
+wheel      0.32.1
 (my_project) [alice@{{ site.interactive.name }} my_project]$ 
 ```
 
@@ -59,22 +50,17 @@ Now you can install Python packages using `pip`.  For instance,
 
 ```sh
 (my_project) [alice@{{ site.interactive.name }} my_project]$ pip install HTSeq
-Collecting HTSseq
-  Could not find a version that satisfies the requirement HTSseq (from versions: )
-No matching distribution found for HTSseq
-(my_project)** ON INTERACTIVE NODE ** [alice@{{ site.interactive.name }} my_project]$ pip install HTSeq
 Collecting HTSeq
-  Using cached https://files.pythonhosted.org/packages/3b/be/a47447b1128a8b24b10780dd6804dc964eb79bebb8f468012264c6c766e1/HTSeq-0.10.0-cp27-cp27m-manylinux1_x86_64.whl
-Requirement already satisfied: pysam>=0.9.0 in /home/alice/.local/lib/python2.7/site-packages (from HTSeq) (0.11.2)
+  Downloading https://files.pythonhosted.org/packages/5f/e5/5248ec7d3253b3701d663c7a1b10c7d75c7d24193a5ce95f2a86337adaf8/HTSeq-0.11.0-cp27-cp27m-manylinux1_x86_64.whl (1.0MB)
+    100% |████████████████████████████████| 1.0MB 3.4MB/s 
+Collecting pysam>=0.9.0 (from HTSeq)
+  Downloading https://files.pythonhosted.org/packages/b4/d8/9afa92bd4b48ebd6896d22bb7cdaeb5aa4577983333df5e99160c62fb6ff/pysam-0.15.1-cp27-cp27m-manylinux1_x86_64.whl (9.0MB)
+    100% |████████████████████████████████| 9.0MB 258kB/s 
 Collecting numpy (from HTSeq)
-  Using cached https://files.pythonhosted.org/packages/ab/2a/4d49a45f21880213f0cd8fb80bcdc695115d331e27894577a35de1bd2e18/numpy-1.15.1-cp27-cp27m-manylinux1_x86_64.whl
-pandas 0.20.2 requires python-dateutil, which is not installed.
-pandas 0.20.2 requires pytz>=2011k, which is not installed.
-cnvkit 0.8.5 requires biopython>=1.62, which is not installed.
-cnvkit 0.8.5 requires matplotlib>=1.3.1, which is not installed.
-cnvkit 0.8.5 requires scipy>=0.15.0, which is not installed.
-Installing collected packages: numpy, HTSeq
-Successfully installed HTSeq-0.10.0 numpy-1.15.1
+  Downloading https://files.pythonhosted.org/packages/c8/c6/e8e430828247adf0fc34e5499cfe17c66022c8afb778542808d009eb1457/numpy-1.15.2-cp27-cp27m-manylinux1_x86_64.whl (13.8MB)
+    100% |████████████████████████████████| 13.8MB 663kB/s 
+Installing collected packages: pysam, numpy, HTSeq
+Successfully installed HTSeq-0.11.0 numpy-1.15.2 pysam-0.15.1
 ```
 
 To see which packages are installed in the virtual environment (the "project folder") and what their versions are, do:
@@ -82,12 +68,12 @@ To see which packages are installed in the virtual environment (the "project fol
 (my_project) [alice@{{ site.interactive.name }} my_project]$ pip list
 Package        Version   
 -------------- ----------
-$ 
-HTSeq      0.10.0 
-numpy      1.15.1 
-pip        18.0   
-pysam      0.15.0 
-setuptools 15.0   
+HTSeq      0.11.0 
+numpy      1.15.2 
+pip        18.1   
+pysam      0.15.1 
+setuptools 40.4.3 
+wheel      0.32.1
 ```
 
 
@@ -102,16 +88,16 @@ Whenever you open a new terminal, make sure to _activate_ the virtual environmen
 [alice@{{ site.interactive.name }} my_project]$ pip show HTSeq   ## gives empty output
 [alice@{{ site.interactive.name }} my_project]$ . bin/activate   ## ACTIVATE!
 (my_project) [alice@{{ site.interactive.name }} my_project]$ python --version
-Python 2.7.9
+Python 2.7.15
 (my_project) [alice@{{ site.interactive.name }} my_project]$ pip show HTSeq
 Name: HTSeq
-Version: 0.10.0
+Version: 0.11.0
 Summary: A framework to process and analyze data from high-throughput sequencing (HTS) assays
 Home-page: https://github.com/simon-anders/htseq
 Author: Simon Anders
 Author-email: sanders@fs.tum.de
 License: GPL3
-Location: /home/alice/tests/htseq/my_project/lib/python2.7/site-packages
+Location: /home/cbctest2/tmp/my_project/lib/python2.7/site-packages
 Requires: pysam, numpy
 Required-by: 
 [alice@{{ site.interactive.name }} my_project]$ 
