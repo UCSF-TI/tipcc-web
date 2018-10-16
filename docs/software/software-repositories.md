@@ -634,7 +634,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lg3</strong><br>
-  devel, next, 2018-08-28, 2018-09-17, 2018-09-19, <em>2018-09-28</em>
+  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, <em>2018-10-08</em>
   </td>
   <td>
   <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
@@ -1055,7 +1055,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-10-07 22:42:38._
+_The above information was automatically generated on 2018-10-08 15:57:00._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
