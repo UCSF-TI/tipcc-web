@@ -52,17 +52,12 @@ This messages says that PBS killed the job because it used 92,954,931,200 bytes 
 _Note_: We _highly recommend_ to specify `vmem` rather than `mem`.  Both will find a node that meets your memory requests, but it's only `vmem` that enforces it (which is a good thing in the end of the day).  
 
 
-### Request a specific node (avoid by all means)
-It is possible to request a job to run on a specific node, but it will only allow you to do so running a single core:
+### Request a specific node (not recommended)
+It is possible to request a job to run on a specific node, but it is **very important** that you do so using the following format:
 ```sh
-qsub -l nodes=n23 script.sh
+qsub -l nodes=1:ppn=8:n23 script.sh
 ```
-
-**NOTE**: **Specifying a specific node and number of cores does NOT work correctly**.  If you try the following:
-```sh
-qsub -l nodes=n23:ppn=8 script.sh
-```
-it will _appear_ as you've requested eight cores on node n23 (e.g. `qstat -n -1 -t`).  However, if you look at `PBS_NUM_PPN` and `PBS_NP` you are actually only getting assigned a single core.  **It is very important that you do not override this single core by hard coding your script / software to use eight core!**.
+WARNING: Do _not_ use `-l nodes=n23:ppn=8` because that will only allocate a single core despite requesting eight.
 
 
 ## Listing jobs
