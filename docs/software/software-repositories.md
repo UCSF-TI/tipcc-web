@@ -645,7 +645,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lg3</strong><br>
-  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17-patched, <em>2018-10-17</em>
+  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17-patched, 2018-10-17, <em>2018-10-27</em>
   </td>
   <td>
   <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
@@ -1051,6 +1051,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>zeromq</strong><br>
+  <em>4.2.5</em>
+  </td>
+  <td>
+  <strong>ZeroMQ: A High-Performance Asynchronous Messaging Library</strong><br>
+  ZeroMQ is a high-performance asynchronous messaging library, aimed at use in distributed or concurrent applications. It provides a message queue, but unlike message-oriented middleware, a ZeroMQ system can run without a dedicated message broker. The library's API is designed to resemble that of Berkeley sockets. Example: <code>curve_keygen</code><br>
+  URL: <a href="https://zeromq.org/">https://zeromq.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>zlib</strong><br>
   <em>1.2.11</em>
   </td>
@@ -1066,7 +1077,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-10-25 15:31:20._
+_The above information was automatically generated on 2018-11-02 15:21:02._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
