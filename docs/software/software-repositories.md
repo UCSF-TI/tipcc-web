@@ -149,10 +149,10 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>bat</strong><br>
-  <em>0.8.0</em>
+  0.8.0, <em>0.9.0</em>
   </td>
   <td>
-  <strong>1;5202;0cbat - A cat(1) clone with syntax highlighting and Git integration</strong><br>
+  <strong>bat - A cat(1) clone with syntax highlighting and Git integration</strong><br>
   A cat(1) clone with syntax highlighting and Git integration.  Examples: <code>bat README.md</code>, <code>bat scripts/*.sh</code>, and <code>bat src/*.c</code><br>
   URL: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a><br>
   </td>
@@ -645,7 +645,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lg3</strong><br>
-  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17-patched, 2018-10-17, <em>2018-10-27</em>
+  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17, 2018-10-27, <em>2018-11-12</em>
   </td>
   <td>
   <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
@@ -1077,7 +1077,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-11-02 15:21:02._
+_The above information was automatically generated on 2018-11-12 11:26:23._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
