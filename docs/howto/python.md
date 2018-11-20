@@ -29,6 +29,10 @@ Also creating executable in my_project/bin/python
 Installing setuptools, pip, wheel...done.
 [alice@{{ site.interactive.name }} ~]$ cd my_project
 [alice@{{ site.interactive.name }} my_project]$ . bin/activate   ## IMPORTANT! Note period in front
+(my_project) [alice@{{ site.interactive.name }} my_project]$ which python
+/home/alice/my_project/bin/python
+(my_project) [alice@{{ site.interactive.name }} my_project]$ python --version
+Python 2.7.15
 (my_project) [alice@{{ site.interactive.name }} my_project]$ 
 ```
 
