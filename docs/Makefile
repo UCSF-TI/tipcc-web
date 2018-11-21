@@ -14,4 +14,7 @@ serve:
 	bundle exec jekyll serve --port 4000 &
 
 stop:
+#	pkill --echo --count "jekyll"
 	pkill --echo --count "ruby2.3"
+
+start: serve

@@ -23,10 +23,10 @@ Installing globally is the easiest, because you don't have to remember to _activ
 To install a Python package globally under your home directory, just remember to add `--user` to `pip install`.  For example,
 ```sh
 $ pip install HTSeq
-[alice@{{ site.interactive.name }} ~]$ $ module load CBC python
-[alice@{{ site.interactive.name }} ~]$ $ python --version
+[alice@{{ site.devel.name }} ~]$ $ module load CBC python
+[alice@{{ site.devel.name }} ~]$ $ python --version
 Python 2.7.15
-[alice@{{ site.interactive.name }} ~]$ $ pip install HTSeq
+[alice@{{ site.devel.name }} ~]$ $ pip install HTSeq
 Collecting HTSeq
   Downloading https://files.pythonhosted.org/packages/5f/e5/5248ec7d3253b3701d663c7a1b10c7d75c7d24193a5ce95f2a86337adaf8/HTSeq-0.11.0-cp27-cp27m-manylinux1_x86_64.whl (1.0MB)
     100% |████████████████████████████████| 1.0MB 3.4MB/s 
@@ -63,31 +63,31 @@ Virtual environment are not used just for cluster environments - many Python use
 
 Start by creating a folder specific to the project you are currently working on.  Each project folder will have its own unique set of installed packages.  Do the following once:
 ```sh
-[alice@{{ site.interactive.name }} ~]$ $ module load CBC python
-[alice@{{ site.interactive.name }} ~]$ $ python --version
+[alice@{{ site.devel.name }} ~]$ $ module load CBC python
+[alice@{{ site.devel.name }} ~]$ $ python --version
 Python 2.7.15
-[alice@{{ site.interactive.name }} ~]$ $ virtualenv my_project
+[alice@{{ site.devel.name }} ~]$ $ virtualenv my_project
 New python executable in my_project/bin/python2.7
 Also creating executable in my_project/bin/python
 Installing setuptools, pip, wheel...done.
-[alice@{{ site.interactive.name }} ~]$ cd my_project
-[alice@{{ site.interactive.name }} my_project]$ . bin/activate   ## IMPORTANT! Note period in front
-(my_project) [alice@{{ site.interactive.name }} my_project]$ which python
+[alice@{{ site.devel.name }} ~]$ cd my_project
+[alice@{{ site.devel.name }} my_project]$ . bin/activate   ## IMPORTANT! Note period in front
+(my_project) [alice@{{ site.devel.name }} my_project]$ which python
 /home/alice/my_project/bin/python
-(my_project) [alice@{{ site.interactive.name }} my_project]$ python --version
+(my_project) [alice@{{ site.devel.name }} my_project]$ python --version
 Python 2.7.15
-(my_project) [alice@{{ site.interactive.name }} my_project]$ 
+(my_project) [alice@{{ site.devel.name }} my_project]$ 
 ```
 
 Note how `(my_project) ` is prepended to the shell prompt when the virtual environment `my_project` is _activate_.  To see what Python packages are currently installed, use:
 ```sh
-(my_project) [alice@{{ site.interactive.name }} my_project]$ pip list
+(my_project) [alice@{{ site.devel.name }} my_project]$ pip list
 Package    Version
 ---------- -------
 pip        18.1   
 setuptools 40.4.3 
 wheel      0.32.1
-(my_project) [alice@{{ site.interactive.name }} my_project]$ 
+(my_project) [alice@{{ site.devel.name }} my_project]$ 
 ```
 
 
@@ -96,7 +96,7 @@ wheel      0.32.1
 Now you can install Python packages using `pip`.  For instance,
 
 ```sh
-(my_project) [alice@{{ site.interactive.name }} my_project]$ pip install HTSeq
+(my_project) [alice@{{ site.devel.name }} my_project]$ pip install HTSeq
 Collecting HTSeq
   Downloading https://files.pythonhosted.org/packages/5f/e5/5248ec7d3253b3701d663c7a1b10c7d75c7d24193a5ce95f2a86337adaf8/HTSeq-0.11.0-cp27-cp27m-manylinux1_x86_64.whl (1.0MB)
     100% |████████████████████████████████| 1.0MB 3.4MB/s 
@@ -112,7 +112,7 @@ Successfully installed HTSeq-0.11.0 numpy-1.15.2 pysam-0.15.1
 
 To see which packages are installed in the virtual environment (the "project folder") and what their versions are, do:
 ```sh
-(my_project) [alice@{{ site.interactive.name }} my_project]$ pip list
+(my_project) [alice@{{ site.devel.name }} my_project]$ pip list
 Package        Version   
 -------------- ----------
 HTSeq      0.11.0 
@@ -130,13 +130,13 @@ wheel      0.32.1
 Whenever you open a new terminal, make sure to _activate_ the virtual environment ("project folder"), otherwise it will not find the packages you've installed.  Pay attention to the shell prompt:
 
 ```sh
-[alice@{{ site.interactive.name }} ~]$ module load CBC python
-[alice@{{ site.interactive.name }} ~]$ cd my_project
-[alice@{{ site.interactive.name }} my_project]$ pip show HTSeq   ## gives empty output
-[alice@{{ site.interactive.name }} my_project]$ . bin/activate   ## ACTIVATE!
-(my_project) [alice@{{ site.interactive.name }} my_project]$ python --version
+[alice@{{ site.devel.name }} ~]$ module load CBC python
+[alice@{{ site.devel.name }} ~]$ cd my_project
+[alice@{{ site.devel.name }} my_project]$ pip show HTSeq   ## gives empty output
+[alice@{{ site.devel.name }} my_project]$ . bin/activate   ## ACTIVATE!
+(my_project) [alice@{{ site.devel.name }} my_project]$ python --version
 Python 2.7.15
-(my_project) [alice@{{ site.interactive.name }} my_project]$ pip show HTSeq
+(my_project) [alice@{{ site.devel.name }} my_project]$ pip show HTSeq
 Name: HTSeq
 Version: 0.11.0
 Summary: A framework to process and analyze data from high-throughput sequencing (HTS) assays
@@ -147,7 +147,7 @@ License: GPL3
 Location: /home/cbctest2/tmp/my_project/lib/python2.7/site-packages
 Requires: pysam, numpy
 Required-by: 
-[alice@{{ site.interactive.name }} my_project]$ 
+[alice@{{ site.devel.name }} my_project]$ 
 ```
 
 When submitting jobs to the scheduler, make sure the job scripts load all required modules and activate the virtual environment.
@@ -155,8 +155,8 @@ When submitting jobs to the scheduler, make sure the job scripts load all requir
 
 To _deactivate_ a Python virtual environment, either open a fresh terminal (e.g. log out and back in), or use:
 ```sh
-(my_project) [alice@{{ site.interactive.name }} ~]$ deactivate
-[alice@{{ site.interactive.name }} ~]$ deactivate
+(my_project) [alice@{{ site.devel.name }} ~]$ deactivate
+[alice@{{ site.devel.name }} ~]$ deactivate
 ```
 
 Note how prefix `(my_project) ` was dropped from the shell prompt.

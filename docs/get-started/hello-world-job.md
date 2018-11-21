@@ -39,25 +39,25 @@ date
 
 Although not critical for the job scheduler, it is always convenient to set the file permission on this script file to be executable, e.g.
 ```sh
-[alice@{{ site.interactive.name }} ~]$ cd tests/
-[alice@{{ site.interactive.name }} tests]$ chmod ugo+x hello_world
+[alice@{{ site.devel.name }} ~]$ cd tests/
+[alice@{{ site.devel.name }} tests]$ chmod ugo+x hello_world
 ```
 This, in combination with the so called "she-bang" (`#! ...`) on the first line, allows you call the script just any other software, e.g.
 ```sh
-[alice@{{ site.interactive.name }} tests]$ ./hello_world
-Hello world, I'm running on node {{ site.interactive.name }}.
+[alice@{{ site.devel.name }} tests]$ ./hello_world
+Hello world, I'm running on node {{ site.devel.name }}.
 Mon Aug 28 16:31:29 PDT 2017
 ```
 Note how it takes ten seconds between the `Hello world` message and the time stamp.  We have now confirm that the shell script does what we expect it to do, and we are ready to submit it to the job queue of the scheduler.  To do this, do:
 ```sh
-[alice@{{ site.interactive.name }} tests]$ qsub -d $(pwd) -j oe hello_world
+[alice@{{ site.devel.name }} tests]$ qsub -d $(pwd) -j oe hello_world
 918738.cclc01.som.ucsf.edu
 ```
 _Explanation of command-line options_: The `-d $(pwd)` option tells the scheduler to launch the `hello_world` script and output the job log files to the current working directory (here `~/tests/`).  The `-j oe` option specifies that error message should be merged with regular output (instead of outputting to separate log files). 
 
 When submitting a job, the scheduler assigned the job an identifier ("job id").  In the above example, the job id is '918738'.  Immediately after the job has been submitted, we can see that it queued but not launched;
 ```sh
-[alice@{{ site.interactive.name }} tests]$ qstat -u $USER
+[alice@{{ site.devel.name }} tests]$ qstat -u $USER
 
 cclc01.som.ucsf.edu: 
                                                                                   Req'd    Req'd       Elap
@@ -68,7 +68,7 @@ Job ID                  Username    Queue    Jobname          SessID  NDS   TSK 
 
 Later, when the job has been launched on one of the compute nodes, and we will something like:
 ```sh
-[alice@{{ site.interactive.name }} tests]$ qstat -u $USER
+[alice@{{ site.devel.name }} tests]$ qstat -u $USER
 
 cclc01.som.ucsf.edu: 
                                                                                   Req'd    Req'd       Elap
@@ -81,10 +81,10 @@ Eventually, when the job script finished, `qstat` will no longer list it (if you
 
 So where is the output of the job?  Since we used `-j oe` and `-d $(pwd)` we will find a job output file in the current directory named `hello_world.o918738` that contains:
 ```sh
-[alice@{{ site.interactive.name }} tests]$ cat hello_world.o918738
+[alice@{{ site.devel.name }} tests]$ cat hello_world.o918738
 Hello world, I'm running on node n4
 Tue Sep 19 12:27:37 PDT 2017
-[alice@{{ site.interactive.name }} tests]$ 
+[alice@{{ site.devel.name }} tests]$ 
 ```
 
 There is of course nothing preventing us from submitting the same script multiple times.  If done, each submission will result in the script be launched on a compute node and a unique log file `hello_world.o<job_id>` will be outputted.  Please try that and see what `qstat` outputs.   Now, you may want to pass different arguments to your script each time, e.g. each job should process a different input data file.  For information on how to do this, see the [Submit Jobs] page.

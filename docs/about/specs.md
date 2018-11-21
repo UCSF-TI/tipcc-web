@@ -60,9 +60,9 @@ The [cluster can be accessed]({{ '/get-started/access-cluster.html' | relative_u
 
 The login nodes can only be accessed from within the UCSF network.
 
-### Interactive Nodes
+### Development Nodes
 
-The cluster has interactive nodes for the purpose of validating scripts, prototyping pipelines, compiling software, and more.  Interactive nodes [can be accessed using SSH]({{ '/get-started/interactive-usage.html' | relative_url }}) and only from the login nodes.
+The cluster has development nodes for the purpose of validating scripts, prototyping pipelines, compiling software, and more.  Development nodes [can be accessed using SSH]({{ '/get-started/development-prototyping.html' | relative_url }}) and only from the login nodes.
 
 Node      | # Cores |       CPU |       RAM |  Local `/scratch` |
 ----------|---------|----------:|----------:|------------------:|

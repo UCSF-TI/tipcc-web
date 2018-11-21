@@ -17,7 +17,7 @@ This will give a single-core slot on any machine that the scheduler finds suitab
 
 ## Request interactive shell for high-memory multi-core processing
 
-To run multi-core processes interactive, you can request more cores.  Likewise, you can specify memory needs and other resources.  For instance, if you need four cores and 10 GiB of RAM, use:
+To run multi-core processes interactively, you can request more cores.  Likewise, you can specify memory needs and other resources.  For instance, if you need four cores and 10 GiB of RAM, use:
 ```sh
 $ qsub -I -l nodes=1:ppn=4 -l vmem=10gb
 qsub: waiting for job 693829.cclc01.som.ucsf.edu to start

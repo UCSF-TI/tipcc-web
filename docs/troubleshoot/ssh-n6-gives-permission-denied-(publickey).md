@@ -4,7 +4,7 @@ Do you get
 $ ssh n6
 Permission denied (publickey).
 ```
-when you try to log into interactive node n6 from the master node?  In order to be able to log in that node, you need to have ssh public-private keys set up properly.  This should have been done for you already, but if for some reason it does not work, it is most likely because the file permissions on some security critical files of your are incorrect.  Here is how you can fix it.
+when you try to log into development node n6 from the master node?  In order to be able to log in that node, you need to have ssh public-private keys set up properly.  This should have been done for you already, but if for some reason it does not work, it is most likely because the file permissions on some security critical files of your are incorrect.  Here is how you can fix it.
 
 ## Troubleshooting and how to fix
 
@@ -29,7 +29,7 @@ _Comment:_ In the above example, this means that you (`u`) have full access to y
 
 
 #### Do I have a problem?
-If either "group" or "others" has write permission (`w`) to your home folder, then you will get the error 'Permission denied (publickey).' whenever you try to SSH into the cluster or an interactive node.  You can fix this by remove such write permission using:
+If either "group" or "others" has write permission (`w`) to your home folder, then you will get the error 'Permission denied (publickey).' whenever you try to SSH into the cluster or an development node.  You can fix this by remove such write permission using:
 ```sh
 $ chmod go-w ~/
 ```

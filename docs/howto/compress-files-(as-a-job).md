@@ -1,5 +1,5 @@
 # HOW TO: Compress files (as a job)
-Instead of running `gzip` in an interactive session, you can submit a job for doing it using `qgzip`.  For example, to submit a job that compresses all FASTQ files in a certain directory, do:
+Instead of running `gzip` in the terminal, you can submit a job for doing it using `qgzip`.  For example, to submit a job that compresses all FASTQ files in a certain directory, do:
 ```sh
 qgzip /path/to/*.fastq
 ```

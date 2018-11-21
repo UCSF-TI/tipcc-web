@@ -1,13 +1,21 @@
 title: 'UCSF HPC: TIPCC'
 theme: jekyll-theme-minimal
+
 login:
   name: "cclc01"
   hostname: "cclc01.som.ucsf.edu"
   ip: "169.230.134.141"
+
+devel:
+  name: "n6"
+  hostname: "n6"
+  ip: "10.54.50.6"
+
 interactive:
   name: "n6"
   hostname: "n6"
   ip: "10.54.50.6"
+
 transfer:
   name: "cclc01"
   hostname: "cclc01.som.ucsf.edu"
