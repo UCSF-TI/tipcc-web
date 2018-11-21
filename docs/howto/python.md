@@ -11,8 +11,8 @@ If you attempt to run this as is on the cluster, you get lots of errors complain
 
 There are **two ways for non-privileged users to install Python packages using `pip install`**:
 
-1. Install globally to your home directory (typically `/home/alice/.local/lib/python2.7/site-packages/`) using `pip install --user ...`
-2. Install locally to a project-specific folder (e.g. `/home/alice/projects/htseq_2018/`) using `pip install ...` in a self-contained Python virtual environment
+1. Install globally to your home directory (typically `~/.local/lib/python2.7/site-packages/`) using `pip install --user ...`
+2. Install locally to a project-specific folder (e.g. `~/projects/htseq_2018/`) using `pip install ...` in a self-contained Python virtual environment
 
 Both are done from the terminal.  Which one you choose depends on your needs; for some projects you may want to use the virtual environment approach whereas for your everyday work you might want to work toward your global Python package stack.
 Installing globally is the easiest, because you don't have to remember to _activate_ a virtual environment and if you need the Python package in different places, you only have to install it once.  However, if you are concerned with reproducibility, or being able to coming back to an old project of yours, you most likely want to use a virtual environment for that project so that its Python packages are _not_ updated when you update or install Python packages globally.
@@ -67,7 +67,7 @@ Installing setuptools, pip, wheel...done.
 [alice@{{ site.devel.name }} ~]$ cd my_project
 [alice@{{ site.devel.name }} my_project]$ . bin/activate   ## IMPORTANT! Note period in front
 (my_project) [alice@{{ site.devel.name }} my_project]$ which python
-/home/alice/my_project/bin/python
+~/my_project/bin/python
 (my_project) [alice@{{ site.devel.name }} my_project]$ 
 ```
 
@@ -133,7 +133,7 @@ Home-page: https://github.com/simon-anders/htseq
 Author: Simon Anders
 Author-email: sanders@fs.tum.de
 License: GPL3
-Location: /home/alice/tmp/my_project/lib/python2.7/site-packages
+Location: ~/my_project/lib/python2.7/site-packages
 Requires: pysam, numpy
 Required-by: 
 [alice@{{ site.devel.name }} my_project]$ 
