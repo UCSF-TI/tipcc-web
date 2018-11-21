@@ -478,6 +478,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>gdbm</strong><br>
+  <em>1.18.1</em>
+  </td>
+  <td>
+  <strong>GDBM: Library of Database Function (GNU dbm)</strong><br>
+  GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database..  Example: <code>gdbmtool --version</code><br>
+  URL: <a href="https://www.gnu.org.ua/software/gdbm/">https://www.gnu.org.ua/software/gdbm/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gdc-client</strong><br>
   <em>1.0.1</em>
   </td>
@@ -754,6 +765,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>openssl</strong><br>
+  <em>1.1.1a</em>
+  </td>
+  <td>
+  <strong>OpenSSL: Cryptography and SSL/TLS Toolkit</strong><br>
+  OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.  Example: <code>openssl</code><br>
+  URL: <a href="https://www.openssl.org/">https://www.openssl.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>pandoc</strong><br>
   1.19.2-0, 2.0.3, <em>2.1.2</em>
   </td>
@@ -974,6 +996,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>udunits</strong><br>
+  <em>2.2.26</em>
+  </td>
+  <td>
+  <strong>UDUNITS-2: API and Utility for Arithmetic Manipulation of Units of Physical Quantities</strong><br>
+  The UDUNITS package supports units of physical quantities. Its C library (libudunits2) provides for arithmetic manipulation of units and for conversion of numeric values between compatible units.  The package contains an extensive unit database, which is in XML format and user-extendable. The package also contains a command-line utility (udunits2) for investigating units and converting values.  Example: <code>udunits2 -h</code><br>
+  URL: <a href="https://www.unidata.ucar.edu/software/udunits/">https://www.unidata.ucar.edu/software/udunits/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>valgrind</strong><br>
   3.10.0, <em>3.8.1</em>
   </td>
@@ -1077,7 +1110,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-11-12 11:26:23._
+_The above information was automatically generated on 2018-11-20 22:40:08._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
