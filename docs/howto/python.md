@@ -23,10 +23,7 @@ Installing globally is the easiest, because you don't have to remember to _activ
 To install a Python package globally under your home directory, just remember to add `--user` to `pip install`.  For example,
 ```sh
 $ pip install HTSeq
-[alice@{{ site.devel.name }} ~]$ $ module load CBC python
-[alice@{{ site.devel.name }} ~]$ $ python --version
-Python 2.7.15
-[alice@{{ site.devel.name }} ~]$ $ pip install HTSeq
+[alice@{{ site.devel.name }} ~]$ $ pip install --user HTSeq
 Collecting HTSeq
   Downloading https://files.pythonhosted.org/packages/5f/e5/5248ec7d3253b3701d663c7a1b10c7d75c7d24193a5ce95f2a86337adaf8/HTSeq-0.11.0-cp27-cp27m-manylinux1_x86_64.whl (1.0MB)
     100% |████████████████████████████████| 1.0MB 3.4MB/s 
@@ -63,9 +60,6 @@ Virtual environment are not used just for cluster environments - many Python use
 
 Start by creating a folder specific to the project you are currently working on.  Each project folder will have its own unique set of installed packages.  Do the following once:
 ```sh
-[alice@{{ site.devel.name }} ~]$ $ module load CBC python
-[alice@{{ site.devel.name }} ~]$ $ python --version
-Python 2.7.15
 [alice@{{ site.devel.name }} ~]$ $ virtualenv my_project
 New python executable in my_project/bin/python2.7
 Also creating executable in my_project/bin/python
@@ -74,8 +68,6 @@ Installing setuptools, pip, wheel...done.
 [alice@{{ site.devel.name }} my_project]$ . bin/activate   ## IMPORTANT! Note period in front
 (my_project) [alice@{{ site.devel.name }} my_project]$ which python
 /home/alice/my_project/bin/python
-(my_project) [alice@{{ site.devel.name }} my_project]$ python --version
-Python 2.7.15
 (my_project) [alice@{{ site.devel.name }} my_project]$ 
 ```
 
@@ -130,12 +122,9 @@ wheel      0.32.1
 Whenever you open a new terminal, make sure to _activate_ the virtual environment ("project folder"), otherwise it will not find the packages you've installed.  Pay attention to the shell prompt:
 
 ```sh
-[alice@{{ site.devel.name }} ~]$ module load CBC python
 [alice@{{ site.devel.name }} ~]$ cd my_project
 [alice@{{ site.devel.name }} my_project]$ pip show HTSeq   ## gives empty output
 [alice@{{ site.devel.name }} my_project]$ . bin/activate   ## ACTIVATE!
-(my_project) [alice@{{ site.devel.name }} my_project]$ python --version
-Python 2.7.15
 (my_project) [alice@{{ site.devel.name }} my_project]$ pip show HTSeq
 Name: HTSeq
 Version: 0.11.0
@@ -144,7 +133,7 @@ Home-page: https://github.com/simon-anders/htseq
 Author: Simon Anders
 Author-email: sanders@fs.tum.de
 License: GPL3
-Location: /home/cbctest2/tmp/my_project/lib/python2.7/site-packages
+Location: /home/alice/tmp/my_project/lib/python2.7/site-packages
 Requires: pysam, numpy
 Required-by: 
 [alice@{{ site.devel.name }} my_project]$ 
