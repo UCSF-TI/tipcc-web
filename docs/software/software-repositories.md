@@ -336,7 +336,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>cellranger</strong><br>
-  1.3.1, <em>3.0.0</em>
+  1.3.1, 2.1.0, <em>3.0.0</em>
   </td>
   <td>
   <strong>Cell Ranger: 10x Genomics Pipeline for Single-Cell Data Analysis</strong><br>
@@ -1110,7 +1110,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-11-22 00:59:43._
+_The above information was automatically generated on 2018-11-22 11:12:08._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
