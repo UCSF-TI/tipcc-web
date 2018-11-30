@@ -18,11 +18,11 @@ n3        |       48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (I
 n4        |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
 n5        |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
 n7        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
-n8        |       12 |   2.3 GHz |    64 GiB |           1.7 TiB |                              | (communal)
+n8        |       12 |   2.3 GHz |    64 GiB |          0.86 TiB |                              | (communal)
 n9        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
 n10       |       12 |   2.3 GHz |    64 GiB |           1.7 TiB |                              | (communal)
 n11       |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
-n12       |       48 |   2.3 GHz |   384 GiB |           1.7 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
+n12       |       48 |   2.3 GHz |   384 GiB |           2.0 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n13       |       48 |   2.3 GHz |   512 GiB |           1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n14       |       24 |   3.5 GHz |   128 GiB |          0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
 n15       |       64 |   2.6 GHz |   256 GiB |           1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
@@ -36,12 +36,12 @@ n22       |       48 |   2.8 GHz |   384 GiB |           5.2 TiB | InfiniBand (I
 n23       |       48 |   2.8 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n24       |       12 |   2.4 GHz |    32 GiB |           1.7 TiB |                              | (communal)
 n25       |       12 |   2.4 GHz |    32 GiB |           1.7 TiB |                              | (communal)
-n26       |       12 |   2.4 GHz |    32 GiB |           1.7 TiB |                              | (communal)
+n26       |       12 |   2.4 GHz |    32 GiB |          0.86 TiB |                              | (communal)
 n27       |       48 |   1.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Costello Lab
 n28       |       64 |   2.3 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
-n29       |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Krummel Lab
-n30       |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
-n31       |       64 |   2.1 GHz |   512 GiB |           3.0 TiB | InfiniBand (IB), Intel       | Ziv Lab
+n29       |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Krummel Lab
+n30       |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
+n31       |       64 |   2.1 GHz |   512 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 **Total** | **1232** |           |           |                   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
@@ -66,7 +66,7 @@ The cluster has development nodes for the purpose of validating scripts, prototy
 
 Node      | # Cores |       CPU |       RAM |  Local `/scratch` |
 ----------|---------|----------:|----------:|------------------:|
-n6        |      12 |   2.4 GHz |    64 GiB |           1.8 TiB |
+n6        |      12 |   2.4 GHz |    64 GiB |          0.86 TiB |
 
 
 <style>
