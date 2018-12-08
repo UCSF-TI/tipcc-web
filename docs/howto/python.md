@@ -45,7 +45,7 @@ To see all Python packages that you have installed globally, use `pip list --use
 ### 2. Installing to a virtual environment (aka "virtualenv")
 
 <div class="alert alert-warning" role="alert">
-2018-12-04: Due to an issue in the Scyld Clusterware Linux kernel used on TIPCC, <em>installation</em> of Python packages in virtual environments will <em>stall</em> when done from development node n6.  Because of this, we allow <em>setup and installation of virtual environments</em> on the master node.  For details, see <a href="https://github.com/UCSF-TI/TIPCC/issues/232">GitHub Issue #232</a>.
+2018-12-04: Due to an issue in the Scyld Clusterware Linux kernel used on TIPCC, <em>installation</em> of Python packages in virtual environments will <em>stall</em> when using Python (>= 2.7.13) from development node n6 (or compute nodes n0-n28).  Because of this, we allow <em>setup and installation of virtual environments</em> on the master node.  For details, see <a href="https://github.com/UCSF-TI/TIPCC/issues/232">GitHub Issue #232</a>.
 </div>
 
 A Python _virtual environment_ is basically a self-contained folder that contains the Python executable and any Python packages you install.  When you _activate_ such a virtual environment, environment variables such as `PATH` is updated such that you will use the Python executable and the packages in the virtual environment and not the globally installed ones.
