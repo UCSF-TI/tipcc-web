@@ -656,7 +656,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lg3</strong><br>
-  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17, 2018-10-27, <em>2018-11-12</em>
+  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17, 2018-10-27, 2018-11-12, 2018-12-20, <em>2018-12-27</em>
   </td>
   <td>
   <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
@@ -854,7 +854,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>r</strong><br>
-  2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.0, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3, 3.4.4, 3.5.0, 3.5.1patched, 3.5.1, 3.6.0devel, <em>3.5.2</em>
+  2.7.0, 2.8.0, 2.10.0, 2.11.0, 2.11.1, 2.12.0, 2.12.2, 2.13.0, 2.13.1, 2.13.2, 2.14.0, 2.15.0, 2.15.1, 2.15.2, 2.15.3, 3.0.0, 3.0.1, 3.0.2, 3.0.3, 3.1.0, 3.1.1, 3.1.2, 3.1.3, 3.2.0, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.0, 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.1, 3.4.2, 3.4.3, 3.4.4, 3.5.0, 3.5.1patched, 3.5.1, 3.5.2patched, 3.6.0devel, <em>3.5.2</em>
   </td>
   <td>
   <strong>R: The R Programming Language</strong><br>
@@ -1110,7 +1110,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2018-12-20 09:02:42._
+_The above information was automatically generated on 2018-12-27 17:13:32._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
