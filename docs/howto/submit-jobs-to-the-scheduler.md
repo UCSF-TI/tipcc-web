@@ -55,9 +55,9 @@ _Note_: We _highly recommend_ to specify `vmem` rather than `mem`.  Both will fi
 ### Request a specific node (not recommended)
 It is possible to request a job to run on a specific node, but it is **very important** that you do so using the following format:
 ```sh
-qsub -l nodes=1:ppn=8:n23 script.sh
+qsub -l nodes=1:ppn=8 -l feature=n24 script.sh
 ```
-WARNING: Do _not_ use `-l nodes=n23:ppn=8` because that will only allocate a single core despite requesting eight.
+WARNING: Do _not_ use `-l nodes=n24:ppn=8` because that will only allocate a single core despite requesting eight.
 
 
 ## Listing jobs
