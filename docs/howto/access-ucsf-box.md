@@ -15,7 +15,7 @@ $
 ```
 
 <div class="alert alert-danger" role="alert" style="margin-top: 3ex">
-<strong>Do not specify your password via the command line!  If you do, it will be visible to all other users via commands such as <code>ps</code> and <code>htop</code>.</strong>
+<strong>Never specify your password via a command-line argument!  If you do, it will be visible to all other users via commands such as <code>ps</code> and <code>htop</code>.</strong>
 </div>
 
 
