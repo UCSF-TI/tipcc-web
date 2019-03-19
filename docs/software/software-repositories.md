@@ -732,6 +732,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>mpack</strong><br>
+  <em>1.6</em>
+  </td>
+  <td>
+  <strong>mpack: Tools for Encoding/Decoding MIME Messages</strong><br>
+  Mpack and munpack are utilities for encoding and decoding (respectively) binary files in MIME (Multipurpose Internet Mail Extensions) format mail messages. For compatibility with older forms of transferring binary files, the munpack program can also decode messages in split-uuencoded format.  Example: <code>munpack -ft &lt; one-msg.mbox</code>.<br>
+  URL: <a href="https://packages.debian.org/sid/mail/mpack">https://packages.debian.org/sid/mail/mpack</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>mysql</strong><br>
   <em>5.1.73</em>
   </td>
@@ -805,6 +816,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>Picard: Command-line tools for Manipulating High-throughput Sequencing Data and Formats</strong><br>
   Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.  Example: <code>java -jar $PICARD -h</code><br>
   URL: <a href="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>pindel</strong><br>
+  <em>0.2.5b8</em>
+  </td>
+  <td>
+  <strong>pindel: Detection of Indels and Structural Variations</strong><br>
+  Pindel can detect breakpoints of large deletions, medium sized insertions, inversions, tandem duplications and other structural variants at single-based resolution from next-gen sequence data. It uses a pattern growth approach to identify the breakpoints of these variants from paired-end short reads.  Example: <code>pindel</code>.<br>
+  URL: <a href="https://www.sanger.ac.uk/science/tools/pindel">https://www.sanger.ac.uk/science/tools/pindel</a>, <a href="https://github.com/genome/pindel">https://github.com/genome/pindel</a><br>
   </td>
  </tr>
  <tr>
@@ -1110,7 +1132,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-03-11 16:00:06._
+_The above information was automatically generated on 2019-03-18 22:13:41._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
