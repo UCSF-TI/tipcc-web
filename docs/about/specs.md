@@ -39,17 +39,18 @@ n25       |       12 |   2.4 GHz |    32 GiB |           1.7 TiB |              
 n26       |       12 |   2.4 GHz |    32 GiB |          0.86 TiB |                              | (communal)
 n27       |       48 |   1.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Costello Lab
 n28       |       64 |   2.3 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
-n29       |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Krummel Lab
-n30       |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
-n31       |       64 |   2.1 GHz |   512 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
-n32       |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
-n33       |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
+n29\*     |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Krummel Lab
+n30\*     |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
+n31\*     |       64 |   2.1 GHz |   512 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
+n32\*     |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
+n33\*     |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
 **Total** | **1360** |           |           |                   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
-All nodes have AMD processors, except n14 and n29-n31 which have Intel processors.  
+All nodes have AMD processors, except n14 and n29-n33 which have Intel processors.  
 Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
+Nodes n29-33: These nodes don't have the Scyld kernel and are maintained individually.
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
