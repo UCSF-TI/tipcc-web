@@ -858,7 +858,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>Python 3: The Python Programming Language (WARNING: Does NOT pass all tests!)</strong><br>
-  Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python3 --version</code> as well as <code>virtualenv myproject</code>, <code>. myproject/bin/activate</code>, and <code>pip install cnvkit</code>.<br>
+  Python is a programming language that lets you work quickly and integrate systems more effectively.  Example: <code>python3 --version</code> as well as <code>virtualenv myproject</code>, <code>. myproject/bin/activate</code>, and <code>pip install cnvkit</code>.  WARNING: The python3/3.6.5 module is fragile - the build does NOT pass all tests. Use at your own risk! See <a href="https://github.com/UCSF-TI/TIPCC/issues/259">https://github.com/UCSF-TI/TIPCC/issues/259</a> for details.<br>
   URL: <a href="https://www.python.org/">https://www.python.org/</a><br>
   </td>
  </tr>
@@ -1132,7 +1132,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-04-27 16:18:35._
+_The above information was automatically generated on 2019-05-03 15:33:19._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
