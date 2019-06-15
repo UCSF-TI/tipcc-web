@@ -644,6 +644,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>json-c</strong><br>
+  <em>0.13.1</em>
+  </td>
+  <td>
+  <strong>json-c: A JSON Implementation in C</strong><br>
+  JSON-C implements a reference counting object model that allows you to easily construct JSON objects in C, output them as JSON formatted strings and parse JSON formatted strings back into the C representation of JSON objects. It aims to conform to RFC 7159.<br>
+  URL: <a href="https://github.com/json-c/json-c">https://github.com/json-c/json-c</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>kallisto</strong><br>
   <em>0.44.0</em>
   </td>
@@ -1132,7 +1143,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-05-03 15:33:19._
+_The above information was automatically generated on 2019-06-14 22:59:27._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
