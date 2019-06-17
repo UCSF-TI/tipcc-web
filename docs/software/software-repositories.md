@@ -511,6 +511,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>geos</strong><br>
+  <em>3.7.2</em>
+  </td>
+  <td>
+  <strong>GEOS: Geometry Engine, Open Source</strong><br>
+  GEOS (Geometry Engine - Open Source) is a C++ port of the JTS Topology Suite (JTS). It aims to contain the complete functionality of JTS in C++. This includes all the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced functions. GEOS provides spatial functionality to many other projects and products. Example: <code>geos-config --version</code><br>
+  URL: <a href="https://trac.osgeo.org/geos">https://trac.osgeo.org/geos</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>git</strong><br>
   2.1.1, 2.1.3, <em>2.16.1</em>
   </td>
@@ -974,6 +985,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>sqlite</strong><br>
+  <em>3.28.0</em>
+  </td>
+  <td>
+  <strong>SQLite - A Relational Database Management System (RDBMS) Contained in a C Library</strong><br>
+  SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day. Examples: <code>sqlite3 --version</code>.<br>
+  URL: <a href="https://www.sqlite.org/">https://www.sqlite.org/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>sratoolkit</strong><br>
   2.3.4-2, 2.4.1, 2.5.7, <em>2.8.2-1</em>
   </td>
@@ -1154,7 +1176,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-06-16 22:50:21._
+_The above information was automatically generated on 2019-06-17 16:10:48._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
