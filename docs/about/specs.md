@@ -80,7 +80,7 @@ table {
 tr:last-child { border-top: 2px solid #000; }
 </style>
 
-[Scyld ClusterWare]: http://www.penguincomputing.com/solutions/scyld-clusterware/
+[Scyld ClusterWare]: https://www.penguincomputing.com/solutions/scyld-clusterware/
 [Penguin Computing]: https://en.wikipedia.org/wiki/Penguin_Computing
 
 

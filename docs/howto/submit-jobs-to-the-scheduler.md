@@ -52,7 +52,45 @@ This messages says that PBS killed the job because it used 92,954,931,200 bytes 
 _Note_: We _highly recommend_ to specify `vmem` rather than `mem`.  Both will find a node that meets your memory requests, but it's only `vmem` that enforces it (which is a good thing in the end of the day).  
 
 
+### Request communal or non-communal nodes
+
+A portion of the compute nodes are communal, that is, they are available to all users.  Other compute nodes are only available to specific groups.  See [Cluster Specifications]({{ '/about/contact.html' | relative_url }}) for details on the compute nodes.
+When submitting jobs, it is possible to specify whether they should run on communal nodes or not.
+
+To submit a job to a communal node, use:
+```sh
+qsub -l feature=communal script.sh
+```
+To submit a job to a non-communal node, use:
+```sh
+qsub -l feature=nocommunal script.sh
+```
+_The latter is useful for users who want to run their jobs only on their group's dedicated compute nodes._
+
+If not specified, jobs will end up on any node that the user has access too.
+
+
+
+### Request nodes that run, or do not run, Scyld ClusterWare
+
+The majority of [the compute nodes]({{ '/about/contact.html' | relative_url }}) (n0-n28) runs [Scyld ClusterWare], but recent compute nodes (n29-) added to the cluster does _not_ run Scyld and are maintained individually.  This means that the non-Scyld compute nodes will not have the exact same software setup as the Scyld compute nodes.  All communal nodes run Scyld.
+When submitting jobs, it is possible to specify whether they should run a Scyld nodes or not.
+To submit a job to a Scyld node, request feature `scyld`, e.g.
+
+```sh
+qsub -l feature=scyld script.sh
+```
+To submit a job to a non-Scyld node, use:
+```sh
+qsub -l feature=noscyld script.sh
+```
+
+If neither is specified, jobs will end up on any type of node.
+
+
+
 ### Request a specific node (not recommended)
+
 It is possible to request a job to run on a specific node, but it is **very important** that you do so using the following format:
 ```sh
 qsub -l nodes=1:ppn=8 -l feature=n24 script.sh
@@ -122,3 +160,7 @@ $ ssh n2 kill -KILL 242728
 That will just kill the process without asking (it) first.
 
 Comment: Note that if the node is extremely overloaded, calling the above `ssh` commands might take several minutes before the node even responds and the `kill` command can be completed.  So, be patient. On the other hand, this should only be needed in extreme cases.
+
+
+
+[Scyld ClusterWare]: https://www.penguincomputing.com/solutions/scyld-clusterware/
