@@ -854,7 +854,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pindel</strong><br>
-  0.2.5b8-p1, <em>0.2.5b8</em>
+  <em>0.2.5b8</em>
   </td>
   <td>
   <strong>pindel: Detection of Indels and Structural Variations</strong><br>
@@ -1187,7 +1187,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-07-19 12:54:47._
+_The above information was automatically generated on 2019-07-19 13:10:08._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
