@@ -478,6 +478,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>gdal</strong><br>
+  <em>3.0.0</em>
+  </td>
+  <td>
+  <strong>GDAL: Geospatial Data Abstraction Library</strong><br>
+  GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats. Example: <code>gdal --version</code><br>
+  URL: <a href="https://gdal.org/">https://gdal.org/</a>, <a href="https://github.com/OSGeo/gdal">https://github.com/OSGeo/gdal</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>gdbm</strong><br>
   <em>1.18.1</em>
   </td>
@@ -843,7 +854,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>pindel</strong><br>
-  <em>0.2.5b8</em>
+  0.2.5b8-p1, <em>0.2.5b8</em>
   </td>
   <td>
   <strong>pindel: Detection of Indels and Structural Variations</strong><br>
@@ -865,7 +876,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>proj</strong><br>
-  <em>4.9.3</em>
+  4.9.3, <em>6.1.0</em>
   </td>
   <td>
   <strong>PROJ - Cartographic Projections and Coordinate Transformations Library</strong><br>
@@ -1176,7 +1187,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-06-17 16:10:48._
+_The above information was automatically generated on 2019-07-19 12:54:47._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
