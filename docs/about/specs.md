@@ -44,13 +44,16 @@ n30\*     |       64 |   2.1 GHz |   512 GiB |           2.9 TiB | InfiniBand (I
 n31\*     |       64 |   2.1 GHz |   512 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n32\*     |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
 n33\*     |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
-**Total** | **1360** |           |           |                   |                              |
+n34\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Krummel Lab
+n35\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
+n36\*     |      128 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
+**Total** | **1616** |           |           |                   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
-All nodes have AMD processors, except n14 and n29-n33 which have Intel processors.  
+All nodes have AMD processors, except n14 and n29-n36 which have Intel processors.  
 Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
-Nodes n29-33: These nodes don't have the Scyld kernel and are maintained individually.
+Nodes n29-36: These nodes don't have the Scyld kernel and are maintained individually.
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
