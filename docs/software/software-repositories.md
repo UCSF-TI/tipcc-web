@@ -689,7 +689,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  <tr>
   <td>
   <strong>lg3</strong><br>
-  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17, 2018-10-27, 2018-11-12, 2018-12-20, 2018-12-27, <em>2019-03-23</em>
+  2018-08-28, 2018-09-17, 2018-09-19, 2018-09-28, 2018-10-08, 2018-10-11, 2018-10-17, 2018-10-27, 2018-11-12, 2018-12-20, 2018-12-27, 2019-03-23, <em>2019-07-22</em>
   </td>
   <td>
   <strong>LG3 Pipeline: The UCSF Costello Lab's LG3 Pipeline</strong><br>
@@ -871,6 +871,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   <strong>PLINK: Whole Genome Association Analysis Toolset</strong><br>
   PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. The focus of PLINK is purely on analysis of genotype/phenotype data, so there is no support for steps prior to this (e.g. study design and planning, generating genotype or CNV calls from raw data). Example: <code>plink --help</code>.<br>
   URL: <a href="http://zzz.bwh.harvard.edu/plink/index.shtml">http://zzz.bwh.harvard.edu/plink/index.shtml</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <strong>plink2</strong><br>
+  <em>2.00a2LM</em>
+  </td>
+  <td>
+  <strong>PLINK2: Whole Genome Association Analysis Toolset</strong><br>
+  PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. The focus of PLINK is purely on analysis of genotype/phenotype data, so there is no support for steps prior to this (e.g. study design and planning, generating genotype or CNV calls from raw data). Example: <code>plink2 --help</code>.<br>
+  URL: <a href="https://www.cog-genomics.org/plink/2.0/">https://www.cog-genomics.org/plink/2.0/</a><br>
   </td>
  </tr>
  <tr>
@@ -1187,7 +1198,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-07-20 04:09:02._
+_The above information was automatically generated on 2019-08-15 03:26:44._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
