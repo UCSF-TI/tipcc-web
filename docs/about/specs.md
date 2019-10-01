@@ -47,7 +47,8 @@ n33\*     |       64 |   2.1 GHz |   512 GiB |           3.3 TiB | InfiniBand (I
 n34\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n35\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
 n36\*     |      128 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
-**Total** | **1616** |           |           |                   |                              |
+n37\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | Intel                        | Bastian Lab
+**Total** | **1680** |           |           |                   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
