@@ -368,6 +368,17 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
  </tr>
  <tr>
   <td>
+  <strong>coreutils</strong><br>
+  8.6, <em>8.31</em>
+  </td>
+  <td>
+  <strong>coreutils: GNU Core Utilities</strong><br>
+  The GNU Core Utilities or coreutils is a package of GNU software containing reimplementations for many of the basic tools, such as cat, ls, and rm, used on Unix-like operating systems. Example: <code>sort --version</code> and <code>man sort</code>.<br>
+  URL: <a href="https://www.gnu.org/software/coreutils/">https://www.gnu.org/software/coreutils/</a><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
   <strong>cufflinks</strong><br>
   1.0.3, 1.3.0, <em>2.2.1</em>
   </td>
@@ -483,7 +494,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
   </td>
   <td>
   <strong>GDAL: Geospatial Data Abstraction Library</strong><br>
-  GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats. Example: <code>gdal --version</code><br>
+  GDAL is an open source X/MIT licensed translator library for raster and vector geospatial data formats. Example: <code>gdalinfo --version</code><br>
   URL: <a href="https://gdal.org/">https://gdal.org/</a>, <a href="https://github.com/OSGeo/gdal">https://github.com/OSGeo/gdal</a><br>
   </td>
  </tr>
@@ -1198,7 +1209,7 @@ Maintained by: [Computational Biology and Informatics (CBI - formerly CBC)](http
 <br>
 <br>
 <br>
-_The above information was automatically generated on 2019-08-15 03:26:44._
+_The above information was automatically generated on 2020-01-15 16:49:55._
 
 [Software Modules]: {{ '/software/software-modules.html' | relative_url }}
 
