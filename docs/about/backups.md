@@ -15,10 +15,16 @@ All users' `/home/` directories are backed up regularly.  _Note that no other di
 * Technical details: `rsync -avzHAX --delete /home/$USER/` is used to backup. See `cat /backup/home/home_backup.log` for the log.
 
 ## Archival backups
+
+<!--
 * **Nightly** backups to tape (full every weekend and incremental nightly)
 * Backup history: **~8 months**
 * Recovery: Contact [sysadm]
   - Modified files: Previous versions of a modified file can be recovered from the archive for up to 8 months
   - Deleted files: A deleted file can be recovered from the archive for up to 8 months
+-->
+
+Archival backups to tape is not available since Fall 2019. The goal is to get this up and running again. (February 2020).
+
 
 [sysadm]: {{ '/about/contact.html' | relative_url }}
