@@ -52,9 +52,9 @@ n37\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | Intel        
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files older than 14 days are automatically removed.  
-All nodes have AMD processors, except n14 and n29-n36 which have Intel processors.  
+All nodes have AMD processors, except n14 and n29-n37 which have Intel processors.  
 Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).  
-Nodes n29-36: These nodes don't have the Scyld kernel and are maintained individually.
+Nodes n29-37: These nodes don't have the Scyld kernel and are maintained individually.
 The 13 communal nodes with a total of 264 cores are available too all users. The non-communal nodes are only available to specific groups and their members.
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
