@@ -1,6 +1,9 @@
 title: 'UCSF HPC: TIPCC'
 theme: jekyll-theme-minimal
 
+cluster:
+  name: "TIPCC"
+
 login:
   name: "cclc01"
   hostname: "cclc01.som.ucsf.edu"
@@ -20,3 +23,14 @@ transfer:
   name: "cclc01"
   hostname: "cclc01.som.ucsf.edu"
   ip: "169.230.134.141"
+
+specs:
+  nodes: 36
+  physical_cores: 1744
+  communal_nodes: 13
+  communal_cores: 264
+  gpu_nodes: 2
+  gpus: 2
+  communal_gpu_nodes: 2
+  communal_gpus: 2
+  last_node: n38
