@@ -1,5 +1,9 @@
 # Access UCSF Box
 
+<div class="alert alert-danger" role="alert" style="margin-top: 3ex">
+Although there is no hard quota in place on UCSF Box, the <strong>storage is limited</strong> and not really meant to store large data sets. There are reports that the UCSF Box maintainers have started to reach out to users who misuse it to store huge amounts of data. Please use it responsibly. /2020-01-27
+</div>
+
 It is possible to access [UCSF Box](https://ucsf.app.box.com/) using FTP over a secure SSL connection ([FTPS](https://en.wikipedia.org/wiki/FTPS)).
 
 In order to do this, **you need to setup a UCSF Box-specific password** as 
