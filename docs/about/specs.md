@@ -56,7 +56,7 @@ The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_
 All nodes have AMD processors, except n14 and n29-{{ site.specs.last_node }} which have Intel processors.  
 Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).  
 Nodes n29-{{ site.specs.last_node }}: These nodes don't have the Scyld kernel and are maintained individually.
-The {{ site.specs.communal_nodes }} communal nodes with a total of {{ site.specs.communal_cores }} cores are available too all users. The non-communal nodes are only available to specific groups and their members.
+The {{ site.specs.communal_nodes }} communal nodes with a total of {{ site.specs.communal_cores }} cores are available to all users. The non-communal nodes are only available to specific groups and their members.
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
