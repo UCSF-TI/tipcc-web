@@ -34,7 +34,7 @@ SCRATCH_JOB=/scratch/$USER/job/$PBS_JOBID
 mkdir -p $SCRATCH_JOB
 ##    ... is automatically removed upon exit
 ##    (regardless of success or failure)
-trap "{ chmod -R +w $SCRATCH_JOB/; rm -rf $SCRATCH_JOB/ ; }" EXIT
+trap "{ cd /scratch; chmod -R +w $SCRATCH_JOB/; rm -rf $SCRATCH_JOB/ ; }" EXIT
 
 ## 1. Copy input files from global disk to local scratch
 cp /data/$USER/sample.fq $SCRATCH_JOB/
