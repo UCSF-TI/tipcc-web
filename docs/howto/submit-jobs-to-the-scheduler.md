@@ -73,7 +73,7 @@ If not specified, jobs will end up on any node that the user has access too.
 
 ### Request nodes that run, or do not run, Scyld ClusterWare
 
-The majority of [the compute nodes]({{ '/about/contact.html' | relative_url }}) (n0-n28) runs [Scyld ClusterWare], but recent compute nodes (n29-) added to the cluster does _not_ run Scyld and are maintained individually.  This means that the non-Scyld compute nodes will not have the exact same software setup as the Scyld compute nodes.  All communal nodes run Scyld.
+The majority of [the compute nodes]({{ '/about/contact.html' | relative_url }}) (n0-n28) runs [Scyld ClusterWare], but recent compute nodes (n29-) added to the cluster do _not_ run Scyld and are maintained individually.  This means that the non-Scyld compute nodes will not have the exact same software setup as the Scyld compute nodes.  All communal nodes run Scyld.
 When submitting jobs, it is possible to specify whether they should run a Scyld nodes or not.
 To submit a job to a Scyld node, request feature `scyld`, e.g.
 
