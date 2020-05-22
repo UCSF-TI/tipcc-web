@@ -16,15 +16,13 @@ All users' `/home/` directories are backed up regularly.  _Note that no other di
 
 ## Archival backups
 
-<!--
+
 * **Nightly** backups to tape (full every weekend and incremental nightly)
 * Backup history: **~8 months**
-* Recovery: Contact [sysadm]
+* Recovery: Contact your [sysadm](@hgputnam)
   - Modified files: Previous versions of a modified file can be recovered from the archive for up to 8 months
   - Deleted files: A deleted file can be recovered from the archive for up to 8 months
--->
-
-Archival backups to tape is not available since Fall 2019. The goal is to get this up and running again. (February 2020).
-
-
-[sysadm]: {{ '/about/contact.html' | relative_url }}
+  - Backups were re-instantiated on 2020-05-01 we cannot restore files from before then.
+  - Remember - this is a *tape* backup system. Restores are manual and require attention.
+  - Restores will be done within 5 business days of the restore request.
+  - Please submit restore requests using the [Issue Tracker](https://github.com/UCSF-TI/TIPCC/issues)
