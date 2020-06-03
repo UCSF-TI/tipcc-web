@@ -3,7 +3,7 @@
 All nodes have their own locally storage mounted as `/scratch/`.  The `/scratch/` storage is fast - faster than system-wide storage such as `/home/` and `/work/` - which make it ideal for holding intermediate data files.  This will also lower the load on the system-wide storage and the local network.
 
 <div class="alert alert-warning" role="alert">
-Please remove files from local <code>/scratch</code> space when you are done with them - see the below example for having your jobs do this automatically.  Any remaining files will be automatically removed after 14 days.
+Please remove files from local <code>/scratch</code> space when you are done with them - see the below example for having your jobs do this automatically.  Any remaining files will be automatically removed after 60 days.
 </div>
 
 
