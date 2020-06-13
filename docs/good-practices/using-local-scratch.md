@@ -3,7 +3,7 @@
 All nodes have their own locally storage mounted as `/scratch/`.  The `/scratch/` storage is fast - faster than system-wide storage such as `/home/` and `/work/` - which make it ideal for holding intermediate data files.  This will also lower the load on the system-wide storage and the local network.
 
 <div class="alert alert-warning" role="alert">
-Please remove files from local <code>/scratch</code> space when you are done with them - see the below example for having your jobs do this automatically.  Any remaining files will be automatically removed after 60 days.  The 60 days limit is in effect as of 2020-06-04. This limit will be decreased further in the near future.
+Please remove files from local <code>/scratch</code> space when you are done with them - see the below example for having your jobs do this automatically.  Any remaining files will be automatically removed after 45 days.  The 45 days limit is in effect as of 2020-06-09. This limit will be decreased further in the near future.
 </div>
 
 
@@ -15,7 +15,7 @@ Here is how you should use `/scratch/`:
 
 * **Don't leave files on `/scratch/` longer than necessary**.  For instance, have your jobs cleanup after themselves.
 
-* **Files on `/scratch` older than 60 days will be removed automatically**.
+* **Files on `/scratch` older than 45 days will be removed automatically**.
 
 * **Specify how much local storage your job will need _per core_**.  Local storage is limited to [0.84 - 10.7 TiB depending on node]({{ '/about/cluster-hardware.html' | relative_url }}).  If your single-core job will use up to 400 GiB of disk space, you can specify this resource as `-l gres=scratch:400` (in units of GiB) when submitting the job.  A node with 2,000 GiB of scratch space will at most have five `-l gres=scratch:400` single-core jobs running at the same time.  **The `gres=scratch` specification is per core**, that is, if you request four cores, and your job requires 400 GiB in total, then you should request `-l gres=scratch:100` because 4 * 100 GiB = 400 GiB.
 
