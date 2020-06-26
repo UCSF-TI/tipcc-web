@@ -6,7 +6,7 @@ All nodes (compute and development) have their own locally storage mounted as `/
 
 Here is how to use `/scratch`:
 
-* **Use environment variable TMPDIR** - on compute nodes, it points to an already created job-specific folder under local `/scratch`.  On other machines, you need to set it.
+* **Use environment variable TMPDIR** - on compute nodes, it points to an already created job-specific folder under local `/scratch`.
 
 * **Write intermediate files to folder `$TMPDIR`**.  Bonus: most software already acknowledges `TMPDIR` for their internal temporary files.
 
