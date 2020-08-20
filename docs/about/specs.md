@@ -13,17 +13,16 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 Node      |  # Cores |      CPU  |       RAM | Local `/scratch/` | Notes                        | Priority
 ----------|---------:|----------:|----------:|-----------------:|------------------------------|-----------
 n0        |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
-n2        |       48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | (communal)
+~~n2~~    |       48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | ~~(communal)~~ disk failures/to be migrated to C4
 n3        |       48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
-n4        |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
 n5        |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
 n7        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
 n8        |       12 |   2.3 GHz |    64 GiB |          0.86 TiB |                              | (communal)
 n9        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
 n10       |       12 |   2.3 GHz |    64 GiB |           1.7 TiB |                              | (communal)
 n11       |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
-n12       |       48 |   2.3 GHz |   384 GiB |           2.0 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
-n13       |       48 |   2.3 GHz |   512 GiB |           1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
+~~n12~~   |       48 |   2.3 GHz |   384 GiB |           2.0 TiB | Tesla M2070 GPU w/ 448 cores | ~~(communal)~~ migrated to C4
+~~n13~~   |       48 |   2.3 GHz |   512 GiB |           1.6 TiB | Tesla M2070 GPU w/ 448 cores | ~~(communal)~~ migrated to C4
 n14       |       24 |   3.5 GHz |   128 GiB |          0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
 n15       |       64 |   2.6 GHz |   256 GiB |           1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n16       |       64 |   2.6 GHz |   512 GiB |          10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
@@ -54,7 +53,7 @@ n38\*     |       64 |   2.1 GHz |   512 GiB |           2.6 TiB | InfiniBand (I
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files on local `/scratch` and local `/tmp` older than 35 days are automatically removed.  On interactive node n6, this limit is 14 days. 
 All nodes have AMD processors, except n14 and n29-{{ site.specs.last_node }} which have Intel processors.  
-Nodes n12 & n13 have Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).  
+Nodes n12 & n13 have been migrated to C4 ~~Nvidia Tesla M2070 graphics processing units (GPUs) which are [CUDA 2.0 compute compatibility](https://en.wikipedia.org/wiki/CUDA#GPUs_supported)~~.  
 Nodes n29-{{ site.specs.last_node }}: These nodes don't have the Scyld kernel and are maintained individually.
 The {{ site.specs.communal_nodes }} communal nodes with a total of {{ site.specs.communal_cores }} cores are available to all users. The non-communal nodes are only available to specific groups and their members.
 
