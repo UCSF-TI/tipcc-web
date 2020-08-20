@@ -18,7 +18,7 @@ Here is how to use `/scratch`:
 
 
 <div class="alert alert-warning" role="alert">
-If you write to local <code>/scratch</code> outside of the job-specific <code>$TMPDIR</code> folder, then please make sure to remove such files and folders when you are done with them.  It is only the <code>$TMPDIR</code> folder that is automatically deleted.  Any remaining files will be automatically removed after 45 days.  The 45 days limit is in effect as of 2020-06-09. This limit will be decreased further in the near future.
+If you write to local <code>/scratch</code> outside of the job-specific <code>$TMPDIR</code> folder, then please make sure to remove such files and folders when you are done with them.  It is only the <code>$TMPDIR</code> folder that is automatically deleted.  Any remaining files will be automatically removed after 35 days (5 weeks).  The 35 days limit is in effect as of 2020-08-20. This limit might be decreased further in the future.
 </div>
 
 
