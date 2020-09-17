@@ -13,7 +13,7 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 Node      |  # Cores |      CPU  |       RAM | Local `/scratch/` | Notes                        | Priority
 ----------|---------:|----------:|----------:|-----------------:|------------------------------|-----------
 n0        |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
-~~n2~~    |       48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | ~~(communal)~~ disk failure (2020-07-29)/to be migrated to C4
+~~n2~~    |       48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | ~~(communal)~~ migrated to C4
 n3        |       48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
 n5        |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | (communal)
 n7        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
