@@ -8,6 +8,24 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 
 ## Hardware
 
+### Login Nodes
+
+The [cluster can be accessed]({{ '/get-started/access-cluster.html' | relative_url }}) via SSH to the login node:
+
+1. {{ site.login.name  }}: `{{ site.login.hostname }}`
+
+The login nodes can only be accessed from within the UCSF network.
+
+
+### Development Nodes
+
+The cluster has development nodes for the purpose of validating scripts, prototyping pipelines, compiling software, and more.  Development nodes [can be accessed using SSH]({{ '/get-started/development-prototyping.html' | relative_url }}) and only from the login nodes.
+
+Node      | # Cores |       CPU |       RAM |  Local `/scratch` |
+----------|---------|----------:|----------:|------------------:|
+n6        |      12 |   2.4 GHz |    64 GiB |          0.86 TiB |
+
+
 ### Compute Nodes
 
 Node  | # Cores |    CPU  |     RAM | Local `/scratch/` | Notes                        | Priority
@@ -51,7 +69,8 @@ The {{ site.specs.communal_nodes }} communal nodes with a total of {{ site.specs
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
 
-#### Compute Nodes Migrated to C4
+
+### Compute Nodes Migrated to C4
 
 The following TIPCC compute nodes have been, or is in the process of being, migrated to the C4 cluster.
 
@@ -67,22 +86,6 @@ n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 c
 n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab; being migrated to
      |         |         |         |                  |                              |
 
-### Login Nodes
-
-The [cluster can be accessed]({{ '/get-started/access-cluster.html' | relative_url }}) via SSH to the login node:
-
-1. {{ site.login.name  }}: `{{ site.login.hostname }}`
-
-The login nodes can only be accessed from within the UCSF network.
-
-### Development Nodes
-
-The cluster has development nodes for the purpose of validating scripts, prototyping pipelines, compiling software, and more.  Development nodes [can be accessed using SSH]({{ '/get-started/development-prototyping.html' | relative_url }}) and only from the login nodes.
-
-Node      | # Cores |       CPU |       RAM |  Local `/scratch` |
-----------|---------|----------:|----------:|------------------:|
-n6        |      12 |   2.4 GHz |    64 GiB |          0.86 TiB |
-
 
 <style>
 table {
@@ -94,5 +97,3 @@ tr:last-child { border-top: 2px solid #000; }
 
 [Scyld ClusterWare]: https://www.penguincomputing.com/solutions/scyld-clusterware/
 [Penguin Computing]: https://en.wikipedia.org/wiki/Penguin_Computing
-
-
