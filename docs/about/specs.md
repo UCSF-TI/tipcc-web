@@ -12,10 +12,10 @@ The job scheduler is Torque/PBS 4.2.9 which runs together with the Moab workload
 
 Node      |  # Cores |      CPU  |       RAM | Local `/scratch/` | Notes                        | Priority
 ----------|---------:|----------:|----------:|-----------------:|------------------------------|-----------
-n0        |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | ~~CBI, Taylor Lab~~ being migrated to C4
+~~n0~~    |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | ~~CBI, Taylor Lab~~ being migrated to C4
 ~~n2~~    |       48 |   2.6 GHz |   512 GiB |           2.5 TiB | InfiniBand (IB), FMA4        | ~~(communal)~~ migrated to C4
 n3        |       48 |   2.4 GHz |   384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
-n5        |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | ~~(communal)~~ being migrated to C4
+~~n5~~    |       12 |   2.4 GHz |    32 GiB |           1.8 TiB |                              | ~~(communal)~~ being migrated to C4
 n7        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
 n8        |       12 |   2.3 GHz |    64 GiB |          0.86 TiB |                              | (communal)
 n9        |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |                              | (communal)
@@ -26,7 +26,7 @@ n11       |       12 |   2.3 GHz |    64 GiB |           1.8 TiB |              
 n14       |       24 |   3.5 GHz |   128 GiB |          0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
 n15       |       64 |   2.6 GHz |   256 GiB |           1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n16       |       64 |   2.6 GHz |   512 GiB |          10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
-n17       |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | ~~CBI, Taylor Lab~~ being migrated to C4
+~~n17~~   |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | ~~CBI, Taylor Lab~~ being migrated to C4
 n18       |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n19       |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
 n20       |       64 |   2.6 GHz |   512 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Diaz Lab, Costello Lab, Fung Lab, Song Lab
