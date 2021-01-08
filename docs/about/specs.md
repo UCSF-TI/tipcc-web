@@ -77,13 +77,13 @@ The following TIPCC compute nodes have been, or is in the process of being, migr
 
 Node | # Cores |    CPU  |     RAM | Local `/scratch/` | Notes                       | Priority
 -----|--------:|--------:|--------:|-----------------:|------------------------------|---------------------------------------
-n0   |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab; being migrated to C4
+n0   |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab; migrated to C4
 n2   |      48 | 2.6 GHz | 512 GiB |          2.5 TiB | InfiniBand (IB), FMA4        | (communal); migrated to C4
-n5   |      12 | 2.4 GHz |  32 GiB |          1.8 TiB |                              | (communal); being migrated to C4
+n5   |      12 | 2.4 GHz |  32 GiB |          1.8 TiB |                              | (communal); migrated to C4
 n10  |      12 | 2.3 GHz |  64 GiB |          1.7 TiB |                              | (communal); disk failure (2020-09-12), to be migrated to C4
 n12  |      48 | 2.3 GHz | 384 GiB |          2.0 TiB | Tesla M2070 GPU w/ 448 cores | (communal); migrated to C4
 n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal); migrated to C4
-n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab; being migrated to
+n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab; migrated to C4
      |         |         |         |                  |                              |
 
 
