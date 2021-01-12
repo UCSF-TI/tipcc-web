@@ -72,7 +72,7 @@ Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cf
 
 ### Compute Nodes Migrated to C4
 
-The following TIPCC compute nodes have been, or is in the process of being, migrated to the C4 cluster.
+The following TIPCC compute nodes have been, or is in the process of being, migrated to the [C4 cluster](https://ucsf-cbi.github.io/c4/).
 
 
 Node | # Cores |    CPU  |     RAM | Local `/scratch/` | Notes                       | Priority
