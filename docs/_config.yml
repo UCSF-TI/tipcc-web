@@ -26,7 +26,7 @@ transfer:
 
 specs:
   nodes: 33
-  physical_cores: 1436
+  physical_cores: 1348
   communal_nodes: 7
   communal_cores: 84
   gpu_nodes: 0
