@@ -56,7 +56,6 @@ n34\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel
 n35\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
 n36\* |     128 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
 n37\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | Intel                        | Bastian Lab
-n38\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Francis Lab
 **Total** | **{{ site.specs.physical_cores }}** |           |           |                   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
@@ -79,11 +78,12 @@ n0   |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4   
 n2   |      48 | 2.6 GHz | 512 GiB |          2.5 TiB | InfiniBand (IB), FMA4        | (communal)
 n5   |      12 | 2.4 GHz |  32 GiB |          1.8 TiB |                              | (communal)
 n10  |      12 | 2.3 GHz |  64 GiB |          1.7 TiB |                              | (communal)
-n14  |      24 | 3.5 GHz | 128 GiB |          0.84 TiB | InfiniBand (IB), Intel      | Witte Lab
-n15  |      64 | 2.6 GHz | 256 GiB |           1.7 TiB | InfiniBand (IB), FMA4       | Witte Lab
+n14  |      24 | 3.5 GHz | 128 GiB |         0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
+n15  |      64 | 2.6 GHz | 256 GiB |          1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n12  |      48 | 2.3 GHz | 384 GiB |          2.0 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
+n38  |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Francis Lab
      |         |         |         |                  |                              |
 
 
