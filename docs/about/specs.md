@@ -49,7 +49,6 @@ n27   |      48 | 1.4 GHz | 384 GiB |           5.2 TiB | InfiniBand (IB), FMA4 
 n28   |      64 | 2.3 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
 n29\* |      64 | 2.1 GHz | 512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n30\* |      64 | 2.1 GHz | 512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
-n31\* |      64 | 2.1 GHz | 768 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n33\* |      64 | 2.1 GHz | 512 GiB |           3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
 n34\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n35\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
@@ -83,6 +82,7 @@ n12  |      48 | 2.3 GHz | 384 GiB |          2.0 TiB | Tesla M2070 GPU w/ 448 c
 n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
 n32  |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
+n31  |      64 | 2.1 GHz | 768 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n38  |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Francis Lab
      |         |         |         |                  |                              |
 
