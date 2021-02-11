@@ -51,7 +51,7 @@ n33\* |      64 | 2.1 GHz | 512 GiB |           3.3 TiB | InfiniBand (IB), Intel
 n34\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Krummel Lab
 n35\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
 n37\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | Intel                        | Bastian Lab
-**Total** | **{{ site.specs.physical_cores }}** |           |           |                   |                              |
+**Total** | **{{ site.specs.physical_cores }}** | | |   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files on local `/scratch` and local `/tmp` older than 35 days are automatically removed.  On interactive node n6, this limit is 14 days. 
@@ -71,18 +71,18 @@ Node | # Cores |    CPU  |     RAM | Local `/scratch/` | Notes                  
 -----|--------:|--------:|--------:|-----------------:|------------------------------|---------------------------------------
 n0   |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
 n2   |      48 | 2.6 GHz | 512 GiB |          2.5 TiB | InfiniBand (IB), FMA4        | (communal)
-n3   |      48 | 2.4 GHz | 384 GiB |           5.2 TiB| InfiniBand (IB), FMA4        | Krummel Lab
+n3   |      48 | 2.4 GHz | 384 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Krummel Lab
 n5   |      12 | 2.4 GHz |  32 GiB |          1.8 TiB |                              | (communal)
 n10  |      12 | 2.3 GHz |  64 GiB |          1.7 TiB |                              | (communal)
 n14  |      24 | 3.5 GHz | 128 GiB |         0.84 TiB | InfiniBand (IB), Intel       | Witte Lab
 n15  |      64 | 2.6 GHz | 256 GiB |          1.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n12  |      48 | 2.3 GHz | 384 GiB |          2.0 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
-n16  |      64 | 2.6 GHz | 512 GiB |          10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
+n16  |      64 | 2.6 GHz | 512 GiB |         10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
+n31  |      64 | 2.1 GHz | 768 GiB |          4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n32  |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
-n31  |      64 | 2.1 GHz | 768 GiB |           4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
-n36  |     128 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
+n36  |     128 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
 n38  |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Francis Lab
      |         |         |         |                  |                              |
 
