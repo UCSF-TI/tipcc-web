@@ -76,8 +76,8 @@ n15  |      64 | 2.6 GHz | 256 GiB |          1.7 TiB | InfiniBand (IB), FMA4   
 n12  |      48 | 2.3 GHz | 384 GiB |          2.0 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 cores | (communal)
 n16  |      64 | 2.6 GHz | 512 GiB |         10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
-n28  |      64 | 2.3 GHz | 512 GiB |         2.6 TiB  | InfiniBand (IB), FMA4        | Shannon Lab
 n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
+n28  |      64 | 2.3 GHz | 512 GiB |         2.6 TiB  | InfiniBand (IB), FMA4        | Shannon Lab
 n31* |      64 | 2.1 GHz | 768 GiB |          4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n32* |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
 n35* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
