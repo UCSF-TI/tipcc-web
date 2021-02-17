@@ -78,12 +78,12 @@ n13  |      48 | 2.3 GHz | 512 GiB |          1.6 TiB | Tesla M2070 GPU w/ 448 c
 n16  |      64 | 2.6 GHz | 512 GiB |         10.7 TiB | InfiniBand (IB), FMA4        | Witte Lab
 n28  |      64 | 2.3 GHz | 512 GiB |         2.6 TiB  | InfiniBand (IB), FMA4        | Shannon Lab
 n17  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | CBI, Taylor Lab
-n31  |      64 | 2.1 GHz | 768 GiB |          4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
-n32  |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
-n35  |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
-n36  |     128 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
-n37  |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | Intel                        | Bastian Lab
-n38  |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Francis Lab
+n31* |      64 | 2.1 GHz | 768 GiB |          4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
+n32* |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
+n35* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
+n36* |     128 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
+n37* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | Intel                        | Bastian Lab
+n38* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Francis Lab
      |         |         |         |                  |                              |
 
 
