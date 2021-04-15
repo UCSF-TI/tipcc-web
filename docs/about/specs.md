@@ -79,7 +79,7 @@ n28  |      64 | 2.3 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), FMA4   
 n30* |      64 | 2.1 GHz | 512 GiB |          2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
 n31* |      64 | 2.1 GHz | 768 GiB |          4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n32* |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
-n33  |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
+n33* |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
 n35* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
 n36* |     128 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
 n37* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | Intel                        | Bastian Lab
