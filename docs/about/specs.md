@@ -37,8 +37,6 @@ n24   |      12 | 2.4 GHz |  32 GiB |           1.7 TiB |                       
 n25   |      12 | 2.4 GHz |  32 GiB |           1.7 TiB |                              | (communal)
 n26   |      12 | 2.4 GHz |  32 GiB |          0.86 TiB |                              | (communal)
 n27   |      48 | 1.4 GHz | 384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Costello Lab
-n29\* |      64 | 2.1 GHz | 512 GiB |           2.9 TiB | InfiniBand (IB), Intel       | Krummel Lab
-n34\* |      64 | 2.1 GHz | 512 GiB |           2.6 TiB | InfiniBand (IB), Intel       | Krummel Lab
 **Total** | **{{ site.specs.physical_cores }}** | | |   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
@@ -76,10 +74,12 @@ n21  |      48 | 2.8 GHz | 256 GiB |          5.2 TiB | InfiniBand (IB), FMA4   
 n22  |      48 | 2.8 GHz | 384 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n23  |      48 | 2.8 GHz | 384 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n28  |      64 | 2.3 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
+n29  |      64 | 2.1 GHz | 512 GiB |          2.4 TiB | InfiniBand (IB), FMA4.       | Krummel Lab              
 n30* |      64 | 2.1 GHz | 512 GiB |          2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
 n31* |      64 | 2.1 GHz | 768 GiB |          4.7 TiB | InfiniBand (IB), Intel       | Ziv Lab
 n32* |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Blelloch Lab
 n33* |      64 | 2.1 GHz | 512 GiB |          3.3 TiB | InfiniBand (IB), Intel       | Diaz Lab
+n34* |      64 | 2.1 GHz | 512 GiB |          2.t TiB | InfiniBand (IB), Intel       | Krummel Lab    
 n35* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Shannon Lab
 n36* |     128 | 2.1 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), Intel       | Kim Lab
 n37* |      64 | 2.1 GHz | 512 GiB |          2.6 TiB | Intel                        | Bastian Lab
