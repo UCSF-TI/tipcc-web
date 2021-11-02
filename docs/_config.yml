@@ -25,12 +25,12 @@ transfer:
   ip: "169.230.134.141"
 
 specs:
-  nodes: 9
-  physical_cores: 248
+  nodes: 7
+  physical_cores: 120
   communal_nodes: 6
   communal_cores: 72
   gpu_nodes: 0
   gpus: 0
   communal_gpu_nodes: 0
   communal_gpus: 0
-  last_node: n34
+  last_node: n27

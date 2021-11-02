@@ -41,8 +41,7 @@ n27   |      48 | 1.4 GHz | 384 GiB |           5.2 TiB | InfiniBand (IB), FMA4 
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
 The [local disk space]({{ '/good-practices/using-local-scratch.html' | relative_url }}) is mounted as `/scratch/`, unique to each node and, and is much faster than any other disk on the cluster.  Files on local `/scratch` and local `/tmp` older than 35 days are automatically removed.  On interactive node n6, this limit is 14 days. 
-All nodes have AMD processors, except n29 and {{ site.specs.last_node }} which have Intel processors.  
-Nodes n29-{{ site.specs.last_node }}: These nodes don't have the Scyld kernel and are maintained individually.
+All nodes have AMD processors.
 The {{ site.specs.communal_nodes }} communal nodes with a total of {{ site.specs.communal_cores }} cores are available to all users. The non-communal nodes are only available to specific groups and their members.
 
 Source: `pbsnodes`, `cat /proc/cpuinfo` and `grep -F SRCFG /opt/moab/etc/moab.cfg`.
