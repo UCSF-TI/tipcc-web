@@ -32,9 +32,6 @@ Node  | # Cores |    CPU  |     RAM | Local `/scratch/` | Notes                 
 ------|--------:|--------:|--------:|------------------:|------------------------------|--------------------------------------------
 n8    |      12 | 2.3 GHz |  64 GiB |          0.86 TiB |                              | (communal)
 n11   |      12 | 2.3 GHz |  64 GiB |           1.8 TiB |                              | (communal)
-n24   |      12 | 2.4 GHz |  32 GiB |           1.7 TiB |                              | (communal)
-n25   |      12 | 2.4 GHz |  32 GiB |           1.7 TiB |                              | (communal)
-n26   |      12 | 2.4 GHz |  32 GiB |          0.86 TiB |                              | (communal)
 **Total** | **{{ site.specs.physical_cores }}** | | |   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
