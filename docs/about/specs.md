@@ -36,7 +36,6 @@ n11   |      12 | 2.3 GHz |  64 GiB |           1.8 TiB |                       
 n24   |      12 | 2.4 GHz |  32 GiB |           1.7 TiB |                              | (communal)
 n25   |      12 | 2.4 GHz |  32 GiB |           1.7 TiB |                              | (communal)
 n26   |      12 | 2.4 GHz |  32 GiB |          0.86 TiB |                              | (communal)
-n27   |      48 | 1.4 GHz | 384 GiB |           5.2 TiB | InfiniBand (IB), FMA4        | Costello Lab
 **Total** | **{{ site.specs.physical_cores }}** | | |   |                              |
 
 The head node specs: 48 cores, 2.6 GHz CPU, 512 GiB RAM.  
@@ -72,6 +71,7 @@ n20  |      64 | 2.6 GHz | 512 GiB |          5.2 TiB | InfiniBand (IB), FMA4   
 n21  |      48 | 2.8 GHz | 256 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Bandyopadhyay Lab
 n22  |      48 | 2.8 GHz | 384 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
 n23  |      48 | 2.8 GHz | 384 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Molinaro Lab
+n27  |      48 | 1.4 GHz | 384 GiB |          5.2 TiB | InfiniBand (IB), FMA4        | Costello Lab
 n28  |      64 | 2.3 GHz | 512 GiB |          2.6 TiB | InfiniBand (IB), FMA4        | Shannon Lab
 n29  |      64 | 2.1 GHz | 512 GiB |          2.4 TiB | InfiniBand (IB), FMA4.       | Krummel Lab              
 n30* |      64 | 2.1 GHz | 512 GiB |          2.9 TiB | InfiniBand (IB), Intel       | Kriegstein Lab
